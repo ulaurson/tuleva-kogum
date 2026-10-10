@@ -36,11 +36,6 @@
 - [ ] Kui kaua andmeid hoitakse ja mida ütleb privaatsusteade?
 - [ ] Mis kehtib juriidilise isiku kontaktisiku andmetele?
 
-## Tuleva
-
-- [ ] Kui palju maksab Tulevale uue koguja saamine ja kui palju toob koguja aastas? Avalike numbrite hinnang on failis [14](14-uuring-partnerid.md#koguja-väärtus-hinnang-avalike-numbrite-põhjal). Tuleva enda arvutus võib olla avaldamata info. Siis kuulub see kausta `andmed-privaatne/`, mitte reposse.
-- [ ] Kas ühistu juhatus ja nõukogu toetavad sellist teenust?
-
 ## Marju
 
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
