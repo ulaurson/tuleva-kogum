@@ -109,7 +109,7 @@ Registreerumisel saab inimene konto (otsus 10.10).
 Hange küsib ainult piiramatut paketti (otsus 10.10).
 
 - Väikese kasutusega inimene maksab täna Tele2 kampaanias 2 GB eest 5,50 € (vt [faktid](03-faktid.md)). Talle ei ole 6,50 € piiramatu sääst. Kas ütleme seda pakkumise juures ausalt?
-- Keskmine sääst (≈ 382 € aastas, hinnang hanke hinnaga 6,50 €) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.
+- Keskmine sääst (≈ 405 € aastas, hinnang hanke hinnaga 6,50 €, Tele2, Telia ja Elisa tavahinna keskmine) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.
 
 ## 14. Leping ja allkirjastaja
 
