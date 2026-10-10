@@ -26,7 +26,7 @@ Kõige kallim samm on see, mida ei juhtu: inimene ei vaata oma paketti üle.
 3. **Liige otsustab ise.** Ta allkirjastab eeltäidetud lepingu ise ja Tuleva edastab selle operaatorile. Tuleva ei vaheta kellegi eest.
 4. **Hinnalagi.** Hind ei tõuse 24 kuu jooksul. Mahuastmel (1 000 / 5 000 / 10 000 osalejat) langeb hind kõigil.
 
-Lisahüve: mobiilipaketi võtnu saab koduinterneti ja telepaketi 50 % tavahinnast.
+Lisahüve: mobiilipaketi võtnu saab koduinterneti 50 % ja telepaketi 30 % tavahinnast odavamalt.
 
 ## Eesmärk
 
@@ -64,7 +64,7 @@ Esimene hange tehakse tabelite ja e-kirjadega. Liikme nähtav pool töötab kohe
 
 ## Esitusvormi lühiversioon
 
-Sama piiramatu mobiilipakett maksab Eestis tavahinnaga 35–44 € kuus. Parema hinna saab ainult see, kes kaupleb ja seob end 24 kuuks. Tuleva Kogum küsib kord aastas kõigilt operaatoritelt ühe hinna ühele piiramatule paketile, ilma sidumiseta ja sama kõigile osalejatele. Osaleda saab igaüks, ka ettevõte. Selleks piisab nõusolekust ja e-postist. Liige otsustab ise ja allkirjastab eeltäidetud lepingu. Sihthinnaga 6,50 € on sääst tavahinna vastu kuni ≈ 405 € aastas (hinnang). Lisaks saab ta koduinterneti ja telepaketi poole hinnaga. Tuleva saab igalt operaatorilt sama fikseeritud tasu kuus (näidis 0,50 €). Tasu on liikmele nähtav ega mõjuta võitja valikut.
+Sama piiramatu mobiilipakett maksab Eestis tavahinnaga 35–44 € kuus. Parema hinna saab ainult see, kes kaupleb ja seob end 24 kuuks. Tuleva Kogum küsib kord aastas kõigilt operaatoritelt ühe hinna ühele piiramatule paketile, ilma sidumiseta ja sama kõigile osalejatele. Osaleda saab igaüks, ka ettevõte. Selleks piisab nõusolekust ja e-postist. Liige otsustab ise ja allkirjastab eeltäidetud lepingu. Sihthinnaga 6,50 € on sääst tavahinna vastu kuni ≈ 405 € aastas (hinnang). Lisaks saab ta koduinterneti poole hinnaga ja telepaketi 30 % odavamalt. Tuleva saab igalt operaatorilt sama fikseeritud tasu kuus (näidis 0,50 €). Tasu on liikmele nähtav ega mõjuta võitja valikut.
 
 ## Mis muutus võrreldes esitatud vormiga
 
@@ -75,4 +75,4 @@ Sama piiramatu mobiilipakett maksab Eestis tavahinnaga 35–44 € kuus. Parema 
 - Varem kogujatele, nüüd kõigile, ka ettevõtetele.
 - Isiklikku hinda ei küsita. Sääst on keskmine hinnang avalike hindade järgi.
 - Soovitust „pane sääst III sambasse” pole (võib olla investeerimisnõustamine).
-- Uus: hinnalagi 24 kuud, mahuastmed, interneti ja telepaketi soodustus 50 %.
+- Uus: hinnalagi 24 kuud, mahuastmed, interneti soodustus 50 % ja telepaketi soodustus 30 %.

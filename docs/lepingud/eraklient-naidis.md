@@ -24,7 +24,7 @@
 | Hinnakindlus | hind ei tõuse 24 kuu jooksul |
 | Sidumine | ei ole, lepingu võib igal ajal lõpetada |
 | Kaart | SIM-kaart postiga |
-| Lisasoodustus | koduinternet 50 % tavahinnast, telepakett [soodustus]; klient valib need ise operaatori lehel |
+| Lisasoodustus | koduinternet −50 % ja telepakett −30 % tavahinnast; klient valib need ise operaatori lehel |
 
 ## 3. Numbri üleviimine
 

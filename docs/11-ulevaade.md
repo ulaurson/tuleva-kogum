@@ -71,7 +71,7 @@
 5. ~~Elisa kontrollimata hind on graafikul.~~ Kontrollitud 10.10 (43,99 €, vt [faktid](03-faktid.md)). Sidumise tingimused on selgumata.
 6. **Ümberarvutust liikmetele/kogujatele aasta vaates pole** (07 p 2). Marju baas: liikmete sääst ≈ 311 000 € 1. aastal (hinnang).
 7. **K1b 2027 bänner** viib 2026 pakkumise ekraanile. Demos ära näita või tee eraldi vaade.
-8. Telepakett: ekraanil nüüd 50 % tavahinnast (otsus 10.10).
+8. Telepakett: ekraanil nüüd 50 % tavahinnast (otsus 10.10). *Uuendus 10.10: soodustust demos ei näidata ja telepaketi soodustus on 30 % (vt [otsused](06-otsused.md)).*
 9. **Ligipääsetavus HTML-is:** valikunupud päris `input type="radio"` peale, tegevused (`Koosta leping`, `Saada Operaator A-le`) `button`-iks, tagasilingid 44 px.
 10. Operaatori signaali ja koguja väärtuse küsimus on endiselt lahti (vt eespool).
 
@@ -84,7 +84,7 @@
 1. **Keegi müüb piiramatut 6,50 €-ga.** Operaatorile jääks pärast käibemaksu ja Tuleva tasu ≈ 4,74 € (hinnang). Turu soodushinnad on 12,99 € (Tele2 Piiramatu Klubi lisaliin) ja 15,50 € (kampaania 24 kuuga). *Katse:* küsi mentorilt või ühe operaatori müügijuhilt madalaimat hinda 1 000 liinile. Kui alla 10 € keegi ei ütle, näita laval „kuni 13,50 €” ja nimeta 6,50 € sihiks.
 2. **Sääst ≈ 405 € eeldab, et kõik maksavad tavahinda.** Marju mudel eeldab praeguseks hinnaks 22 € (sääst ≈ 186 €, hinnang), kampaania vastu 108 €. Leibkonnaliikme kogu sidekulu on Statistikaameti järgi ≈ 276–279 € aastas (vajab kontrolli). Õigem sõnastus: „kuni ≈ 405 €, kui maksad tavahinda”. *Katse:* küsi 15 häkatoni osalejalt praegust arvesummat.
 3. **Inimesed registreeruvad.** Tõendit pole. *Katse:* päris registreerumisvorm häkatonil ja Tuleva kogukonnas, lävi 30 registreerunut.
-4. **50 % soodustus „seni, kuni oled klient”.** Turul kehtivad soodustused 12–24 kuud (enefit.ee, 10.10). *Katse:* küsi operaatorilt või mentorilt.
+4. **Soodustus (internet 50 %, telepakett 30 %) „seni, kuni oled klient”.** Turul kehtivad soodustused 12–24 kuud (enefit.ee, 10.10). *Katse:* küsi operaatorilt või mentorilt.
 5. **Operaator lubab vahendaja rolli** (Tele2 tingimused, fail 14). *Katse:* üks küsimus õigusmentorile.
 
 ### Faktikontroll

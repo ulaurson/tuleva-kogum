@@ -45,7 +45,7 @@ Telia 44%, Elisa 32%, Tele2 24% lõppkasutajate arvu järgi 2025. aasta lõpus. 
 - **Tele2 Piiramatu Klubi:** iga järgmine piiramatu mobiili-, interneti- või TV-pakett 12,99 € kuus. Internetipaketi soodustus on 18 € kuus 24 kuuks ([tele2.ee/piiramatu](https://tele2.ee/piiramatu), kuni 31.12.2026).
 - **Telia 1:** peamiselt kiirem internet sama hinnaga. Kus kiirem pole võimalik, seal odavam, umbes 10–17% (**hinnang** tingimuste näidete põhjal).
 - **Elisa Kuldklient:** „Optikavõrgus kuni 2x kiirem internet sama raha eest”.
-- **Kõige lähem meie 50% soodustusele:** Enefiti lehel on „Tele2 Home Internet -50% for two years” ja „The discounted price is valid for new customers for two years”. Leping on 24-kuuline ([enefit.ee](https://enefit.ee/en/kiire-interneti-pakkumised)). Link viib Tele2 lehele [tele2.ee/enefit-pakkumine](https://tele2.ee/enefit-pakkumine), kus tingimusi kirjas pole. Samal Enefiti lehel annab Telia 25% soodustust üheks aastaks ja Elisa parema hinna 12 kuuks.
+- **Kõige lähem meie koduinterneti 50% soodustusele:** Enefiti lehel on „Tele2 Home Internet -50% for two years” ja „The discounted price is valid for new customers for two years”. Leping on 24-kuuline ([enefit.ee](https://enefit.ee/en/kiire-interneti-pakkumised)). Link viib Tele2 lehele [tele2.ee/enefit-pakkumine](https://tele2.ee/enefit-pakkumine), kus tingimusi kirjas pole. Samal Enefiti lehel annab Telia 25% soodustust üheks aastaks ja Elisa parema hinna 12 kuuks.
 
 ### Kellele kirjutada
 
@@ -67,7 +67,7 @@ Kokku võetud failist [02](02-idee.md#lahendus) ja [otsustest](06-otsused.md).
 4. Hind ei tõuse, kui grupp kahaneb.
 5. Sama hind kõigile osalejatele, ka juriidilise isiku numbritele.
 6. Numbri üleviimine ilma lisatasuta. Sama võrk ja teenuse kvaliteet mis tavapaketil.
-7. Koduinterneti ja telepaketi soodustus 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient.
+7. Koduinterneti soodustus 50% ja telepaketi soodustus 30% tavahinnast seni, kuni inimene on Tuleva kaudu klient.
 8. Tuleva tasu: fikseeritud summa iga mobiili-, interneti- ja telepaketi lepingu kohta kuus, sama kõigilt pakkujatelt.
 9. Kuuaruanne Tuleva viitenumbri järgi: millised lepingud jõustusid, tühistati või millest taganeti.
 10. SLA: kas Tuleva isikutuvastus sobib, et liige täidab lepingu Tuleva lehel. Kui ei, suuname operaatori lehele.

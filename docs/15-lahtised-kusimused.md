@@ -12,9 +12,9 @@
 - [ ] Kas Tuleva isikutuvastus sobib operaatorile (SLA)? Kui ei, kuidas käib suunamine operaatori lehele?
 - [ ] Kuidas jõuab operaatori lepingueelne teave ja lühikokkuvõte Tuleva lehele enne allkirja (ESS § 95¹)?
 - [ ] Kas operaator lubab Tuleva vahendusrolli lepingus? Tele2 üldtingimused keelavad teenuse vahendamise ilma nõusolekuta (vt [14](14-uuring-partnerid.md#kas-tuleva-roll-on-operaatori-tingimustega-lubatud)).
-- [ ] Kas koduinterneti ja telepaketi 50% soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
+- [ ] Kas koduinterneti ja telepaketi soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
 - [ ] Kas juriidilise isiku numbrid saavad sama hinna?
-- [ ] Kas 50% soodustus kehtib ka avatud võrgu võrgutasule? Elisal on see Enefiti võrgus 12,40 € kuus.
+- [ ] Kas koduinterneti 50% soodustus kehtib ka avatud võrgu võrgutasule? Elisal on see Enefiti võrgus 12,40 € kuus.
 - [ ] Mis saab liikmete lepingutest, kui Tuleva ja operaatori koostöö lõpeb? (uuringute soovitus)
 - [ ] Kas operaator nõustub, et Tuleva mahtu ei garanteeri? (uuringute soovitus)
 

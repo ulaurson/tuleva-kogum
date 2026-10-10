@@ -25,7 +25,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
-- Otsus 10.10: kokkuleppega on seotud koduinterneti ja telepaketi soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
+- Otsus 10.10: kokkuleppega on seotud koduinterneti ja telepaketi soodustus (koduinternet 50%, telepakett 30% tavahinnast) seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
   - Kas soodustusest tekib uus kimbuleping? Kui liige lõpetab mobiili või järgmisel aastal võidab hanke teine operaator, kaotab ta interneti soodustuse. Vajab hiljem täpsustamist.
   - Otsustatud 10.10: ka interneti- ja telepaketi lepingult saab Tuleva fikseeritud summa paketi kohta kuus. Kuidas operaator neist teatab, lepitakse kokku SLA-s (ettepanek: sama kuuaruanne).
 
@@ -93,8 +93,8 @@ Tuleb läbi mõelda (tiim 10.10).
 
 ## 11. Telepakett ja koduinterneti hinnad
 
-- Telepaketi soodustus on 50 % tavahinnast (otsus 10.10). Telepakettide hindu pole veel kogutud.
-- Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia ja Tele2, 10.10). Elisa puudub. Kiirus ja hind sõltuvad aadressist.
+- Telepaketi soodustus on 30 % tavahinnast (otsus 10.10). Telepakettide hinnad on failis `data/telepaketid.csv` (10.10).
+- Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia, Elisa ja Tele2, 10.10). Kiirus ja hind sõltuvad aadressist.
 
 ## 12. Konto ja andmed
 
