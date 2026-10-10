@@ -20,7 +20,7 @@
 
 ### Kas Tuleva roll on operaatori tingimustega lubatud?
 
-Tele2 üldtingimused keelavad „Ilma Tele2 nõusolekuta meie teenuste kolmandatele isikutele osutamine (müümine, vahendamine, kättesaadavaks tegemine)” ([Tele2 üldtingimused](https://tele2.ee/media/wysiwyg/EST_Tele2_ldtingimused_ERA_1.pdf), kehtib 01.09.2024). **Hinnang:** Tuleva roll tuleb operaatoriga lepingus kirja panna.
+Tele2 erakliendi üldtingimused (kehtivad alates 09.09.2026) keelavad „Ilma Tele2 nõusolekuta meie teenuste kolmandatele isikutele osutamine (müümine, vahendamine, kättesaadavaks tegemine)” ([tele2.ee](https://tele2.ee/media/wysiwyg/EST_Tele2_ldtingimused_ERA_1.pdf), koopia PR #4 kaustas `data/lepingublanketid/tingimused/`). Klausel puudutab klienti, kes müüb Tele2 teenust edasi. **Hinnang:** Tuleva teenust edasi ei müü, aga tema roll tuleb operaatoriga lepingus kirja panna, et kahtlust ei tekiks.
 
 ### Kas kampaaniad kehtivad ka praegustele klientidele?
 
