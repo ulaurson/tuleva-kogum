@@ -74,7 +74,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
             <span style="text-align: right; font-weight: 700;">{{r.v}}</span>
           </div>
         </sc-for>
-        <span style="font-size: 13px; color: #6B7074;">Sääst on arvutatud Tele2, Telia ja Elisa tavahinna keskmise järgi. Kampaaniahinnaga klient säästab vähem.</span>
+        <span style="font-size: 13px; color: #6B7074;">Sääst on arvutatud Tele2, Telia ja Elisa tavahinna keskmise järgi. Kampaaniahinnaga osaleja säästab vähem.</span>
       </div>
       <div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 16px;">
         <div style="background: #002F63; color: #FFFFFF; border-radius: 2px; padding: 22px; display: flex; flex-direction: column; gap: 8px;">
@@ -84,8 +84,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
         </div>
         <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 18px; display: flex; flex-direction: column; gap: 10px; font-size: 14px;">
           <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Tuleva tulu: 560 lepingut × 0,50 € × 12 (näidistasu)</span><span style="font-weight: 700; white-space: nowrap;">3 360 € / a</span></div>
-          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Uued inimesed Tulevale</span><span style="font-weight: 700;">620 (näidis)</span></div>
-          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Tasu osalejale</span><span style="font-weight: 700;">0 €</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Osaleja maksab Tulevale</span><span style="font-weight: 700;">0 €</span></div>
           <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Järgmine hange</span><span style="font-weight: 700;">sügis 2027</span></div>
         </div>
       </div>
@@ -103,7 +102,7 @@ class Component extends DCLogic {
         { label: 'Osales', v: '1 000', note: 'registreerunut · näidis', style: big + 'color: #002F63;' },
         { label: 'Leping jõustus', v: '560', note: '575 allkirjastas, 15 taganes', style: big + 'color: #002F63;' },
         { label: 'Osalejate sääst kuni', v: '≈ 227 000 €', note: 'aastas · hinnang 560 × 405 €', style: big + 'color: #008300;' },
-        { label: 'Sääst tavahinna vastu, kuni', v: '≈ 405 €', note: 'aastas vahetaja kohta · hinnang', style: big + 'color: #008300;' }
+        { label: 'Sääst tavahinnaga võrreldes, kuni', v: '≈ 405 €', note: 'aastas vahetaja kohta · hinnang', style: big + 'color: #008300;' }
       ],
       kuud: [['dets', 180], ['jaan', 110], ['veebr', 70], ['märts', 50], ['apr', 35], ['mai', 30], ['juuni', 20], ['juuli', 15], ['aug', 15], ['sept', 20], ['okt', 15], ['nov', 15]].map(([t, v]) => ({ t, v, bar: 'width: 100%; border-radius: 2px; background: #006CE6; height: ' + Math.round(v / 180 * 120) + 'px;' })),
       kuudKirjeldus: 'Allkirjastatud lepingud kuus, detsember 2026 kuni november 2027: 180, 110, 70, 50, 35, 30, 20, 15, 15, 20, 15, 15. Kokku 575 (näidis).',

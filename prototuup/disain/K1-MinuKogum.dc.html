@@ -49,7 +49,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #002F63;outline-offset:2p
     <sc-if value="{{valmis}}" hint-placeholder-val="{{false}}">
       <div style="background: #EDF7FD; border: 2px solid #006CE6; border-radius: 2px; padding: 14px; display: flex; flex-direction: column; gap: 8px;">
         <span style="font-size: 16px; font-weight: 700; color: #002F63;">Ühishanke 2027 tulemus on käes</span>
-        <span style="font-size: 14px; line-height: 1.45;">Võitja selgus ja grupp on kasvanud, seega on hind langenud.</span>
+        <span style="font-size: 14px; line-height: 1.45;">Võitja selgus ja grupp on kasvanud, seega hind langeb.</span>
         <a href="M2c-Pakkumine2027.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; text-decoration: none;">Vaata, mis muutub</a>
       </div>
     </sc-if>
@@ -68,7 +68,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #002F63;outline-offset:2p
     </sc-if>
 
     <sc-if value="{{ootel}}" hint-placeholder-val="{{true}}">
-      <a href="M2-Pakkumine.dc.html" style="margin-top: auto; display: flex; align-items: center; justify-content: center; height: 44px; background: #FFFFFF; color: #006CE6; border: 2px dashed #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; text-decoration: none;">Demo: pakkumised on käes →</a>
+      <a href="M2-Pakkumine.dc.html" style="margin-top: auto; display: flex; align-items: center; justify-content: center; height: 44px; background: #FFFFFF; color: #006CE6; border: 2px dashed #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; text-decoration: none;">Demo: pakkumine on käes →</a>
     </sc-if>
   </main>
 </div>
@@ -81,7 +81,7 @@ class Component extends DCLogic {
     const ootel = 'width: 12px; height: 12px; border-radius: 6px; background: #FFFFFF; border: 2px solid #6B8FB0; box-sizing: border-box; margin-top: 4px; flex-shrink: 0;';
     return {
       valmis, ootel: !valmis,
-      pealkiri: valmis ? 'Tere taas, Mari!' : 'Oled ühishankes kirjas',
+      pealkiri: valmis ? 'Tere, Mari' : 'Oled ühishankes kirjas',
       sammud: [
         { t: 'Registreerusid', d: '10. oktoober 2026', dot: tehtud, olek: 'Tehtud: ' },
         { t: 'Tuleva küsib operaatoritelt pakkumised', d: 'november 2026', dot: ootel, olek: 'Ootel: ' },

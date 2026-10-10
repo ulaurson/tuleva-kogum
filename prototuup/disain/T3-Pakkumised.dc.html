@@ -54,20 +54,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
           <span id="uhind-teade" role="status" aria-live="polite" style="{{teadeStyle}}">{{teade}}</span>
         </form>
         <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 0; overflow-x: auto;">
-          <table style="width: 100%; min-width: 600px; border-collapse: collapse; font-size: 14px;">
+          <table style="width: 100%; min-width: 360px; border-collapse: collapse; font-size: 14px;">
             <thead><tr style="text-align: left; color: #6B7074; background: #FAFBFC;">
               <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6;">Operaator</th>
               <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Piiramatu</th>
-              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Koduinternet koos mobiiliga</th>
-              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Telepakett koos mobiiliga</th>
             </tr></thead>
             <tbody>
               <sc-for list="{{tabel}}" as="t" hint-placeholder-count="3">
                 <tr style="{{t.rowStyle}}">
                   <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; font-weight: 500;">{{t.op}} <sc-if value="{{t.voitja}}" hint-placeholder-val="{{false}}"><span style="margin-left: 6px; font-size: 12px; font-weight: 700; color: #FFFFFF; background: #008300; border-radius: 2px; padding: 2px 6px;">VÕITJA</span></sc-if></td>
                   <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right; font-weight: 700;">{{t.a}}</td>
-                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right;">{{t.b}}</td>
-                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right;">{{t.c}}</td>
                 </tr>
               </sc-for>
             </tbody>
@@ -102,7 +98,6 @@ class Component extends DCLogic {
   constructor(props) { super(props); this.state = { pakk: { 'Operaator A': 6.50, 'Operaator B': 7.20, 'Operaator C': 6.90 }, uOp: 'Operaator A', uHind: '', viga: false, teade: '' }; }
   renderVals() {
     const fmt = (x) => x.toFixed(2).replace('.', ',') + ' €';
-    const lisad = { 'Operaator A': ['−50 %', '−50 %'], 'Operaator B': ['−50 %', '−50 %'], 'Operaator C': ['−50 %', '−50 %'] };
     const ops = Object.keys(this.state.pakk);
     const best = ops.reduce((m, o) => (m == null || this.state.pakk[o] < this.state.pakk[m] ? o : m), null);
     const meie = 'font-size: 12px; font-weight: 500; color: #006CE6;';
@@ -121,7 +116,7 @@ class Component extends DCLogic {
         const pakk = Object.assign({}, this.state.pakk, { [this.state.uOp]: v });
         this.setState({ pakk, uHind: '', viga: false, teade: 'Pakkumine salvestatud: ' + this.state.uOp });
       },
-      tabel: ops.map((o) => ({ op: o, a: fmt(this.state.pakk[o]), b: lisad[o][0], c: lisad[o][1], voitja: o === best, rowStyle: o === best ? 'background: #F2FAFE;' : '' })),
+      tabel: ops.map((o) => ({ op: o, a: fmt(this.state.pakk[o]), voitja: o === best, rowStyle: o === best ? 'background: #F2FAFE;' : '' })),
       ahel: [
         { t: 'Sai pakkumise', n: '1 000', bar: riba(1000, '#6B8FB0'), src: 'Tuleva süsteem', srcStyle: meie },
         { t: 'Võttis pakkumise ja allkirjastas', n: '575', bar: riba(575, '#006CE6'), src: 'Tuleva süsteem', srcStyle: meie },

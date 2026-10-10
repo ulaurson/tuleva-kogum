@@ -10,7 +10,7 @@ Failid ei avane brauseris eraldi, sest vajavad Claude Designi käituskeskkonda (
 |---|---|
 | Main | 1 · Registreerumine (nõusolek + e-post) |
 | K1-MinuKogum | 2 · Minu Kogum: ootan pakkumist |
-| M2-Pakkumine | 3 · Pakkumine: piiramatu 6,50 € (+ koduinternet ja telepakett −50 %) |
+| M2-Pakkumine | 3 · Pakkumine: piiramatu 6,50 € |
 | M2b-Tahtajaline | 3b · Mul on tähtajaline leping |
 | M6-Hiljem | 3c · Mitte praegu / meeldetuletus |
 | M3-Leping | 4 · Lepingu andmed (eraklient) |

@@ -34,6 +34,7 @@
 | 10.10 | Lepingu vorm: eraklient (nimi, isikukood, telefon) või ettevõte (ettevõtte nimi, registrikood, esindaja nimi ja isikukood, esindusõiguse alus, telefon). Ainult need väljad: e-post tuleb registreerumisest, praegune operaator tuvastatakse numbri järgi, aadressi ja SIM-valikut ei küsita. Vormist koostatakse leping | Ülari otsus: miinimum väljad. Näidised kaustas [lepingud](lepingud/README.md) |
 | 10.10 | Prototüübis on ühishanke hind 6,50 € kuus (varem 13,50 €). Keskmine sääst ≈ 405 € aastas (Tele2 34,99 €, Telia 41,65 € ja Elisa 43,99 € tavahinna keskmine, **hinnang**; Elisa lisati 10.10 pärast hinna kontrolli). 2027 näidishind 5,90 € | Ülari otsus. 6,50 € on sihthind, mitte operaatori pakkumine. Hanke tingimus (vähemalt 2 € alla parima avaliku pakkumise) jääb |
 | 10.10 | Sääst kirjutatakse „kuni ≈ 405 € aastas” (tavahinna vastu), mitte „keskmine” | Ülari otsus valideerimise järel: kampaaniahinnaga klient säästab vähem (Tele2 15,50 € vastu ≈ 108 €), seega „keskmine” eksitaks |
+| 10.10 | Demos ei näidata koduinterneti ja telepaketi 50 % soodustust | Ülari otsus: lihtsam lugu, üks pakkumine. Soodustus jääb hankes võimalikuks lisaks (vt eespool), aga demos seda ei lubata |
 
 ## Mis jäi välja ja miks
 
