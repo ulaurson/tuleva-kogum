@@ -45,6 +45,8 @@ Tiimi töölehe (9.10) järgi tegutseb liige kahel puhul: kui hind tõuseb või 
 
 Operaator saab 1000 kliendiga rääkimise asemel rääkida ühega. **Hinnang:** grupihange vähendab operaatori kulu uue kliendi saamiseks. Kui suur see kulu Eestis on, pole teada.
 
+Eestis on sarnane koostöö juba olemas: Enefiti kliendid saavad Tele2, Telia ja Elisa koduinternetti soodsamalt ja sõlmivad lepingu ise otse operaatoriga (vt [faktid](03-faktid.md#eesti-eeskuju-enefiti-partnerpakkumised)). Mobiilsides sellist näidet ei leidnud.
+
 Sama mudeli on teinud Hispaania tarbijaorganisatsioon OCU mobiilsidega ja Suurbritannia Which? energiaga (vt [faktid](03-faktid.md#välismaa-eeskujud)). Tuleva tasu on fikseeritud, ei sõltu paketist ja liige näeb seda enne liitumist (vt [ärimudel](#ärimudel-eeldus-kinnitamata)).
 
 ## Kolm väärtust
@@ -75,7 +77,7 @@ Kõik AI-uuringud (vt [uuringud](12-uuringud.md)) hoiavad need lahus. Ainult tei
 ## Ärimudel (eeldus, kinnitamata)
 
 - Tuleva saab iga lepingu kuumaksest fikseeritud tasu (otsus 10.10), ka Tuleva soodustusega internetilepingult. Tasu maksab operaator, liikmele on teenus tasuta (vt [arutelu](10-arutelu.md) punkt 2). Tasu ei sõltu paketist ja liige näeb seda enne liitumist. Summa ja projektsioonid arvutab Marju.
-- Tuleva võit on uus koguja ja lojaalsus. Kui palju maksab Tulevale täna ühe koguja saamine, on veel teadmata.
+- Tuleva võit on uus koguja ja lojaalsus. Tuleva enda numbrid pole avalikud. Avalike aruannete põhjal toob koguja Tuleva Fondidele umbes 33 € tulu aastas ja ühistule umbes 7 € litsentsitasu (**hinnang**, vt [uuring](14-uuring-partnerid.md#koguja-väärtus-hinnang-avalike-numbrite-põhjal)).
 - AI-uuringute kulumudelite järgi on esimese aasta kulu 100 liitumise juures umbes 3 000–21 600 € ja 1000 liitumise juures umbes 7 500–35 800 € (**hinnang**, illustratiivsed eeldused, vt [uuringud](12-uuringud.md)).
 - Varasem mõte: mitte-kogujatele 10% esimese aasta säästust ja ainult siis, kui sääst tekib. Hange on avatud ka mitte-liikmetele (otsus 10.10, vt [otsused](06-otsused.md)).
 

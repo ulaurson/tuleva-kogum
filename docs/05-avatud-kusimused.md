@@ -7,6 +7,7 @@
 Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, mis lööb ka tema praeguseid kliente. Välismaal võitis ühisostu väljakutsuja, mitte turuliider (vt [faktid](03-faktid.md#järeldused-meie-jaoks)).
 
 - Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata) Tele2 on väikseim operaator, turuosa 24% (TTJA 2025, vt [14](14-uuring-partnerid.md#turuosad)).
+- Partnerkoostöö näide on olemas: Enefiti kliendid saavad operaatorite koduinternetti soodsamalt (vt [faktid](03-faktid.md#eesti-eeskuju-enefiti-partnerpakkumised)). Avalikku partnerprogrammi, mis maksaks tasu, ei leidnud (vt [14](14-uuring-partnerid.md#kas-operaatorid-maksavad-partneritele-tasu)).
 - Mitu inimest peab registreeruma, et operaator hakkaks huvi tundma?
 - Varuplaan, kui keegi ei paku: Tuleva oma virtuaaloperaator (Tuleva briif: ~350 000 €, tasuvus ~12 000 kliendi juures, mobiilis pole hulgijuurdepääs kohustuslik).
 - **Häkatonil:** küsida äriarenduse mentorilt või saata kiri 1–2 operaatorile ja näidata laval päris vastust.
@@ -68,16 +69,19 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 - Millise lepingu vormi operaator nõuab ja kas see on igal operaatoril erinev?
 - Kas Tuleva on õiguslikult ainult edastaja, mitte esindaja (küsida õigusmentorilt)?
 - Lepingu jaoks on vaja isikuandmeid (nimi, isikukood, telefoninumber). Demos kasutame ainult väljamõeldud andmeid.
+- Mida teame: Tele2 allkirjastab lepingu Dokobitis ja leping läheb automaatselt Tele2-le. Telias sõlmitakse leping e-keskkonnas. Ühtki juhtu, kus operaator aktsepteerib kolmanda osapoole isikutuvastust, ei leidnud (vt [14](14-uuring-partnerid.md#kuidas-operaator-lepingu-sõlmib-ja-kliendi-tuvastab)).
 
 **Todo: konsulteerida** (10.10)
 
-- [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
+- [ ] Õigusmentor: ESS § 95¹ järgi annab lepingueelse teabe ja lepingu lühikokkuvõtte operaator enne lepingu sõlmimist (kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
 - [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
 - [ ] Operaatorid: leppida SLA-s kokku, kas Tuleva isikutuvastus sobib operaatorile, et liige saaks lepingu täita Tuleva lehel. Kui ei sobi, suuname liikme lepingu sõlmimiseks operaatori lehele.
 
 ## 9. Andmekaitse
 
-Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust (vt [õigus](04-oigus.md)).
+Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust.
+
+Mida teame (**hinnang**, vt [õigus](04-oigus.md#andmekaitse-mida-aki-ütleb)): kui liige küsib ise pakkumist, sobib alus „lepingueelsed meetmed”. Tuleva ja operaator on tõenäoliselt eraldi vastutavad töötlejad.
 
 ## 10. Kuidas liikmeteni jõuda?
 

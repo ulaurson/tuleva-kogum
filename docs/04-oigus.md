@@ -29,6 +29,17 @@
 | Konkurentsiõigus | Keeld kehtib ettevõtjate kokkulepetele (KonkS § 4). EL suuniste järgi on ühisost tõenäoliselt probleemitu, kui osaliste turuosa on kuni 15% | Eraisikud pole ettevõtjad. Osalevate ettevõtete turuosa on kaugelt alla 15% |
 | Arvutuse viga | Kui Tuleva säästuarvutus jätab välja kaduva soodustuse, vastutab Tuleva (uuring C, kontrollimata) | Enne vahetust küsime seotud teenuste kohta |
 
+## Andmekaitse: mida AKI ütleb
+
+*Kontrollitud AKI ja EDPB lehtedelt 10.10.2026. Tsitaadid on failis [14](14-uuring-partnerid.md#4-andmekaitse). Tõlgendus on **hinnang**, andmekaitse mentor pole seda hinnanud.*
+
+| Teema | Mida allikas ütleb | Mida see meile tähendab |
+|---|---|---|
+| Õiguslik alus | Andmeid võib töödelda lepingu sõlmimisele eelnevate meetmete võtmiseks inimese taotlusel, näiteks kui ta palub pakkumist (AKI) | Kui liige sisestab ise andmed, et pakkumist saada, sobib see alus |
+| Nõusolek | Vabatahtlik ja iga eesmärgi kohta eraldi. Eeltäidetud lahter ei ole nõusolek (AKI) | Kui kasutame nõusolekut, siis iga eesmärgi jaoks eraldi linnuke |
+| Vähe andmeid | „Igaks juhuks andmete kogumine on ebaseaduslik” (AKI) | Kogume operaatori, hinna, kasutuse ja lepingu tähtaja, mitte arvet tervikuna |
+| Rollid | Kui vahendaja saadab kliendi andmed teenusepakkujale, on mõlemad eraldi vastutavad töötlejad. Ühise platvormi või turunduse korral on kaasvastutus (EDPB) | Tuleva ja operaator on eraldi vastutavad töötlejad |
+
 ## Andmed häkatonil
 
 - Küsitlus on anonüümne: ei nime ega telefoninumbrit.
