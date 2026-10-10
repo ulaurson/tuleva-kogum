@@ -30,6 +30,7 @@ Sisend: `hind_praegu` (€/kuu), `kasutus_gb` (viimase 3 kuu keskmine), `puhver 
 4. **Aastasääst** = ülemakse kuus × 12.
 5. Kui sobiv pakett on sama operaatori juures: „vaheta pakett iseteeninduses”, muidu „vii number üle”.
 6. Minuteid ja SMS-e arvutus ei arvesta.
+7. Juriidilise isiku numbrit võrdleme samade tavapakettidega (`hinnad.csv`), äripakette ei kasuta (otsus 10.10).
 
 ### Kaks stsenaariumi, näita eraldi
 

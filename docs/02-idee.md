@@ -77,7 +77,7 @@ Kõik AI-uuringud (vt [uuringud](12-uuringud.md)) hoiavad need lahus. Ainult tei
 - Tuleva saab iga lepingu kuumaksest fikseeritud tasu (otsus 10.10). Tasu maksab operaator, liikmele on teenus tasuta (vt [arutelu](10-arutelu.md) punkt 2). Tasu ei sõltu paketist ja liige näeb seda enne liitumist. Summa ja projektsioonid arvutab Marju.
 - Tuleva võit on uus koguja ja lojaalsus. Kui palju maksab Tulevale täna ühe koguja saamine, on veel teadmata.
 - AI-uuringute kulumudelite järgi on esimese aasta kulu 100 liitumise juures umbes 3 000–21 600 € ja 1000 liitumise juures umbes 7 500–35 800 € (**hinnang**, illustratiivsed eeldused, vt [uuringud](12-uuringud.md)).
-- Varasem mõte: mitte-kogujatele 10% esimese aasta säästust ja ainult siis, kui sääst tekib. Kas hange on üldse avatud mitte-kogujatele, on lahtine (vt [avatud küsimused](05-avatud-kusimused.md)).
+- Varasem mõte: mitte-kogujatele 10% esimese aasta säästust ja ainult siis, kui sääst tekib. Hange on avatud ka mitte-liikmetele (otsus 10.10, vt [otsused](06-otsused.md)).
 
 ## Hilisemad sammud (visioon, mitte häkatoni skoop)
 
