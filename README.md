@@ -20,6 +20,7 @@
 | [docs/06-otsused.md](docs/06-otsused.md) | Mis on otsustatud ja miks | keegi küsib „miks mitte X?” |
 | [docs/07-prototuubi-lahtealused.md](docs/07-prototuubi-lahtealused.md) | Mida demo peab tõestama, arvutusreeglid, testjuhtumid, küsimustik | hakkad koodi kirjutama |
 | [docs/08-tooleht-2026-10-09.md](docs/08-tooleht-2026-10-09.md) | Tiimi tööleht: probleem, sihtrühm, skoop, väärtuspakkumine | tahad teada, milles tiim kokku leppis |
+| [docs/09-arutelu.md](docs/09-arutelu.md) | Tiimi viimased arutelud, mida teistes failides veel pole | tahad teada, mida tiim praegu arutab |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
 
 ## Reeglid selles repos
@@ -41,3 +42,4 @@
 
 - Väikesed muudatused otse `main` harusse, suuremad eraldi haru ja pull request.
 - Kui muudad numbrit, uuenda allikas samas commit'is.
+- Tiimi arutelud pannakse kirja faili [docs/09-arutelu.md](docs/09-arutelu.md). Claude Code loeb repo juhised failist [CLAUDE.md](CLAUDE.md).

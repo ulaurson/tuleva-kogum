@@ -42,6 +42,8 @@ OCU-s oli võitja odavam 71% registreerunutele, aga tegelik vahetajate arv on te
 
 Kui liikmel on 24-kuuline leping pooleli, ei saa ta kohe vahetada. Kas pakkumine kehtib ka lepingu lõppedes? Kas hange toimub kord aastas kindlal ajal või jooksvalt?
 
+Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab ennetähtaegne lõpetamine (vt [arutelu](09-arutelu.md)).
+
 ## 8. Lepingu allkirjastamine ja edastamine
 
 - Kas operaatorid võtavad vastu lepingu, mille liige on allkirjastanud ja Tuleva süsteem edastanud? Kas see peab olema hanketingimus?
