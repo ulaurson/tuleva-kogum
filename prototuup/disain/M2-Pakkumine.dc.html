@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<title>Ühishanke pakkumine</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#006CE6}a:hover{color:#004FA8}
+input{font:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #002F63;outline-offset:2px}
+</style>
+</helmet>
+<div style="width: 390px; min-height: 1000px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #E0E6EC;">
+    <div style="display: flex; align-items: baseline; gap: 6px;">
+      <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 20px; color: #002F63;">Tuleva</span>
+      <span style="font-size: 15px; font-weight: 500; color: #006CE6;">Kogum</span>
+    </div>
+    <span style="font-size: 11px; font-weight: 500; color: #6B7074; background: #F5F7F9; border: 1px solid #D6DEE6; border-radius: 2px; padding: 3px 6px;">Prototüüp · näidisandmed</span>
+  </header>
+
+  <main style="flex-grow: 1; padding: 12px 20px 20px; display: flex; flex-direction: column; gap: 16px;">
+    <a href="K1-MinuKogum.dc.html" style="font-size: 14px; font-weight: 500; text-decoration: none; min-height: 32px; display: flex; align-items: center;">← Minu Kogum</a>
+    <div style="display: flex; flex-direction: column; gap: 4px;">
+      <span style="font-size: 13px; font-weight: 500; color: #006CE6; letter-spacing: 0.02em;">ÜHISHANKE 2026 TULEMUS</span>
+      <h1 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 24px; line-height: 1.3; color: #002F63;">Piiramatu mobiilipakett</h1>
+    </div>
+
+    <div style="border: 2px solid #006CE6; border-radius: 2px; padding: 16px; display: flex; flex-direction: column; gap: 10px; background: #EDF7FD;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+        <span style="font-size: 15px; font-weight: 500;">Operaator A (näidis)</span>
+        <span><span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 34px; color: #002F63;">6,50 €</span><span style="font-size: 15px;"> kuus</span></span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 4px; font-size: 14px; line-height: 1.45;">
+        <span>Piiramatu internet Eestis · ilma sidumiseta</span>
+        <span>Sama hind kõigile osalejatele</span>
+        <span style="font-weight: 700; color: #002F63;">Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.</span>
+      </div>
+    </div>
+
+    <section style="display: flex; flex-direction: column; gap: 8px;">
+      <h2 style="margin: 0; font-size: 17px; font-weight: 700; color: #002F63;">Kui palju võid säästa</h2>
+      <div role="img" aria-label="{{ribadeKirjeldus}}" style="display: flex; flex-direction: column; gap: 10px; padding-top: 4px;">
+        <span style="font-size: 13px; color: #6B7074;">Piiramatu pakett kuus</span>
+        <sc-for list="{{ribad}}" as="r" hint-placeholder-count="4">
+          <div aria-hidden="true" style="display: flex; flex-direction: column; gap: 4px;">
+            <div style="display: flex; justify-content: space-between; font-size: 14px;">
+              <span style="{{r.labelStyle}}">{{r.label}}</span>
+              <span style="{{r.valueStyle}}">{{r.v}}</span>
+            </div>
+            <div style="height: 14px; background: #F5F7F9; border-radius: 2px;"><div style="{{r.bar}}"></div></div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-top: 1px solid #E0E6EC; padding-top: 10px;">
+        <span style="font-size: 15px; font-weight: 500;">Sääst tavahinna vastu <span style="font-size: 12px; font-weight: 400; color: #6B7074;">(hinnang)</span></span>
+        <strong style="font-size: 20px; color: #008300; white-space: nowrap;">kuni ≈ 405 € aastas</strong>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #E0E6EC; padding-top: 14px;">
+      <h2 style="margin: 0; font-size: 17px; font-weight: 700; color: #002F63;">Pärast liitumist ka soodsamalt</h2>
+      <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 14px;"><span>Koduinternet</span><span style="font-weight: 700; color: #008300;">50 % tavahinnast</span></div>
+      <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 14px;"><span>Telepakett</span><span style="font-weight: 700; color: #008300;">50 % tavahinnast</span></div>
+    </section>
+
+    <div style="padding-top: 4px; display: flex; flex-direction: column; gap: 8px;">
+      <a href="M3-Leping.dc.html" style="display: flex; align-items: center; justify-content: center; height: 48px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 16px; text-decoration: none;">Võtan pakkumise</a>
+      <a href="M2b-Tahtajaline.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; font-weight: 500; font-size: 15px; text-decoration: none;">Mul on tähtajaline leping</a>
+      <a href="M6-Hiljem.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; background: #FFFFFF; color: #006CE6; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; text-decoration: none;">Mitte praegu</a>
+      <span style="font-size: 12px; line-height: 1.4; color: #6B7074; text-align: center;">Sulle tasuta. Tuleva saab operaatorilt fikseeritud tasu iga lepingu kuumaksest (näidis 0,50 € kuus). Tasu on kõigile pakkujatele sama.</span>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1000}}'>
+class Component extends DCLogic {
+    renderVals() {
+    return {
+      ribadeKirjeldus: 'Piiramatu pakett kuus: Elisa 43,99 eurot, Telia 41,65 eurot, Tele2 34,99 eurot, Tuleva ühishange 6,50 eurot.',
+      ribad: [
+        ['Elisa', 43.99, '43,99 €', false],
+        ['Telia', 41.65, '41,65 €', false],
+        ['Tele2', 34.99, '34,99 €', false],
+        ['Tuleva ühishange', 6.5, '6,50 €', true]
+      ].map(([label, n, v, meie]) => ({
+        label, v,
+        labelStyle: meie ? 'font-weight: 700; color: #008300;' : '',
+        valueStyle: 'font-weight: 700;' + (meie ? ' color: #008300;' : ''),
+        bar: 'height: 14px; border-radius: 2px; width: ' + Math.round(n / 43.99 * 100) + '%; background: ' + (meie ? '#008300' : '#8A929B') + ';'
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

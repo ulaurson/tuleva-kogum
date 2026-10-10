@@ -14,6 +14,7 @@
 - [ ] Kas operaator lubab Tuleva vahendusrolli lepingus? Tele2 üldtingimused keelavad teenuse vahendamise ilma nõusolekuta (vt [14](14-uuring-partnerid.md#kas-tuleva-roll-on-operaatori-tingimustega-lubatud)).
 - [ ] Kas koduinterneti ja telepaketi 50% soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
 - [ ] Kas juriidilise isiku numbrid saavad sama hinna?
+- [ ] Kas 50% soodustus kehtib ka avatud võrgu võrgutasule? Elisal on see Enefiti võrgus 12,40 € kuus.
 - [ ] Mis saab liikmete lepingutest, kui Tuleva ja operaatori koostöö lõpeb? (uuringute soovitus)
 - [ ] Kas operaator nõustub, et Tuleva mahtu ei garanteeri? (uuringute soovitus)
 
@@ -41,7 +42,7 @@
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
-- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange.
+- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange. OCU energiahankes vahetas umbes 10% registreerunutest, prognoos eeldab 30–56% (vt [OCU juhtum](18-ocu-juhtum.md#mida-see-meile-õpetab-hinnang)).
 
 ## Tiim
 
@@ -50,5 +51,7 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivs
 - [ ] Mitu kasutusprofiili hankes on ja kuidas võitja valitakse (vt [05](05-avatud-kusimused.md#3-mida-täpselt-hangitakse))?
 - [ ] Kuidas vahetamist mõõdame (vt [05](05-avatud-kusimused.md) punkt 6)?
 - [ ] Mis maksab tähtajalise lepingu ennetähtaegne lõpetamine Telias ja Elisas? Tele2 tingimused on teada (vt [faktid](03-faktid.md)).
+- [x] (10.10 kontrollitud, vt [faktid](03-faktid.md)) Elisa hinnad olid kontrollimata, aga nende pealt tuleb umbes 40% näidisandmete ülemaksest (vt [ülevaade](11-ulevaade.md)).
 - [ ] Kas näidisandmete sääst on realistlik? 121 € osaleja kohta aastas on umbes kolmandik inimese kogu sidekulust (**hinnang**, vt [uuringud](12-uuringud.md#ühistu-säästumudel-e)).
-- [ ] Ülari ülevaate summad (2 944 € ja 4 400 €) tuleb 10.10 hindadega üle arvutada. Näidisandmed on ainult Claude Designi kujunduses. Kui need on repos failina `data/naidisvastused.csv` (vt [briif](09-prototuubi-briif.md)), saab summad skriptiga uute hindadega üle arvutada.
+- [ ] Ülari ülevaate summad (2 944 € ja 4 400 €) tuleb 10.10 hindadega üle arvutada.
+

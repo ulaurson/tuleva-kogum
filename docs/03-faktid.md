@@ -25,7 +25,9 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
 **Telia** ✅ ([telia.ee](https://www.telia.ee/era/mobiil/paketid), kontrollitud 27.09.2026, tähtajatu leping): 3 GB 13,20 €, 8 GB 19,30 €, 16 GB 26,42 €, 50 GB 33,53 €, piiramatu 41,65 €.
 
-**Elisa** ✅ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil), kontrollitud 10.10.2026). Lehel on kaks paketisarja ja mõlemad on müügil: Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu 43,99 €, Ultra 5G+ piiramatu 53,99 €; Piisav 18 GB 13,99 €, Praktiline 23 GB 17,99 €, Rohke 5G 28 GB 21,99 €, Rikkalik 5G 40 GB 31,99 €, Maksimaalne 5G piiramatu 41,99 €, Lõpmatu 5G piiramatu 51,99 €; Suhtlev kõnepakett 0,5 GB 5,99 €. Lepingu tähtaega leht ei maini. Eeldame, et hinnad on ilma sidumiseta (**hinnang**).
+**Elisa** ✅ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil), kontrollitud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu Eestis ja Soomes 43,99 €, Ultra 5G+ piiramatu Eestis ja Põhjamaades 53,99 €. Sidumise tingimusi leht ei näita. Lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 13,99 €), mida võrdluses ei kasuta.
+
+**Koduinternet ja telepakett** ✅ (kontrollitud 10.10.2026): hinnad on failides [`data/koduinternet.csv`](../data/koduinternet.csv) ja [`data/telepaketid.csv`](../data/telepaketid.csv). Tüüpilise koduinterneti tavahind on 25,99–31,00 € (Elisa 100/100, Tele2 500 Kodunett, Telia 200). Tele2 kampaania annab Kodunetile 24 kuuks juba umbes 50% soodustust (500 Kodunett 15,50 € tavahinna 30,99 € asemel, 24-kuuline leping). Telial on −15% 12 kuuks. Elisa avatud võrkudes lisandub võrgutasu, Enefiti võrgus 12,40 € kuus. Telepaketid maksavad 4,99–44,73 €.
 
 ## Turg ja käitumine
 
@@ -55,6 +57,8 @@ Enefiti lehel on operaatorite koduinterneti pakkumised Enefiti klientidele. Klie
 ## Välismaa eeskujud
 
 ### OCU, Hispaania: mobiilside ühisost ✅
+
+Põhjalikum juhtumiuuring, sh 2014 ja 2018 hanked, on failis [18](18-ocu-juhtum.md).
 
 | | |
 |---|---|

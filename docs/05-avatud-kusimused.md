@@ -90,3 +90,39 @@ Tuleb läbi mõelda (tiim 10.10).
 - AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult „oma samasuguste toodete või teenuste” kohta ja pensioni- või ühistusuhe tõenäoliselt ei sobi mobiilipaketi jaoks (ESS § 103¹, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
+
+## 11. Telepakett ja koduinterneti hinnad
+
+- Telepaketi soodustus on 50 % tavahinnast (otsus 10.10). Telepakettide hindu pole veel kogutud.
+- Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia ja Tele2, 10.10). Elisa puudub. Kiirus ja hind sõltuvad aadressist.
+
+## 12. Konto ja andmed
+
+Registreerumisel saab inimene konto (otsus 10.10).
+
+- Millised andmed kontol on ja kui kaua neid hoitakse? Küsida andmekaitse mentorilt.
+- Kas konto on Tuleva iseteeninduse osa või eraldi? Kuidas sisse logitakse (e-post, Smart-ID)?
+- Registreerumisel annab inimene nõusoleku saada ühishanke pakkumist e-postiga (seotud punktiga 10).
+
+## 13. Üks pakett kõigile
+
+Hange küsib ainult piiramatut paketti (otsus 10.10).
+
+- Väikese kasutusega inimene maksab täna Tele2 kampaanias 2 GB eest 5,50 € (vt [faktid](03-faktid.md)). Talle ei ole 6,50 € piiramatu sääst. Kas ütleme seda pakkumise juures ausalt?
+- Keskmine sääst (≈ 405 € aastas, hinnang hanke hinnaga 6,50 €, Tele2, Telia ja Elisa tavahinna keskmine) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.
+
+## 14. Leping ja allkirjastaja
+
+Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, näidised kaustas [lepingud](lepingud/README.md)).
+
+- Kas operaatorid võtavad vastu Tuleva kaudu tulnud digiallkirjastatud lepingu ja numbri üleviimise volituse?
+- Ettevõte: kas esindusõigust kontrollime äriregistrist automaatselt ja kas volikiri on PDF-ina piisav? Mitu numbrit ühe lepinguga?
+- Vorm küsib ainult miinimumi (vt [lepingud](lepingud/README.md)). Kas operaator tuvastab praeguse operaatori numbri järgi ja kas aadress on vajalik? Numbri üleviimise volituse vormil on mõlemad väljad.
+
+## 15. Kas 6,50 € on usutav?
+
+- Operaatorile jääks 6,50 €-st pärast käibemaksu ja Tuleva tasu ≈ 4,74 € (**hinnang**). Turu soodushinnad on 12,99 € (Tele2 Piiramatu Klubi lisaliin) ja 15,50 € (Tele2 kampaania 24 kuuga), vt [faktid](03-faktid.md).
+- Signaal: üks liige mainis 10.10 hinda 7 € (suuline, allikata; kas see on pakkumine, mille ta sai, või tema arvates õiglane hind, on teadmata).
+- Katse enne pühapäeva: küsida mentorilt või ühelt operaatorilt madalaimat hinda 1 000 liinile. Kuni vastust pole, öelda laval „sihthind”.
+- Ülari otsus 10.10: prototüübis jääb 6,50 € (sihthind), 7 € signaal ei muuda seda.
+
