@@ -25,6 +25,7 @@
 | [docs/11-ulevaade.md](docs/11-ulevaade.md) | Kujunduse ülevaade 10.10: žürii simulatsioon, parandused, lahtised probleemid | valmistud esitluseks |
 | [docs/12-uuringud.md](docs/12-uuringud.md) | AI-uuringute kokkuvõte: milles need kokku langevad, kus meiega ei klapi, vahetuse takistused, sihtklient, ühistu säästumudel | tahad teada, mida uuringud ütlevad |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
+| [data/lepingublanketid/](data/lepingublanketid/) | Avalikud lepingu näidised, volikirjad ja üldtingimused koos allikatega | kontrollid lepingu sõlmimise andmeid või esindusõigust |
 
 ## Reeglid selles repos
 
