@@ -27,6 +27,8 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
 **Elisa** ✅ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil), kontrollitud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu Eestis ja Soomes 43,99 €, Ultra 5G+ piiramatu Eestis ja Põhjamaades 53,99 €. Sidumise tingimusi leht ei näita. Lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 13,99 €), mida võrdluses ei kasuta.
 
+**Koduinternet ja telepakett** ✅ (kontrollitud 10.10.2026): hinnad on failides [`data/koduinternet.csv`](../data/koduinternet.csv) ja [`data/telepaketid.csv`](../data/telepaketid.csv). Tüüpilise koduinterneti tavahind on 25,99–31,00 € (Elisa 100/100, Tele2 500 Kodunett, Telia 200). Tele2 kampaania annab Kodunetile 24 kuuks juba umbes 50% soodustust (500 Kodunett 15,50 € tavahinna 30,99 € asemel, 24-kuuline leping). Telial on −15% 12 kuuks. Elisa avatud võrkudes lisandub võrgutasu, Enefiti võrgus 12,40 € kuus. Telepaketid maksavad 4,99–44,73 €.
+
 ## Turg ja käitumine
 
 | Väide | Staatus | Allikas |
