@@ -38,6 +38,8 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 | Mobiil-ID ei liigu uuele SIM-kaardile, sest sertifikaadid on seotud konkreetse kaardiga. Uuel kaardil tuleb Mobiil-ID uuesti aktiveerida, selleks on vaja ID-kaarti ja PIN-koode. ID-kaart ja Smart-ID jäävad tööle | ✅ | [RIA, 15.09.2026](https://www.ria.ee/blogi/mobiil-id-sim-kaart-tuleb-valja-vahetada-mida-pead-teadma) |
 | Vana põlvkonna SIM-kaart ei toeta Mobiil-ID-d pärast 19.05.2027. Kui SIM-kaardi vahetuse algatab operaator, on see tasuta | ✅ | sama RIA leht |
 | Tele2 piiras ajutiselt uusi Mobiil-ID liitumisi: liituda saab ainult siis, kui uuem SIM-kaart on juba olemas | ✅ | [tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026 |
+| Leibkonnaliikme aastane kulu sidele oli 279,2 € (2020) ja 276,1 € (2019). Kategooria (COICOP 08) sisaldab ka postiteenuseid ja telefone, mitte ainult mobiilsidet | ✅ | [Statistikaamet: leibkonnad](https://www.stat.ee/en/avasta-statistikat/valdkonnad/heaolu/households), tabel LE201, vaadatud 10.10.2026 |
+| Eestis on 651 300 leibkonda (2025) | ✅ | sama leht, tabel LEM01 |
 
 ## Välismaa eeskujud
 
