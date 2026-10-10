@@ -40,7 +40,6 @@
 
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
 
-- [ ] Kas Telia või teine operaator pakub 5–6 € kuus? Väljakaubeldud hinna kohta on vaja allikat ja kuupäeva.
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
 - [ ] Prognoos eeldab 50% soodustust ka telepaketile. Tiimi otsus räägib ainult koduinternetist (vt [otsused](06-otsused.md)). Kumb kehtib?
 - [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange.
