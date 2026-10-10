@@ -2,7 +2,7 @@
 
 ## Probleem
 
-Sama mobiilipakett maksab eri inimestele väga erinevat hinda. Tele2 17 GB pakett maksab 24-kuulise lepinguga 10,50 € ja ilma sidumiseta 15,99 € kuus. Piiramatu paketi puhul maksab sidumata klient topelt: 17,50 € vs 34,99 € (vt [faktid](03-faktid.md)).
+Sama mobiilipakett maksab eri inimestele väga erinevat hinda. Tele2 17 GB pakett maksab 24-kuulise lepinguga 8,50 € ja ilma sidumiseta 15,99 € kuus. Piiramatu paketi puhul maksab sidumata klient üle kahe korra rohkem: 15,50 € vs 34,99 € (kampaania kuni 15.11.2026, vt [faktid](03-faktid.md)).
 
 Parima hinna saab see, kes jälgib pakkumisi, kaupleb, ähvardab lahkuda ja seob end 24 kuuks. Enamik inimesi seda ei tee. Operaatorid tõstavad hindu ja vähemalt Tele2 sõnul viisid kliendid 2025. aastal numbrit üle vähem kui 2024. aastal.
 
