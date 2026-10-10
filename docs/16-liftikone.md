@@ -37,7 +37,7 @@ Kui hind ei ole vähemalt 2 eurot alla turu parima, hanget ei toimu ja keegi ei 
 2. **405 € on tavahinna vastu.** Jah. Tele2 kampaania 15,50 € vastu on vahe ≈ 108 € aastas, aga kampaania seob 24 kuuks ja lõpeb. Meil sidumist pole ja hange kordub igal aastal.
 3. **Operaatori tasu on sama huvide konflikt mis portaalidel.** Portaalide tasu erineb pakkuja ja paketi järgi. Meie tasu on fikseeritud, kõigilt sama ja liikmele enne liitumist nähtav. See ei mõjuta, kes võidab.
 4. **Mis siis, kui operaatorid ei osale?** Registreerumine ei kohusta kedagi. OCU sai Hispaanias operaatori. Väiksematel operaatoritel on põhjus turuosa võita (hinnang). Esimene päris hange näitab.
-5. **3 360 € aastas ei kata midagi.** Õige, 1 000 osalejaga ei kata. Tasuvuseks on vaja ≈ 2 900 aktiivset ühikut (fail 13). Põhiväärtus on uued kogujad, selle numbrit Tulevalt veel pole.
+5. **3 360 € aastas ei kata midagi.** Õige, 1 000 osalejaga ei kata. Jooksva kulu katmiseks on vaja ≈ 5 750 aktiivset ühikut, baasprognoosis 5. aastal. Tasuga 1 € kuus 2. aastal (fail 13). Põhiväärtus on uued kogujad, selle numbrit Tulevalt veel pole.
 6. **Kas on vaja tegevusluba või volitust?** Tuleva kedagi ei esinda. Leping on liikme ja operaatori vahel ning liige allkirjastab ise. Operaatori tasu ja vahendaja rolli küsime õigusmentorilt.
 7. **Kuidas on andmetega?** Registreerudes ainult e-post. Isikukood ja number lähevad lepingusse ja ainult operaatorile. Hanke ajal saab operaator teada ainult osalejate arvu.
 8. **Kas see võib Tuleva usaldust kahjustada?** Liige otsustab ise, sidumist pole, 14 päeva saab taganeda ja tasu on näha. Kui hind pole parem, hanget ei toimu.
