@@ -110,3 +110,11 @@ Hange küsib ainult piiramatut paketti (otsus 10.10).
 
 - Väikese kasutusega inimene maksab täna Tele2 kampaanias 2 GB eest 5,50 € (vt [faktid](03-faktid.md)). Talle ei ole 13,50 € piiramatu sääst. Kas ütleme seda pakkumise juures ausalt?
 - Keskmine sääst (≈ 298 € aastas, hinnang) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.
+
+## 14. Leping ja allkirjastaja
+
+Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, näidised kaustas [lepingud](lepingud/README.md)).
+
+- Kas operaatorid võtavad vastu Tuleva kaudu tulnud digiallkirjastatud lepingu ja numbri üleviimise volituse?
+- Ettevõte: kas esindusõigust kontrollime äriregistrist automaatselt ja kas volikiri on PDF-ina piisav? Mitu numbrit ühe lepinguga?
+- Kas aadress on päriselt vajalik, kui operaator saab selle Smart-ID / ID-kaardi andmetest?

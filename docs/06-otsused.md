@@ -31,6 +31,7 @@
 | 10.10 | 50% soodustus tavahinnast kehtib ka telepaketile. Ka telepaketi lepingult saab Tuleva fikseeritud summa kuus | Sama mis Marju tasuvusprognoosis (vt [tasuvus](13-tasuvus.md)) |
 | 10.10 (mentorid) | Esimene samm on registreerumine: inimene annab nõusoleku osaleda ja e-posti ning saab konto. See ei kohusta millekski. Konto kaudu näeb ta ka järgmiste aastate pakkumisi | Madal lävi liitumiseks. Andmeid kogutakse vähe, nagu soovitavad AI-uuringud (vt [uuringud](12-uuringud.md)) |
 | 10.10 | Hange küsib kõigilt operaatoritelt ühte pakkumist: piiramatu mobiilipakett. Osaleja ei sisesta oma praegust paketti ega hinda. Sääst näidatakse operaatorite avalike hindade järgi keskmisena (**hinnang**) | Lihtsam osalejale ja pakkumised on võrreldavad. Vähem isikuandmeid. Asendab profiilid ja isikliku säästuarvutuse failis [07](07-prototuubi-lahtealused.md) |
+| 10.10 | Lepingu vorm: eraklient (nimi, isikukood, telefon) või ettevõte (ettevõtte nimi, registrikood, esindaja nimi ja isikukood, esindusõiguse alus, telefon). Mõlemale lisaks aadress, e-post, praegune operaator ja SIM/eSIM. Vormist koostatakse leping | Ülari ettepanek. Lisaväljad nõuab numbri üleviimise volitus. Näidised kaustas [lepingud](lepingud/README.md) |
 
 ## Mis jäi välja ja miks
 
