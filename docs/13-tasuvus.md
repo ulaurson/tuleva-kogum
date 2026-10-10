@@ -37,7 +37,30 @@
 | Kumulatiivselt tasa | ei kunagi | 15. aastal | 4. aastal |
 | **Liikmete sääst aastas, 1. / 5. aasta** | 84k / 195k € | **440k / 1,0M €** | 1,2M / 2,9M € |
 
-Liikmete säästus on ainult mobiilinumbrid, kodunett ja telepakett ei ole arvestatud.
+Liikmete säästus on ainult mobiilinumbrid, kodunett ja telepakett ei ole arvestatud. Nende sääst on eraldi allpool.
+
+## Sääst koos koduinterneti ja telepaketiga (lisatud 10.10)
+
+*Kõik on **hinnang**. Hinnad on failides [`data/koduinternet.csv`](../data/koduinternet.csv) ja [`data/telepaketid.csv`](../data/telepaketid.csv).*
+
+50% tavahinnast annab ühe teenuse kohta:
+
+- **koduinternet:** umbes 176 € aastas. Tüüpiliste pakettide keskmine tavahind on 29,33 € (Telia 200 31,00 €, Elisa 100/100 25,99 €, Tele2 500 Kodunett 30,99 €);
+- **telepakett:** umbes 108 € aastas. Keskmine tavahind on 17,96 € (Telia Standard 17,56 €, Elisa Populaarne Elamus 21,33 €, Tele2 Go3 TV+ 14,99 €).
+
+Arvutuses on keskmine 142 € teenuse kohta aastas, kui internetti ja telepaketti võetakse võrdselt.
+
+| | Pess. | Baas | Opt. |
+|---|---|---|---|
+| Vahetab liikmeid 1. aastal | 300 | 900 | 1 680 |
+| Lisateenuse võtab (leibkonnast) | 25% | 40% | 55% |
+| Lisateenuste sääst 1. aastal | 17k € | 82k € | 210k € |
+| Mobiili sääst 1. aastal (tabel ülal) | 84k € | 440k € | 1,2M € |
+| **Liikmete sääst kokku 1. aastal** | **101k €** | **522k €** | **1,41M €** |
+
+**Ühe leibkonna näide:** üks number ja nii internet kui telepakett. Mobiil kuni ≈ 405 € (prototüübi arvutus tavahinna vastu, vt [otsused](06-otsused.md)), internet 176 € ja telepakett 108 €, kokku kuni ≈ 689 € aastas.
+
+**Piirang:** sääst on arvutatud tavahinna vastu. Kes maksab juba kampaaniahinda, säästab vähem. Tele2 Kodunett on kampaanias 24 kuuks juba umbes 50% odavam, nii et Tele2 kampaaniakliendile on meie soodustuse lisaväärtus selle aja jooksul ligikaudu null. Meie soodustus kehtib aga seni, kuni inimene on Tuleva kaudu klient, ja ilma 24-kuulise sidumiseta.
 
 ## Kuupõhine vaade
 

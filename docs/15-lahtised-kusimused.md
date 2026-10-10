@@ -14,6 +14,7 @@
 - [ ] Kas operaator lubab Tuleva vahendusrolli lepingus? Tele2 üldtingimused keelavad teenuse vahendamise ilma nõusolekuta (vt [14](14-uuring-partnerid.md#kas-tuleva-roll-on-operaatori-tingimustega-lubatud)).
 - [ ] Kas koduinterneti ja telepaketi 50% soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
 - [ ] Kas juriidilise isiku numbrid saavad sama hinna?
+- [ ] Kas 50% soodustus kehtib ka avatud võrgu võrgutasule? Elisal on see Enefiti võrgus 12,40 € kuus.
 - [ ] Mis saab liikmete lepingutest, kui Tuleva ja operaatori koostöö lõpeb? (uuringute soovitus)
 - [ ] Kas operaator nõustub, et Tuleva mahtu ei garanteeri? (uuringute soovitus)
 
@@ -41,7 +42,7 @@
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
-- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange.
+- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange. OCU energiahankes vahetas umbes 10% registreerunutest, prognoos eeldab 30–56% (vt [OCU juhtum](18-ocu-juhtum.md#mida-see-meile-õpetab-hinnang)).
 
 ## Tiim
 
