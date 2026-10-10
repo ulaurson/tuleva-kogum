@@ -41,7 +41,7 @@
 
 - Lepingu kokkuvõte ja operaatori äriklientide üldtingimused on lepingu lisad.
 - 14-päevane taganemisõigus kehtib tarbijale; ettevõttele mitte (lahtine, kas operaator pakub seda ise).
-- Tuleva saab operaatorilt fikseeritud tasu (näidis 0,50 € kuus lepingu kohta).
+- Tuleva saab operaatorilt fikseeritud tasu (1 € kuus lepingu kohta).
 
 ## 5. Allkiri
 

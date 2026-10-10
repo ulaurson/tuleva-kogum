@@ -6,7 +6,7 @@
 
 - [ ] Kas operaator hankes üldse osaleb? Mitu osalejat on vaja, et ta huvi tunneks?
 - [ ] Kas operaator nõustub hinnalae (24 kuud, vähemalt 12), mahuastmete ja iga-aastase hankega korraga?
-- [ ] Kas operaator nõustub Tuleva fikseeritud tasuga mobiili-, interneti- ja telepaketi lepingult? Kui suure tasuga?
+- [ ] Kas operaator nõustub Tuleva fikseeritud tasuga 1 € kuus mobiili-, interneti- ja telepaketi lepingult?
 - [ ] Kas hind kehtib ka võitja praegustele klientidele?
 - [ ] Kas operaator nõustub kuuaruandega Tuleva viitenumbri järgi?
 - [ ] Kas Tuleva isikutuvastus sobib operaatorile (SLA)? Kui ei, kuidas käib suunamine operaatori lehele?
@@ -39,7 +39,7 @@
 
 ## Marju
 
-Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
+Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 1 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest (otsus 10.10). Baasstsenaariumis kaetakse jooksev kulu 2. aastal.
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
 - [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange. OCU energiahankes vahetas umbes 10% registreerunutest, prognoos eeldab 30–56% (vt [OCU juhtum](18-ocu-juhtum.md#mida-see-meile-õpetab-hinnang)).

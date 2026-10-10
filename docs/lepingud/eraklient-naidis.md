@@ -37,7 +37,7 @@
 
 - Klient võib 14 päeva jooksul lepingust taganeda.
 - Lepingu kokkuvõte ja operaatori üldtingimused on lepingu lisad (annab operaator).
-- Tuleva saab operaatorilt fikseeritud tasu (näidis 0,50 € kuus lepingu kohta). Kliendile on Tuleva teenus tasuta.
+- Tuleva saab operaatorilt fikseeritud tasu (1 € kuus lepingu kohta). Kliendile on Tuleva teenus tasuta.
 
 ## 5. Allkiri
 

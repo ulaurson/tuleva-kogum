@@ -45,7 +45,7 @@ Läbiräägitud hind on sama kõigile ega nõua sidumist. Korraldaja tasu on fik
 
 ## Elujõulisus
 
-- Osalejale tasuta. Operaator maksab Tulevale iga lepingu kuumaksest sama tasu, näidis 0,50 € kuus. Sama kehtib interneti- ja telepaketi kohta.
+- Osalejale tasuta. Operaator maksab Tulevale iga lepingu kuumaksest sama tasu, 1 € kuus. Sama kehtib interneti- ja telepaketi kohta.
 - Tasu on kõigilt pakkujatelt sama ja võitja valikul seda arvesse ei võeta. Liige näeb tasu enne liitumist.
 - Tasuvus: vt Marju prognoos ([13](13-tasuvus.md), hinnang).
 - Hange kordub igal aastal.
@@ -64,7 +64,7 @@ Esimene hange tehakse tabelite ja e-kirjadega. Liikme nähtav pool töötab kohe
 
 ## Esitusvormi lühiversioon
 
-Sama piiramatu mobiilipakett maksab Eestis tavahinnaga 35–44 € kuus. Parema hinna saab ainult see, kes kaupleb ja seob end 24 kuuks. Tuleva Kogum küsib kord aastas kõigilt operaatoritelt ühe hinna ühele piiramatule paketile, ilma sidumiseta ja sama kõigile osalejatele. Osaleda saab igaüks, ka ettevõte. Selleks piisab nõusolekust ja e-postist. Liige otsustab ise ja allkirjastab eeltäidetud lepingu. Sihthinnaga 6,50 € on sääst tavahinna vastu kuni ≈ 405 € aastas (hinnang). Lisaks saab ta koduinterneti poole hinnaga ja telepaketi 30 % odavamalt. Tuleva saab igalt operaatorilt sama fikseeritud tasu kuus (näidis 0,50 €). Tasu on liikmele nähtav ega mõjuta võitja valikut.
+Sama piiramatu mobiilipakett maksab Eestis tavahinnaga 35–44 € kuus. Parema hinna saab ainult see, kes kaupleb ja seob end 24 kuuks. Tuleva Kogum küsib kord aastas kõigilt operaatoritelt ühe hinna ühele piiramatule paketile, ilma sidumiseta ja sama kõigile osalejatele. Osaleda saab igaüks, ka ettevõte. Selleks piisab nõusolekust ja e-postist. Liige otsustab ise ja allkirjastab eeltäidetud lepingu. Sihthinnaga 6,50 € on sääst tavahinna vastu kuni ≈ 405 € aastas (hinnang). Lisaks saab ta koduinterneti poole hinnaga ja telepaketi 30 % odavamalt. Tuleva saab igalt operaatorilt sama fikseeritud tasu, 1 € kuus. Tasu on liikmele nähtav ega mõjuta võitja valikut.
 
 ## Mis muutus võrreldes esitatud vormiga
 

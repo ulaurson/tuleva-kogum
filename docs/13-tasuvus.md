@@ -6,7 +6,7 @@
 
 - Üks ühispakkumine (Telia): piiramatu mobiilne internet, kõned, SMS. Hind 5–6 € kuus.
 - Liitunu saab kodunett 50% ja telepaketi 30% soodsamalt (telepakett muudetud 10.10, oli 50%).
-- Tuleva saab Telialt **0,50 € kuus** iga aktiivse numbri, kodunett ja telepaketi eest.
+- Tuleva saab Telialt **1 € kuus** iga aktiivse numbri, kodunett ja telepaketi eest (otsus 10.10). Tabelid „Tulemus” ja „Kuupõhine vaade” on arvutatud 0,50 €-ga, 1 € tulemus on jaotises „Tundlikkus: tasu 1 € kuus”.
 - Ainult ühistu liikmetele (~10 000). Liige võib kaasa võtta pere numbrid ja oma ettevõtte töötajad.
 
 ## Eeldused
@@ -25,7 +25,7 @@
 - Uusi liitujaid 2. aastal 70%, 3. aastal 60%, edasi 50% esimese aasta mahust. Aktiivsetest ühikutest säilib 85% aastas (hinnang).
 - Kulu: 1 täiskoht kahekordse keskmise palgaga ≈ 69 000 € aastas koos tööandja maksudega (hinnang). Mobiilile 1. aastal 100%, edasi 50%.
 
-## Tulemus
+## Tulemus (tasu 0,50 €)
 
 | | Pess. | Baas | Opt. |
 |---|---|---|---|
@@ -66,7 +66,7 @@ Arvutuses on keskmine 120 € teenuse kohta aastas, kui internetti ja telepakett
 
 Ülal on liitujad ühtlaselt üle aasta. Kui leping sõlmitakse 1. kuul, tuleb laine: 60% esimese aasta liitujatest 2.–3. kuul, ülejäänud 4.–12. kuul lepingute lõppedes (hinnang). Lahkumine ~1,3% kuus.
 
-Baasi kuutulu 1. aastal:
+Baasi kuutulu 1. aastal (tasu 0,50 €, 1 € korral kaks korda suurem):
 
 | Kuu | 1. | 2. | 3. | 4. | 6. | 12. |
 |---|---|---|---|---|---|---|
@@ -82,7 +82,7 @@ Laine tõstab 1. aasta tulu ~25%, aga tasuvuse aega peaaegu ei muuda. Selle mä�
 
 ## Tundlikkus: tasu 1 € kuus
 
-Sama mudel, Tuleva tasu 1 € kuus ühiku kohta 0,50 € asemel.
+Sama mudel, Tuleva tasu 1 € kuus ühiku kohta 0,50 € asemel. **See on kehtiv tasu (otsus 10.10).**
 
 | | Pess. | Baas | Opt. |
 |---|---|---|---|
@@ -95,10 +95,10 @@ Sama mudel, Tuleva tasu 1 € kuus ühiku kohta 0,50 € asemel.
 
 ## Järeldused
 
-1. Baasis on liikmete sääst 30–50 korda suurem kui Tuleva tulu.
-2. Tasuvuseks on vaja ~5 750 aktiivset ühikut (34 500 € ÷ 6 €). Baas jõuab sinna 5. aastal.
+1. Baasis on liikmete sääst 15–25 korda suurem kui Tuleva tulu 1 € tasuga (0,50 € tasuga 30–50 korda).
+2. Tasuvuseks on vaja ~2 900 aktiivset ühikut 1 € tasuga (34 500 € ÷ 12 €). Baas jõuab sinna 2. aastal. 0,50 € tasuga on vaja ~5 750 ühikut (34 500 € ÷ 6 €), baas jõuab sinna 5. aastal.
 3. Ettevõtted on tugev hoob: 150 ettevõtet toob sama palju numbreid kui 330 vahetavat liiget.
-4. 5,50 € hinnast jääb Teliale ilma käibemaksuta ~4,44 €. Tuleva tasu on sellest 11%.
+4. 5,50 € hinnast jääb Teliale ilma käibemaksuta ~4,44 €. Tuleva tasu 1 € on sellest 23% (0,50 € oleks 11%).
 
 ## Lahtine
 

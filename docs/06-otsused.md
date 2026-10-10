@@ -36,6 +36,7 @@
 | 10.10 | Sääst kirjutatakse „kuni ≈ 405 € aastas” (tavahinna vastu), mitte „keskmine” | Ülari otsus valideerimise järel: kampaaniahinnaga klient säästab vähem (Tele2 15,50 € vastu ≈ 108 €), seega „keskmine” eksitaks |
 | 10.10 | Demos ei näidata koduinterneti ja telepaketi soodustust | Ülari otsus: lihtsam lugu, üks pakkumine. Soodustus jääb hankes võimalikuks lisaks (vt eespool), aga demos seda ei lubata |
 | 10.10 | Telepaketi soodustus on 30% tavahinnast, mitte 50%. Koduinterneti soodustus jääb 50% | Tiimi otsus. Telepaketi sääst on ≈ 65 € aastas, mitte ≈ 108 € (**hinnang**, vt [tasuvus](13-tasuvus.md)) |
+| 10.10 | Tuleva tasu on 1 € kuus iga mobiili-, interneti- ja telepaketi lepingu kohta, sama kõigilt pakkujatelt. Varem oli näidis 0,50 € | Marju prognoosi järgi kaetakse 1 € tasuga baasstsenaariumis jooksev kulu 2. aastal ja kumulatiivselt jõutakse nulli 4. aastal. 0,50 € tasuga 5. ja 15. aastal (**hinnang**, vt [tasuvus](13-tasuvus.md)) |
 
 ## Mis jäi välja ja miks
 

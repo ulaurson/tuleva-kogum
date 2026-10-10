@@ -33,7 +33,7 @@ AI-uuringud lisavad takistusi: number pole liikme nimel, seadme järelmaks või 
 
 **Staatus:** otsustatud (vt [otsused](06-otsused.md))
 
-**Otsus 10.10:** Tuleva saab iga lepingu kuumaksest fikseeritud tasu, sama kõigilt pakkujatelt. Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md) ja README reegel 3). Summa ja projektsioonid arvutab Marju.
+**Otsus 10.10:** Tuleva saab iga lepingu kuumaksest fikseeritud tasu, sama kõigilt pakkujatelt. Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md) ja README reegel 3). Tasu on 1 € kuus (otsus 10.10, Marju prognoos failis [13](13-tasuvus.md)).
 
 Tuleva Kogum on eraldi äri ja peab ennast ära tasuma, et saaks liikmetele head teenust pakkuda. Praegune mõte (Ülari, 10.10): Tuleva teenib tasu iga liikme pealt, kes pakkumise vastu võtab, ja **selle tasu maksab operaator**.
 
@@ -48,7 +48,7 @@ Alternatiiv, mis säilitab eristaja: tasu maksab liige ise, näiteks 10 % esimes
 
 ### Mida see prototüübis tähendab
 
-- Prototüübis on praegu operaatori makstav tasu, näidis 0,50 € kuus jõustunud lepingu kohta (Ülari ettepanek 10.10, kokku leppimata).
+- Prototüübis on praegu operaatori makstav tasu, näidis 0,50 € kuus jõustunud lepingu kohta (Ülari ettepanek 10.10, kokku leppimata). *Uuendus 10.10: tasu on 1 € kuus.*
 - Pakkumise ekraan ütleb liikmele: „Sulle tasuta. Tuleva saab iga uue liikme eest operaatorilt sama tasu, olenemata sellest, kes hanke võitis.”
 - Hanke ja pakkumiste vaates on kirjas, et tasu on kõigilt pakkujatelt sama ja võitja valikul seda arvesse ei võeta.
 - Aasta statistikas on Tuleva tulu (14 × 0,50 € × 12 = 84 € aastas; 1 000 osalejaga ≈ 3 360 €) ja tasu liikmele 0 €.
