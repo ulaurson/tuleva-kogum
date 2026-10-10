@@ -16,7 +16,7 @@
 
 ## Lahtised probleemid (raskemad ees)
 
-1. **Operaatori tasu.** Kõik neli ülevaadet märkisid selle ära. Tasu läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu”, toob vähe raha ja maksab selle tegelikult ainult võitja. Tiim jättis tasu esialgu sisse. Otsus on lahtine, vt [arutelu punkt 2](10-arutelu.md).
+1. **Operaatori tasu.** Kõik neli ülevaadet märkisid selle ära. Tasu läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu”, toob vähe raha ja maksab selle tegelikult ainult võitja. Tiim jättis tasu esialgu sisse. Otsus on lahtine, vt [arutelu punkt 2](10-arutelu.md). Uuendus 10.10: tiim otsustas fikseeritud tasu kasuks, summa arvutab Marju (vt [otsused](06-otsused.md)).
 2. **Hange lisab umbes kolmandiku säästust.** Avalike hindadega saab säästa 2 944 € aastas, hankega 4 400 € (näidisandmed). Laval tuleb öelda, et uudsus pole hind, vaid iga-aastane päästik, valmis leping ja huvide konflikti puudumine.
 3. **Pole ühtki operaatori signaali.** Enne pühapäeva saata kiri või helistada vähemalt ühele operaatorile või küsida äriarenduse mentorilt.
 4. **Elisa hinnad on kontrollimata**, aga nende pealt tuleb umbes 40 % näidisandmete ülemaksest. Kontrollida üle või võtta numbritest välja.

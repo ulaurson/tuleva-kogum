@@ -19,6 +19,10 @@ Masinloetav tabel: [`data/hinnad.csv`](../data/hinnad.csv).
 
 Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
+**Tele2 kampaania 5.10–15.11.2026** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026): 24-kuulise lepinguga 2 GB 5,50 €, 17 GB 8,50 € ja Piiramatu Eestis 15,50 € kuus. 25. kuust kehtib tavahind. Pakkumine on uutele ja olemasolevatele eraklientidele, kes sõlmivad uue lepingu. Ennetähtaegsel lõpetamisel tuleb maksta järelejäänud kuutasud või saadud soodustus, olenevalt sellest, kumb on väiksem. 9 GB, 55 GB ja 250 GB 24 kuu hinda lehel 10.10 ei olnud. Ülal oleva tabeli ja `hinnad.csv` 24 kuu hinnad on seisuga 26.09.
+
+**Tele2 Piiramatu Klubi** ✅ (sama leht, 10.10.2026): iga järgmine piiramatu pakett maksab 12,99 € kuus.
+
 **Telia** ✅ ([telia.ee](https://www.telia.ee/era/mobiil/paketid), kontrollitud 27.09.2026, tähtajatu leping): 3 GB 13,20 €, 8 GB 19,30 €, 16 GB 26,42 €, 50 GB 33,53 €, piiramatu 41,65 €.
 
 **Elisa** ⚠️ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil) ja [mobiilipaketid.ee](https://mobiilipaketid.ee/), vaadatud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu 43,99 €. Elisa lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 18 GB 13,99 €) ja sidumise tingimusi lehelt ei selgu. Enne kasutamist kontrolli.
@@ -30,6 +34,10 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 | Operaatorid tõstsid hindu (Tele2 keskmiselt kuni 2 €, Elisa 0,99–1,99 €) | ✅ | [ERR](https://www.err.ee/1609923521/eesti-suuremad-telekomiettevotted-tostavad-jark-jargult-oma-hindu) |
 | Tele2-s algatati 2025. aastal vähem numbri üleviimisi kui 2024. aastal; Tele2 tõlgendab, et kliendid leppisid hinnatõusuga | ✅ ⚠️ | sama ERR-i artikkel. Ainult Tele2 andmed, ära ütle seda kogu turu kohta |
 | Numbri üleviimine on kliendile tasuta, mobiilinumbril 3–25 tööpäeva; uus operaator saab kliendi volitusel vana lepingu lõpetada | ✅ | [TTJA: numbriliikuvus](https://www.ttja.ee/en/private-client/communications/communication-services/number-portability) |
+| Alates 1.11.2026 hakkab number uue operaatori juures tööle järgmisel tööpäeval. Varem kulus 4–6 päeva | ✅ | [Justiits- ja Digiministeerium, 20.03.2026](https://www.justdigi.ee/uudised/numbriliikuvuse-reform-novembrist-kaob-operaatori-vahetusel-mitmepaevane-ooteaeg) |
+| Mobiil-ID ei liigu uuele SIM-kaardile, sest sertifikaadid on seotud konkreetse kaardiga. Uuel kaardil tuleb Mobiil-ID uuesti aktiveerida, selleks on vaja ID-kaarti ja PIN-koode. ID-kaart ja Smart-ID jäävad tööle | ✅ | [RIA, 15.09.2026](https://www.ria.ee/blogi/mobiil-id-sim-kaart-tuleb-valja-vahetada-mida-pead-teadma) |
+| Vana põlvkonna SIM-kaart ei toeta Mobiil-ID-d pärast 19.05.2027. Kui SIM-kaardi vahetuse algatab operaator, on see tasuta | ✅ | sama RIA leht |
+| Tele2 piiras ajutiselt uusi Mobiil-ID liitumisi: liituda saab ainult siis, kui uuem SIM-kaart on juba olemas | ✅ | [tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026 |
 
 ## Välismaa eeskujud
 
@@ -68,5 +76,5 @@ Registreerimine 2–3 nädalat → pöördoksjon 1–2 nädalat (pakkujad võist
 
 1. **Mudel töötab ja on mobiilsides tehtud** (OCU). Me ei pea tõestama, et ühisost on võimalik, vaid et Tuleva teeb seda paremini.
 2. **Võitja on tavaliselt väljakutsuja, mitte turuliider.** Eestis on kolm suurt operaatorit. Kes oleks siin väljakutsuja, on lahtine.
-3. **Mujal maksab korraldajale võitja.** Tuleva ei võta midagi ja see on eristaja, aga siis tuleb kulud katta muust (vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)).
-4. **Pakkumine peab olema parem kui turu parim**, muidu kordub Big Switchi õppetund. Hanke tingimus „kampaaniahind ilma sidumiseta” on see, mida turul täna pole.
+3. **Mujal maksab korraldajale võitja.** Ka Tuleva saab tasu: fikseeritud summa iga lepingu kuumaksest, liikmele nähtav (otsus 10.10, vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)).
+4. **Pakkumine peab olema parem kui turu parim**, muidu kordub Big Switchi õppetund. Hanke tingimus on hind vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta. Kuni 15.11.2026 on latt Tele2 kampaania: 17 GB 8,50 € ja piiramatu 15,50 € (vt [kolm väärtust](02-idee.md#kolm-väärtust)). Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine (otsus 10.10).

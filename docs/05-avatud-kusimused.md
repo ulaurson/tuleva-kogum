@@ -22,7 +22,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 ## 3. Mida täpselt hangitakse?
 
 - Mitu kasutusprofiili (nt kuni 10 GB, 10–50 GB, piiramatu)?
-- Tingimused: sidumine, hinnakindluse periood, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit.
+- Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
 
@@ -30,11 +30,18 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 Kui võitja hind on sama mis 24-kuuline kampaaniahind, on uudsus ainult sidumise puudumine. Big Switchi õppetund: turul võib kohe olla sama hea pakkumine. Hange peab andma midagi, mida üksikklient ei saa.
 
-## 5. Kuidas kulud kaetakse ilma vahendustasuta?
+Otsus 10.10: hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine (vt [otsused](06-otsused.md)). Lahtine jääb, kas operaatorid sellise hinna annavad.
 
-Mujal maksab korraldajale võitja. Tuleva seda ei tee. Eeldus on, et tulu tuleb uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
+## 5. Kas fikseeritud tasu katab kulud?
 
-Arutlusel (10.10): operaator maksab Tulevale sama tasu iga uue kliendi eest. See läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu”, vt [arutelu punkt 2](10-arutelu.md).
+Otsus 10.10: Tuleva saab iga lepingu kuumaksest fikseeritud tasu (vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)). Arvutused ja projektsioonid teeb Marju.
+
+- Kui suur on tasu ja mitu lepingut on vaja, et kulud kaetud oleksid?
+- Kas operaatorid nõustuvad tasuga, mis on kõigile sama ja ei sõltu paketist?
+- Sisend arvutusele (**hinnang**, vt [uuringud](12-uuringud.md)): AI-uuringute järgi on esimese aasta kulu 3 000–36 000 €. Uuringud eeldavad ühekordset tasu 20–30 € liitumise kohta. Uuring A arvutab ka igakuise tasu: teisel aastal 1000 numbri juures umbes 1,6 € numbri kohta kuus.
+- Lisatulu võib tulla uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
+
+Tasu maksab operaator ja see on kõigilt pakkujatelt sama (vt [arutelu punkt 2](10-arutelu.md)). Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md)).
 
 ## 6. Mitu inimest päriselt vahetab?
 
@@ -59,6 +66,19 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 - Kas Tuleva on õiguslikult ainult edastaja, mitte esindaja (küsida õigusmentorilt)?
 - Lepingu jaoks on vaja isikuandmeid (nimi, isikukood, telefoninumber). Demos kasutame ainult väljamõeldud andmeid.
 
+**Todo: konsulteerida** (10.10)
+
+- [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
+- [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
+
 ## 9. Andmekaitse
 
 Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust (vt [õigus](04-oigus.md)).
+
+## 10. Kuidas liikmeteni jõuda?
+
+Tuleb läbi mõelda (tiim 10.10).
+
+- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
+- Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
+- Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.

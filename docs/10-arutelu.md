@@ -16,7 +16,9 @@ Liige ei jäta vahetamata ainult hinna pärast. Teda peatavad küsimused, millel
 |---|---|---|
 | Kas mul on tähtajaline leping? Kuidas ma sellest aru saan? | Küsimustikus on vastusevariant „ei tea” (vt [lähtealused](07-prototuubi-lahtealused.md#küsimustik-osalejatele-side)). Juhist, kust seda vaadata, meil veel pole | Kust näeb seda Tele2, Telia ja Elisa klient (iseteenindus, arve, leping)? Kas lepingu lõppkuupäev on seal kirjas? |
 | Kas saan lepingu ilma trahvita lõpetada või pean lõpuni ootama? | Kui leping on pooleli, kehtib hanke pakkumine 12 kuud ja liige saab meeldetuletuse, kui tema leping lõpeb (vt [idee](02-idee.md#käivitajad)) | Mis maksab ennetähtaegne lõpetamine, näiteks saadud soodustuse tagasimaks või seadme järelmaks? Kontrollida seadusest ja kolme operaatori tingimustest, allika ja kuupäevaga |
-| Mida pean tegema, kui Tuleva pakkumise vastu võtan? Kas sellega kaasneb palju vaeva või ebamugavusi? | Number jääb samaks. Üleviimine on tasuta, mobiilinumbril 3–25 tööpäeva, ja uus operaator lõpetab vana lepingu kliendi volitusel (TTJA, vt [faktid](03-faktid.md#turg-ja-käitumine)). Leping on süsteemis valmis täidetud ja liige allkirjastab selle digitaalselt (vt [idee](02-idee.md#lahendus)). Uuel lepingul on 14-päevane taganemisõigus (õigusmentori hinnang, vt [õigus](04-oigus.md)) | Kuidas liige saab uue SIM-kaardi (post, esindus, eSIM)? Kas üleviimise ajal on hetk, kui telefon ei tööta? Mis saab vana operaatori viimasest arvest? |
+| Mida pean tegema, kui Tuleva pakkumise vastu võtan? Kas sellega kaasneb palju vaeva või ebamugavusi? | Number jääb samaks. Üleviimine on tasuta, mobiilinumbril 3–25 tööpäeva, ja uus operaator lõpetab vana lepingu kliendi volitusel (TTJA, vt [faktid](03-faktid.md#turg-ja-käitumine)). Alates 1.11.2026 hakkab number uues võrgus tööle järgmisel tööpäeval (Justiits- ja Digiministeerium). Mobiil-ID tuleb uuel SIM-kaardil ID-kaardi ja PIN-koodidega uuesti aktiveerida, Smart-ID jääb tööle (RIA, vt [faktid](03-faktid.md#turg-ja-käitumine)). Leping on süsteemis valmis täidetud ja liige allkirjastab selle digitaalselt (vt [idee](02-idee.md#lahendus)). Uuel lepingul on 14-päevane taganemisõigus (õigusmentori hinnang, vt [õigus](04-oigus.md)) | Kuidas liige saab uue SIM-kaardi (post, esindus, eSIM)? Kas üleviimise ajal on hetk, kui telefon ei tööta? Mis saab vana operaatori viimasest arvest? |
+
+AI-uuringud lisavad takistusi: number pole liikme nimel, seadme järelmaks või kimbuleping, vana operaatori vastupakkumine üleviimise ajal (vt [uuringud](12-uuringud.md#vahetuse-takistused)).
 
 ### Mida see prototüübis tähendab
 
@@ -29,7 +31,9 @@ Liige ei jäta vahetamata ainult hinna pärast. Teda peatavad küsimused, millel
 
 ## 2. Kuidas Tuleva Kogum ise raha teenib (10.10)
 
-**Staatus:** arutlusel
+**Staatus:** otsustatud (vt [otsused](06-otsused.md))
+
+**Otsus 10.10:** Tuleva saab iga lepingu kuumaksest fikseeritud tasu, sama kõigilt pakkujatelt. Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md) ja README reegel 3). Summa ja projektsioonid arvutab Marju.
 
 Tuleva Kogum on eraldi äri ja peab ennast ära tasuma, et saaks liikmetele head teenust pakkuda. Praegune mõte (Ülari, 10.10): Tuleva teenib tasu iga liikme pealt, kes pakkumise vastu võtab, ja **selle tasu maksab operaator**.
 
@@ -48,3 +52,33 @@ Alternatiiv, mis säilitab eristaja: tasu maksab liige ise, näiteks 10 % esimes
 - Pakkumise ekraan ütleb liikmele: „Sulle tasuta. Tuleva saab iga uue liikme eest operaatorilt sama tasu, olenemata sellest, kes hanke võitis.”
 - Hanke ja pakkumiste vaates on kirjas, et tasu on kõigilt pakkujatelt sama ja võitja valikul seda arvesse ei võeta.
 - Aasta statistikas on Tuleva tulu (14 × 0,50 € × 12 = 84 € aastas; 1 000 osalejaga ≈ 3 360 €) ja tasu liikmele 0 €.
+
+## 3. Hinnakindlus: hinnalagi ja mahuastmed (10.10)
+
+**Staatus:** otsustatud (vt [otsused](06-otsused.md))
+
+Mure: algne grupp võib olla 1000 liiget, aga aasta-kahe pärast 10 000. Siis tahaks juba paremat hinda küsida. Kus on tasakaal hinnakindluse ja parema hinna vahel?
+
+Stabiilsus ja parem hind ei ole vastuolus, kui hinnakindlus seob ainult operaatorit. Liikmel on tähtajatu leping ja ta võib alati lahkuda. Hankepäringusse läheb:
+
+- **Hinnalagi, mitte hinnalukk.** Operaator ei tõsta hinda kokkulepitud aja jooksul. Hinda langetada võib alati.
+- **Küsime 24 kuud, nõustume vähemalt 12 kuuga.** 24 kuud on sama pikk kui Tele2 kampaania sidumine (vt [faktid](03-faktid.md)): sama kindlus, aga ilma sidumiseta. 12 kuud on hanketsükli pikkus, seega uuendab iga hange kindlust.
+- **Mahuastmed.** Hankepäringus küsime hinda näiteks 1000, 5000 ja 10 000 aktiivse liitumise juures. Kui grupp jõuab järgmisele astmele, langeb hind kõigil, ka varem liitunutel. Paremat hinda ei pea ootama hinnakindluse lõpuni.
+- **Hind ei tõuse, kui grupp kahaneb.** Seda riski toob välja ka uuring A (vt [uuringud](12-uuringud.md)).
+- **Iga-aastane hange jääb alles** (vt [idee](02-idee.md#käivitajad)). Kui teine operaator pakub paremini, saavad liikmed vahetada, sest sidumist pole.
+
+**Sõnum liikmele:** „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.”
+
+### Mida juba teame
+
+Tähtajatu lepingu hinda võib operaator ette teatades muuta ja liige võib siis lepingu tasuta lõpetada (AI-uuringute väide, õigusmentor pole hinnanud, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Seega tuleb hinnakindlus hankes eraldi kokku leppida.
+
+### Mis on lahtine
+
+- Kas operaatorid nõustuvad hinnalae, mahuastmete ja iga-aastase hankega korraga.
+- Kas hind kehtib ka võitja praegustele klientidele.
+- Sõnum kehtib siis, kui hange annab 24 kuud. Kui saame ainult 12 kuud, muutub ka sõnum.
+
+### Mida see prototüübis tähendab
+
+Hankepäringu tingimused (briifi ekraan 6) on failis [02](02-idee.md#lahendus) uuendatud. Pakkumise ekraanil (briifi ekraan 2) on sõnum hinnakindluse kohta (vt [lähtealused](07-prototuubi-lahtealused.md)).
