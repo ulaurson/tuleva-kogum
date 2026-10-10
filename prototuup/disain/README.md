@@ -18,9 +18,8 @@ Failid ei avane brauseris eraldi, sest vajavad Claude Designi käituskeskkonda (
 | M3c-Leping | 4c · Leping: loe, allkirjasta, saada |
 | M3d-LepingEttevote | 4d · Leping: ettevõte |
 | M4-Allkiri | 5 · Leping on saadetud |
-| M5-Statistika | 6 · Minu pakett |
-| K1b-AastaHiljem | 7 · Minu Kogum aasta hiljem |
-| M2c-Pakkumine2027 | 7b · Ühishange 2027: hind langeb |
+| K1b-AastaHiljem | 6 · Minu Kogum: hetke aktiivne pakkumine ja 2027 tulemus |
+| M2c-Pakkumine2027 | 6b · Ühishange 2027: hind langeb |
 | T1-Osalejad | 8 · Tuleva: osalejad |
 | T2-Hange | 9 · Tuleva: hankepäring |
 | T3-Pakkumised | 10 · Tuleva: pakkumised ja vastuvõtt |

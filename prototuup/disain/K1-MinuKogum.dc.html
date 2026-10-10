@@ -16,7 +16,7 @@ a{color:#006CE6}a:hover{color:#004FA8}
 a:focus-visible,button:focus-visible{outline:3px solid #002F63;outline-offset:2px}
 </style>
 </helmet>
-<div style="width: 390px; height: 844px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
+<div style="width: 390px; min-height: 844px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
   <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #E0E6EC;">
     <div style="display: flex; align-items: baseline; gap: 6px;">
       <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 20px; color: #002F63;">Tuleva</span>
@@ -47,24 +47,27 @@ a:focus-visible,button:focus-visible{outline:3px solid #002F63;outline-offset:2p
     </sc-if>
 
     <sc-if value="{{valmis}}" hint-placeholder-val="{{false}}">
+      <section aria-labelledby="aktiivne-pk" style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; flex-direction: column; gap: 2px;">
+          <h2 id="aktiivne-pk" style="margin: 0; font-size: 15px; font-weight: 700; color: #002F63;">Hetke aktiivne pakkumine</h2>
+          <span style="font-size: 20px; font-weight: 700; color: #002F63;">Piiramatu, 6,50 € kuus</span>
+          <span style="font-size: 14px; color: #6B7074;">Operaator A (näidis) · ilma sidumiseta · ühishange 2026</span>
+        </div>
+        <div style="border: 1px solid #D6DEE6; border-radius: 2px; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; font-size: 14px; line-height: 1.45;">
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Sääst tavahinnaga võrreldes (hinnang)</span><span style="font-weight: 700; color: #008300; white-space: nowrap;">kuni ≈ 405 € aastas</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Ühishankes osaleb</span><span style="font-weight: 500;">5 000 inimest</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Hind langeb, kui osalejaid on</span><span style="font-weight: 500;">10 000 inimest</span></div>
+        </div>
+        <span style="font-size: 14px; line-height: 1.45;">Pakkumise saad võtta igal ajal, kuni see kehtib. Kui grupp kasvab, langeb hind kõigil. Igal sügisel korraldame uue ühishanke ja anname märku.</span>
+      </section>
+    </sc-if>
+
+    <sc-if value="{{valmis}}" hint-placeholder-val="{{false}}">
       <div style="background: #EDF7FD; border: 2px solid #006CE6; border-radius: 2px; padding: 14px; display: flex; flex-direction: column; gap: 8px;">
         <span style="font-size: 16px; font-weight: 700; color: #002F63;">Ühishanke 2027 tulemus on käes</span>
         <span style="font-size: 14px; line-height: 1.45;">Võitja selgus ja grupp on kasvanud, seega hind langeb.</span>
         <a href="M2c-Pakkumine2027.dc.html" style="display: flex; align-items: center; justify-content: center; height: 44px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; text-decoration: none;">Vaata, mis muutub</a>
       </div>
-    </sc-if>
-
-    <sc-if value="{{valmis}}" hint-placeholder-val="{{false}}">
-    <div style="display: flex; flex-direction: column; gap: 8px;">
-      <h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #002F63;">Varasemad ühishanked</h2>
-      <sc-if value="{{valmis}}" hint-placeholder-val="{{false}}">
-        <div style="border: 1px solid #D6DEE6; border-radius: 2px; padding: 10px 14px; display: flex; flex-direction: column; gap: 6px; font-size: 14px;">
-          <div style="display: flex; justify-content: space-between; gap: 8px;"><span style="font-weight: 700;">2026</span><span style="color: #6B7074;">võtsid pakkumise</span></div>
-          <div style="display: flex; justify-content: space-between; gap: 8px;"><span style="color: #6B7074;">Operaator A · Piiramatu</span><span style="font-weight: 500;">6,50 € kuus</span></div>
-          <div style="display: flex; justify-content: space-between; gap: 8px;"><span style="color: #6B7074;">2027 pakkumine (näidis)</span><span style="font-weight: 700; color: #008300;">5,90 € kuus</span></div>
-        </div>
-      </sc-if>
-    </div>
     </sc-if>
 
     <sc-if value="{{ootel}}" hint-placeholder-val="{{true}}">

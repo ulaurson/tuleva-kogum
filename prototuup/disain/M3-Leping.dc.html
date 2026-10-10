@@ -16,7 +16,7 @@ input{font:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #002F63;outline-offset:2px}
 </style>
 </helmet>
-<div style="width: 390px; min-height: 844px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
+<div style="width: 390px; min-height: 1060px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
   <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #E0E6EC;">
     <div style="display: flex; align-items: baseline; gap: 6px;">
       <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 20px; color: #002F63;">Tuleva</span>
@@ -60,6 +60,26 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #002F
       </fieldset>
     </sc-for>
 
+    <section aria-labelledby="lisad-pk" style="display: flex; flex-direction: column; gap: 10px; border-top: 1px solid #E0E6EC; padding-top: 12px;">
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <h2 id="lisad-pk" style="margin: 0; font-size: 15px; font-weight: 700; color: #002F63;">Lisanumbrid</h2>
+        <span style="font-size: 13px; line-height: 1.4; color: #6B7074;">Näiteks lapse või pereliikme number. Sama hind iga numbri kohta, arve tuleb sulle.</span>
+      </div>
+      <sc-for list="{{lisad}}" as="l" hint-placeholder-count="1">
+        <div style="border: 1px solid #D6DEE6; border-radius: 2px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="{{l.telId}}" style="font-size: 13px; font-weight: 500;">Telefoninumber</label>
+              <input id="{{l.telId}}" value="{{l.tel}}" onInput="{{l.setTel}}" inputmode="tel" style="height: 44px; box-sizing: border-box; border: 1px solid #8A929B; border-radius: 2px; padding: 0 10px; color: #293036; min-width: 0;">
+            </div>
+          </div>
+          <button type="button" onClick="{{l.eemalda}}" aria-label="{{l.eemaldaSilt}}" style="align-self: flex-start; min-height: 44px; padding: 0; background: none; border: 0; font: inherit; font-size: 14px; font-weight: 500; color: #006CE6; cursor: pointer;">Eemalda</button>
+        </div>
+      </sc-for>
+      <button type="button" onClick="{{lisaNumber}}" style="min-height: 44px; background: #FFFFFF; color: #006CE6; border: 2px solid #006CE6; border-radius: 2px; font: inherit; font-size: 15px; font-weight: 500; cursor: pointer;">+ Lisa number</button>
+      <div role="status" style="display: flex; justify-content: space-between; gap: 12px; font-size: 14px;"><span style="color: #6B7074;">{{kokkuSilt}}</span><span style="font-weight: 700;">{{kokkuHind}}</span></div>
+    </section>
+
     <div style="padding-top: 6px; display: flex; flex-direction: column; gap: 8px;">
       <a href="{{lepinguLeht}}" style="display: flex; align-items: center; justify-content: center; height: 48px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 16px; text-decoration: none;">Koosta leping</a>
       <span style="font-size: 12px; line-height: 1.4; color: #6B7074; text-align: center;">Andmed lähevad ainult Operaator A-le lepingu sõlmimiseks. Demos on kõik andmed väljamõeldud.</span>
@@ -67,7 +87,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #002F
   </main>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844},"ettevote":{"editor":"boolean","default":false}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1060},"ettevote":{"editor":"boolean","default":false}}'>
 class Component extends DCLogic {
   constructor(props) {
     super(props);
@@ -76,7 +96,8 @@ class Component extends DCLogic {
       nimi: 'Mari Näidis', isikukood: '4XXXXXXXXXX',
       firma: 'Näidis OÜ', regkood: '1XXXXXXX',
       esindaja: 'Jaan Näidis', esIsikukood: '3XXXXXXXXXX', alus: 'juhatus',
-      tel: '+372 5XXX XXXX', epost: 'mari@naidis.ee'
+      tel: '+372 5XXX XXXX', epost: 'mari@naidis.ee',
+      lisad: [{ tel: '+372 5XXX XXXX' }]
     };
   }
   renderVals() {
@@ -107,6 +128,15 @@ class Component extends DCLogic {
     return {
       tyybid: [['era', 'Eraklient'], ['firma', 'Ettevõte']].map(([id, label]) => ({ label, on: s.tyyp === id ? 'true' : 'false', style: base + (s.tyyp === id ? on : off), pick: () => this.setState({ tyyp: id }) })),
       valjad, valikud,
+      lisad: s.lisad.map((l, i) => ({
+        tel: l.tel, telId: 'lisa-tel-' + i,
+        eemaldaSilt: 'Eemalda lisanumber ' + (i + 1),
+        setTel: (e) => { const lisad = s.lisad.slice(); lisad[i] = Object.assign({}, lisad[i], { tel: e.target.value }); this.setState({ lisad }); },
+        eemalda: () => this.setState({ lisad: s.lisad.filter((_, j) => j !== i) })
+      })),
+      lisaNumber: () => this.setState({ lisad: s.lisad.concat([{ tel: '' }]) }),
+      kokkuSilt: 'Kokku ' + (1 + s.lisad.length) + (s.lisad.length ? ' numbrit' : ' number'),
+      kokkuHind: ((1 + s.lisad.length) * 6.5).toFixed(2).replace('.', ',') + ' € kuus',
       lepinguLeht: firma ? 'M3d-LepingEttevote.dc.html' : 'M3c-Leping.dc.html'
     };
   }
