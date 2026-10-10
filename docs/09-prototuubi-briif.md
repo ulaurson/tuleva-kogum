@@ -18,16 +18,16 @@ Demo lugu käib nii: kõigepealt üks liige, siis kogu grupp. Ekraanid on järje
 
 ### Liikme pool
 
-1. **Sisestus.** Mari (väljamõeldud liige, 35–45) sisestab:
+1. **Sisestus.** Kadri (väljamõeldud liige, 35–45) sisestab:
    - praeguse paketi kuutasu;
    - kas leping on tähtajaline ja millal see lõpeb;
    - operaatori;
    - tegeliku internetikasutuse kuus (GB).
 
    Tähtajalise lepingu küsimuse juures on abi, kust seda vaadata. Vastus „ei tea” on lubatud (vt [arutelu](10-arutelu.md)).
-2. **Pakkumine.** Mari näeb, milline pakett talle sobib ja kui palju odavam see on: praegu, täna avalike hindadega ja hankega (**hinnang**). Sääst on näidatud aastas. Pakkumise juures on Tuleva tasu (1 € kuus, vt [otsused](06-otsused.md)) ja sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” Koduinterneti ja telepaketi soodustust demos ei näidata (vt [otsused](06-otsused.md)). Enne nuppu „Vaheta” on lühidalt kirjas, mis edasi juhtub: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme volitusel ja 14 päeva saab taganeda. Kui leping on tähtajaline, ei ütle voog „vaheta kohe”. Selle asemel näitab ta, millal saab vahetada, ja pakub meeldetuletust. Sõnu „ilma trahvita” ei kasutata, kuni lõpetamise tasud on kontrollimata.
-3. **Leping ja allkiri.** Leping on valmis täidetud väljamõeldud andmetega. Enne allkirja on näha operaatori lepingueelne teave ja lühikokkuvõte (näidis), sest seadus nõuab neid enne lepingu sõlmimist (vt [õigus](04-oigus.md#mida-seadus-ütleb)). Mari vajutab „Allkirjasta digitaalselt”, näeb PIN-koodi ootamise ekraani ja siis teadet „Saadetud operaatorile”.
-4. **Minu statistika.** Mari näeb oma hinda teiste osalejatega võrreldes, oma säästu aastas ja seda, kui palju on ta varem üle maksnud.
+2. **Pakkumine.** Kadri näeb, milline pakett talle sobib ja kui palju odavam see on: praegu, täna avalike hindadega ja hankega (**hinnang**). Sääst on näidatud aastas. Pakkumise juures on Tuleva tasu (1 € kuus, vt [otsused](06-otsused.md)) ja sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” Koduinterneti ja telepaketi soodustust demos ei näidata (vt [otsused](06-otsused.md)). Enne nuppu „Vaheta” on lühidalt kirjas, mis edasi juhtub: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme volitusel ja 14 päeva saab taganeda. Kui leping on tähtajaline, ei ütle voog „vaheta kohe”. Selle asemel näitab ta, millal saab vahetada, ja pakub meeldetuletust. Sõnu „ilma trahvita” ei kasutata, kuni lõpetamise tasud on kontrollimata.
+3. **Leping ja allkiri.** Leping on valmis täidetud väljamõeldud andmetega. Enne allkirja on näha operaatori lepingueelne teave ja lühikokkuvõte (näidis), sest seadus nõuab neid enne lepingu sõlmimist (vt [õigus](04-oigus.md#mida-seadus-ütleb)). Kadri vajutab „Allkirjasta digitaalselt”, näeb PIN-koodi ootamise ekraani ja siis teadet „Saadetud operaatorile”.
+4. **Minu statistika.** Kadri näeb oma hinda teiste osalejatega võrreldes, oma säästu aastas ja seda, kui palju on ta varem üle maksnud.
 
 ### Tuleva vaade
 

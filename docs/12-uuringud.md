@@ -54,7 +54,7 @@ C hinnangul jõuab huvi avaldanutest aktiveerimiseni 40–50% (**hinnang**).
 
 *Testitav persoonahüpotees, mitte uuringuga kinnitatud profiil.*
 
-- **Mari on pere püsikulude korraldaja, mitte hinnajahtija.** Ta teab, et odavam pakkumine võib olemas olla. Probleem on selles, et säästu leidmine ja selles veendumine nõuab liiga palju tähelepanu.
+- **Kadri on pere püsikulude korraldaja, mitte hinnajahtija.** Ta teab, et odavam pakkumine võib olemas olla. Probleem on selles, et säästu leidmine ja selles veendumine nõuab liiga palju tähelepanu.
 - **Ta ostab kolme asja:** tõendatav võit eurodes aastas koos kõigi tasude ja kampaania lõpuga, vähese vaevaga vahetus ja kindlus, et number, levi ja vastutus on selged. Sama on [töölehel](08-tooleht-2026-10-09.md).
 - **Käivitajad:** hinnatõusu teade, soodusperioodi lõpp, kolimine, pere eelarve ülevaatus.
 - **Suurim takistus:** usaldamatus korraldaja vastu. „Kust teie raha teenite?”

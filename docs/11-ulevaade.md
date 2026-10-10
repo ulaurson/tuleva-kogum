@@ -39,7 +39,7 @@
   - fookusstiil kõikjal, `aria-current` menüüs, pealkirjade järjekord, `header` ja `main`;
   - pakkumise lisamisel veateade ja „Pakkumine lisatud” teade;
   - osalejate tabel on klaviatuuriga keritav.
-- **Osalejate tabel:** Mari rida on tähistatud „(Mari)” ja vasaku sinise joonega.
+- **Osalejate tabel:** Kadri rida on tähistatud „(Kadri)” ja vasaku sinise joonega.
 
 ## Teha HTML-versioonis
 
@@ -59,7 +59,7 @@
 - T3/T4: lehter klapib (575 allkirjastas, 15 taganes, 560 jõustus; varem 600).
 - M6: „ühe klikiga” → leping on eeltäidetud, allkirjastad ise (liige otsustab ise, otsus 06).
 - M4: „loobuda” → „taganeda”, nupp „Minu sääst” → „Minu pakett”. T3: „õnnestus” → „õnnestub”.
-- M3/M3c: e-post sama mis registreerumisel (mari@naidis.ee), lihtsam sissejuhatus, `autocomplete`, abitekst väljaga seotud.
+- M3/M3c: e-post sama mis registreerumisel (kadri@naidis.ee), lihtsam sissejuhatus, `autocomplete`, abitekst väljaga seotud.
 - Ligipääsetavus: M3c olekumuutus teatatakse ekraanilugejale, lepingu pealkirjad h2/h3, T2 tulemus `role="status"`, T3 vormi Enter ei lae lehte uuesti.
 
 ### Lahtine (raskemad ees)

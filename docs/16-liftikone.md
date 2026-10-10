@@ -17,11 +17,11 @@ Tõstke käsi, kes teab, mida ta oma telefonipaketi eest kuus maksab. *(paus)* T
 Sama piiramatu mobiilipakett maksab tavahinnaga 35–44 eurot kuus. Soodsama hinna saab see, kes oskab küsida ja seob end kaheks aastaks. Kampaania lõpeb, tavahind jääb. Võrdlusportaal ei aita, sest teenib operaatori vahendustasust. Üksi pole sul läbirääkimisjõudu. Tuhandel inimesel on.
 
 **0:45–2:10 · Demo**
-See on Tuleva Kogum. Mari annab nõusoleku ja e-posti. Rohkem mitte midagi: ei paketti, ei hinda, ei isikukoodi. Osaleda saavad kõik, ka ettevõtted.
-*[„Jah, soovin osaleda” → 2]* Mari on kirjas ja näeb kontol, mis edasi saab. Novembris küsib Tuleva kõigilt operaatoritelt ühe hinna piiramatule paketile.
-*[„Demo: pakkumised on käes” → 3]* Pakkumine on käes. Kolme operaatori tavahind ja meie ühishind kõrvuti. Ütlen ausalt: 6,50 eurot on meie sihthind, mitte veel operaatori pakkumine. Tavahinna vastu säästab Mari hinnanguliselt kuni 405 eurot aastas. Hind ei tõuse 24 kuud ja sidumist pole. All on kirjas ka see, mida Tuleva teenib: 1 euro kuus, kõigilt pakkujatelt sama.
-*[„Võtan pakkumise” → 4]* Mari lisab ainult nime, isikukoodi ja numbri.
-*[„Koosta leping” → 4c]* Leping on valmis. See on Mari ja operaatori vahel, Tuleva ei ole pool. Mari loeb, *[linnuke → „Allkirjasta digitaalselt”]* allkirjastab *[„Saada Operaator A-le” → 5]* ja saadab. Number jääb samaks, vana lepingu lõpetab uus operaator, 14 päeva saab taganeda. Mari ei pidanud kellelegi helistama ega lahkumisega ähvardama.
+See on Tuleva Kogum. Kadri annab nõusoleku ja e-posti. Rohkem mitte midagi: ei paketti, ei hinda, ei isikukoodi. Osaleda saavad kõik, ka ettevõtted.
+*[„Jah, soovin osaleda” → 2]* Kadri on kirjas ja näeb kontol, mis edasi saab. Novembris küsib Tuleva kõigilt operaatoritelt ühe hinna piiramatule paketile.
+*[„Demo: pakkumised on käes” → 3]* Pakkumine on käes. Kolme operaatori tavahind ja meie ühishind kõrvuti. Ütlen ausalt: 6,50 eurot on meie sihthind, mitte veel operaatori pakkumine. Tavahinna vastu säästab Kadri hinnanguliselt kuni 405 eurot aastas. Hind ei tõuse 24 kuud ja sidumist pole. All on kirjas ka see, mida Tuleva teenib: 1 euro kuus, kõigilt pakkujatelt sama.
+*[„Võtan pakkumise” → 4]* Kadri lisab ainult nime, isikukoodi ja numbri.
+*[„Koosta leping” → 4c]* Leping on valmis. See on Kadri ja operaatori vahel, Tuleva ei ole pool. Kadri loeb, *[linnuke → „Allkirjasta digitaalselt”]* allkirjastab *[„Saada Operaator A-le” → 5]* ja saadab. Number jääb samaks, vana lepingu lõpetab uus operaator, 14 päeva saab taganeda. Kadri ei pidanud kellelegi helistama ega lahkumisega ähvardama.
 *[„Vaata kogu gruppi” → 8]* Nüüd Tuleva vaade. Tuhat registreerunut, neist 620 pole veel Tuleva kogujad. Operaatorile läheb ainult osalejate arv, mitte isikuandmed.
 *[„Aasta” → 11]* Aasta pärast on 560 lepingut ja osalejate sääst on hinnanguliselt 227 000 eurot aastas. Kui grupp kasvab 5 000-ni, langeb hind kõigil, ka varem liitunutel.
 

@@ -7,9 +7,9 @@
 ## 1. Pooled
 
 **Klient**
-- Nimi: {{nimi}} — näidis: Mari Näidis
+- Nimi: {{nimi}} — näidis: Kadri Näidis
 - Isikukood: {{isikukood}} — näidis: 4XXXXXXXXXX
-- E-post (registreerumisest): {{epost}} — näidis: mari@naidis.ee
+- E-post (registreerumisest): {{epost}} — näidis: kadri@naidis.ee
 
 **Operaator:** Operaator A (näidis), registrikood XXXXXXXX
 
