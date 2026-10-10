@@ -21,6 +21,10 @@ Eesti kolme suure operaatori eraisiku mobiilipaketid. Hinnad on €/kuu koos kä
 - Minutid, SMS-id ja EL-i rändluse maht puuduvad.
 - Väiksemaid pakkujaid ja alambrände tabelis pole.
 
+## Lepingu blanketid ja näidised
+
+[lepingublanketid/](lepingublanketid/) sisaldab 10.10.2026 kontrollitud avalikke operaatorite raamlepingu näidiseid, volikirju ja üldtingimusi. Vormid ja tingimused on eraldi. Koondis on ka laste ning esindusõiguse vormide puudujäägid, ametlikud allikad ja PDF-koopiate kontrollsummad.
+
 ## Isikuandmed
 
 Küsitluse vastuseid siia ei panda. Hoia neid kaustas `andmed-privaatne/`, mida git ei jälgi.
