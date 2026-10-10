@@ -26,7 +26,6 @@
 - [ ] Kas meie konkurentsiõiguse hinnang peab paika? Hinnang: eraisikud pole ettevõtjad ja osalevate ettevõtete turuosa on alla 15%.
 - [ ] Kas ühistu põhikiri lubab sellist teenust ja tulu? (uuring A)
 - [ ] Kes vastutab, kui Tuleva säästuarvutus on vale, näiteks jätab välja kaduva soodustuse? (uuring C)
-- [ ] Kas Tuleva Fondid AS võiks kunagi isikustatud soovitust pakkuda? (sidehange seda ei vaja)
 
 ## Andmekaitse mentor
 
