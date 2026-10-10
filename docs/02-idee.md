@@ -21,7 +21,7 @@ Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke.
 | 5 | Otsus ja leping | Liige | Otsustab ise. Kui vahetab, on leping süsteemis tema andmetega valmis täidetud. Liige vaatab selle üle, allkirjastab digitaalselt ja lubab süsteemil selle operaatorile saata. Iga sammu teeb liige ise, Tuleva ainult valmistab ette ja edastab. Numbri üleviimine on tasuta ja uus operaator lõpetab vana lepingu kliendi volitusel |
 | 6 | Järgmisel aastal uuesti | Tuleva | Uus hange. Liige ei pea ise midagi jälgima, sest hange on päästik |
 
-**Soovitud hanketingimused (eelnõu, kinnitamata):** kampaaniahind ilma 24-kuulise sidumiseta, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel).
+**Soovitud hanketingimused (eelnõu, kinnitamata):** hind vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel).
 
 **Hinnakindlus** (otsustatud 10.10, vt [arutelu](10-arutelu.md) punkt 2):
 
