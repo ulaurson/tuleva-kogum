@@ -74,3 +74,32 @@
 8. Telepakett: ekraanil nüüd 50 % tavahinnast (otsus 10.10).
 9. **Ligipääsetavus HTML-is:** valikunupud päris `input type="radio"` peale, tegevused (`Koosta leping`, `Saada Operaator A-le`) `button`-iks, tagasilingid 44 px.
 10. Operaatori signaali ja koguja väärtuse küsimus on endiselt lahti (vt eespool).
+
+## Kolmas ülevaade (10.10): idee-valideerimine ja McNeill
+
+*Skillid idee-valideerimine ja mcneill-algorithm. Kõne ja küsimused on failis [16](16-liftikone.md), uuendatud ideekirjeldus failis [17](17-ideekirjeldus.md). Hinnangud on mudeli omad.*
+
+### Riskantseimad kontrollimata eeldused ja odavaim katse enne pühapäeva
+
+1. **Keegi müüb piiramatut 6,50 €-ga.** Operaatorile jääks pärast käibemaksu ja Tuleva tasu ≈ 4,74 € (hinnang). Turu soodushinnad on 12,99 € (Tele2 Piiramatu Klubi lisaliin) ja 15,50 € (kampaania 24 kuuga). *Katse:* küsi mentorilt või ühe operaatori müügijuhilt madalaimat hinda 1 000 liinile. Kui alla 10 € keegi ei ütle, näita laval „kuni 13,50 €” ja nimeta 6,50 € sihiks.
+2. **Sääst ≈ 405 € eeldab, et kõik maksavad tavahinda.** Marju mudel eeldab praeguseks hinnaks 22 € (sääst ≈ 186 €, hinnang), kampaania vastu 108 €. Leibkonnaliikme kogu sidekulu on Statistikaameti järgi ≈ 276–279 € aastas (vajab kontrolli). Õigem sõnastus: „kuni ≈ 405 €, kui maksad tavahinda”. *Katse:* küsi 15 häkatoni osalejalt praegust arvesummat.
+3. **Inimesed registreeruvad.** Tõendit pole. *Katse:* päris registreerumisvorm häkatonil ja Tuleva kogukonnas, lävi 30 registreerunut.
+4. **50 % soodustus „seni, kuni oled klient”.** Turul kehtivad soodustused 12–24 kuud (enefit.ee, 10.10). *Katse:* küsi operaatorilt või mentorilt.
+5. **Operaator lubab vahendaja rolli** (Tele2 tingimused, fail 14). *Katse:* üks küsimus õigusmentorile.
+
+### Faktikontroll
+
+- Elisa lehel on teises loetelus piiramatu Maksimaalne 5G 41,99 €. Võrdluses on Võimas 5G+ 43,99 € (sisaldab Soomet). Odavamaga oleks sääst ≈ 396 € (hinnang).
+- Telia lehe järgi on mitme kasutajaga hind kasutaja kohta odavam (hindu ei näita).
+- OCU 2015: 50 261 osalejat, keskmine sääst 84 € (ocu.org, 17.11.2015).
+- Fail 13 ja otsused on vastuolus (5–6 € Telia ja ainult liikmed vs 6,50 € ja kõik). Fail 13 ja 15 annavad kulu katmiseks eri aasta.
+
+### McNeill: liikme teekond
+
+Liikme töö ≈ 25–40 min, registreerumisest töötava numbrini 4–8 nädalat (hinnang). Suurim varjatud samm on **Mobiil-ID uuesti aktiveerimine** pärast SIM-i vahetust (ID-kaart, PIN-id, kadunud PIN-idega esindus). Prototüüp seda ei maini.
+
+- **Küsi nõuet:** nimi ja isikukood tulevad digiallkirjast, ettevõtte esindaja äriregistrist. Seadus nõuab operaatori lepingu kokkuvõtet, mitte kõigi tingimuste lugemist.
+- **Kustuta (kaaluda):** „Allkirjasta” ja „Saada” üheks nupuks; ettevõtte haru kõnes ühe lausega.
+- **Lihtsusta:** pakkumise ekraanile enne nuppu üks rida (number jääb samaks, järgmine tööpäev, tasuta, Mobiil-ID tuleb uuesti aktiveerida, 14 päeva). See taastab arutelu p 1 nõude.
+- **Kiirenda:** pakkumine pärast Tele2 kampaania lõppu 15.11 või lati kuupäevaga. eSIM kiirendaks, aga Mobiil-ID tugi eSIM-il on kontrollimata.
+- **Automatiseeri viimasena:** esimene hange käsitsi. Esimesena automatiseerida lepingute edastus operaatorile (≈ 75 h 900 lepingu kohta, hinnang).
