@@ -1,0 +1,204 @@
+{
+"v": 3,
+"createdOnFiles": {
+"v": 1,
+"at": "2026-10-10T11:40:00Z"
+},
+"title": "Tuleva Kogum – sidehange",
+"launch": {
+"view": "canvas"
+},
+"pages": [],
+"boards": {
+"Main.dc.html": {
+"x": 0,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "1 · Registreerumine (nõusolek + e-post)",
+"is_interactive": true
+},
+"K1-MinuKogum.dc.html": {
+"x": 470,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "2 · Minu Kogum: ootan pakkumist",
+"is_interactive": true
+},
+"M2-Pakkumine.dc.html": {
+"x": 940,
+"y": 0,
+"w": 390,
+"h": 1000,
+"title": "3 · Pakkumine: piiramatu (+ lisad)",
+"is_interactive": true
+},
+"M3-Leping.dc.html": {
+"x": 1410,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "4 · Lepingu andmed (eraklient)",
+"is_interactive": true
+},
+"M4-Allkiri.dc.html": {
+"x": 2350,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "5 · Leping on saadetud",
+"is_interactive": true
+},
+"M5-Statistika.dc.html": {
+"x": 2820,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "6 · Minu pakett",
+"is_interactive": true
+},
+"K1b-AastaHiljem.dc.html": {
+"x": 3290,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "7 · Minu Kogum aasta hiljem",
+"is_interactive": true
+},
+"M2b-Tahtajaline.dc.html": {
+"x": 3760,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "3b · Mul on tähtajaline leping",
+"is_interactive": true
+},
+"M6-Hiljem.dc.html": {
+"x": 4230,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "3c · Mitte praegu / meeldetuletus",
+"is_interactive": true
+},
+"T1-Osalejad.dc.html": {
+"x": 0,
+"y": 1600,
+"w": 1280,
+"h": 900,
+"title": "8 · Tuleva: osalejad",
+"expand": "fill",
+"is_interactive": true
+},
+"T2-Hange.dc.html": {
+"x": 1360,
+"y": 1600,
+"w": 1280,
+"h": 900,
+"title": "9 · Tuleva: hankepäring",
+"expand": "fill",
+"is_interactive": true
+},
+"T3-Pakkumised.dc.html": {
+"x": 2720,
+"y": 1600,
+"w": 1280,
+"h": 900,
+"title": "10 · Tuleva: pakkumised ja vastuvõtt",
+"expand": "fill",
+"is_interactive": true
+},
+"T4-Aasta.dc.html": {
+"x": 4080,
+"y": 1600,
+"w": 1280,
+"h": 1150,
+"title": "11 · Tuleva: aasta statistika",
+"expand": "fill",
+"is_interactive": true
+},
+"M3b-LepingEttevote.dc.html": {
+"x": 5170,
+"y": 0,
+"w": 390,
+"h": 960,
+"title": "4b · Lepingu andmed (ettevõte)",
+"is_interactive": true
+},
+"M3c-Leping.dc.html": {
+"x": 1880,
+"y": 0,
+"w": 390,
+"h": 960,
+"title": "4c · Leping: loe, allkirjasta, saada",
+"is_interactive": true
+},
+"M3d-LepingEttevote.dc.html": {
+"x": 5640,
+"y": 0,
+"w": 390,
+"h": 960,
+"title": "4d · Leping: ettevõte",
+"is_interactive": true
+},
+"M2c-Pakkumine2027.dc.html": {
+"x": 6110,
+"y": 0,
+"w": 390,
+"h": 844,
+"title": "7b · Ühishange 2027: hind langeb",
+"is_interactive": true
+}
+},
+"order": [
+"Main.dc.html",
+"K1-MinuKogum.dc.html",
+"M2-Pakkumine.dc.html",
+"M3-Leping.dc.html",
+"M3b-LepingEttevote.dc.html",
+"M3c-Leping.dc.html",
+"M4-Allkiri.dc.html",
+"M5-Statistika.dc.html",
+"K1b-AastaHiljem.dc.html",
+"M2b-Tahtajaline.dc.html",
+"M6-Hiljem.dc.html",
+"T1-Osalejad.dc.html",
+"T2-Hange.dc.html",
+"T3-Pakkumised.dc.html",
+"T4-Aasta.dc.html",
+"M3d-LepingEttevote.dc.html",
+"M2c-Pakkumine2027.dc.html"
+],
+"notes": {
+"t1": {
+"x": 0,
+"y": -320,
+"text": "Osaleja vaade: registreerumine → konto → pakkumine → leping → allkiri",
+"kind": "title1",
+"maxW": 6500
+},
+"t2": {
+"x": 0,
+"y": 1300,
+"text": "Tuleva vaade: osalejad → hankepäring → pakkumised → aasta",
+"kind": "title1",
+"maxW": 5360
+},
+"n1": {
+"x": 4700,
+"y": 0,
+"w": 360,
+"text": "Üks pakett: piiramatu. Isiklikku hinda ei küsita, sääst on hinnang operaatorite avalike hindade järgi (Tele2 34,99 €, Telia 41,65 €, Elisa 43,99 €). Hanke hind 6,50 € on näidis (siht, 9 € alla Tele2 kampaania 15,50 €). Operaator A, B, C ja osalejate arvud on näidis. Tuleva tasu 0,50 € kuus on näidis, summa arvutab Marju.",
+"fill": "orange"
+},
+"n2": {
+"x": 4700,
+"y": 560,
+"w": 360,
+"text": "3-minutilise kõne tee: 1 → 2 → 3 → 4 → 4c → 5 → 8 → 11. Ekraanid 3b, 3c, 4b, 4d, 6, 7, 9 ja 10 jäävad küsimuste ajaks.",
+"fill": "blue"
+}
+},
+"designSystems": []
+}

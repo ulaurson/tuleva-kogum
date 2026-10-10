@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<title>Tuleva: aasta statistika</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#006CE6}a:hover{color:#004FA8}
+input,select{font:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #002F63;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 900px; box-sizing: border-box; background: #F5F7F9; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036;">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E0E6EC;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 14px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: baseline; gap: 8px;">
+        <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 22px; color: #002F63;">Tuleva</span>
+        <span style="font-size: 16px; font-weight: 500; color: #006CE6;">Kogum · haldus</span>
+      </div>
+      <nav style="display: flex; gap: 4px; flex-wrap: wrap;" aria-label="Haldusvaated">
+        <a href="T1-Osalejad.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Osalejad</a>
+        <a href="T2-Hange.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Hange</a>
+        <a href="T3-Pakkumised.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Pakkumised</a>
+        <a href="T4-Aasta.dc.html" aria-current="page" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #002F63; border-bottom: 3px solid #006CE6;">Aasta</a>
+        </nav>
+      <span style="font-size: 12px; font-weight: 500; color: #6B7074; background: #F5F7F9; border: 1px solid #D6DEE6; border-radius: 2px; padding: 3px 8px;">Prototüüp · näidisandmed</span>
+    </div>
+  </header>
+  <main style="max-width: 1200px; margin: 0 auto; padding: 28px 32px 40px; display: flex; flex-direction: column; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <span style="font-size: 13px; font-weight: 500; color: #006CE6; letter-spacing: 0.02em;">AASTA 2026</span>
+      <h1 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 30px; color: #002F63;">Mida ühishange osalejatele andis</h1>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px;">
+      <sc-for list="{{kpi}}" as="k" hint-placeholder-count="4">
+        <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 18px; display: flex; flex-direction: column; gap: 6px;">
+          <span style="font-size: 14px; color: #6B7074;">{{k.label}}</span>
+          <span style="{{k.style}}">{{k.v}}</span>
+          <span style="font-size: 13px; color: #6B7074;">{{k.note}}</span>
+        </div>
+      </sc-for>
+    </div>
+    <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap;">
+        <h2 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 20px; color: #002F63;">Allkirjastatud lepingud kuude kaupa</h2>
+        <span style="font-size: 13px; color: #6B7074;">kokku 575 · näidis · allikas: Tuleva süsteem</span>
+      </div>
+      <div role="img" aria-label="{{kuudKirjeldus}}" style="overflow-x: auto;">
+        <div aria-hidden="true" style="display: grid; grid-template-columns: repeat(12, minmax(44px, 1fr)); gap: 8px; align-items: end; min-width: 600px;">
+          <sc-for list="{{kuud}}" as="m" hint-placeholder-count="12">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+              <span style="font-size: 13px; font-weight: 700;">{{m.v}}</span>
+              <div style="{{m.bar}}"></div>
+              <span style="font-size: 12px; color: #6B7074;">{{m.t}}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      <span style="font-size: 13px; color: #6B7074;">Enamik allkirjastab esimesel kahel kuul pärast pakkumist. Hiljem tulevad need, kelle tähtajaline leping lõpeb (meeldetuletus).</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch;">
+      <div style="flex: 999 1 560px; min-width: 0; background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; display: flex; flex-direction: column; gap: 14px;">
+        <h2 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 20px; color: #002F63;">Piiramatu pakett kuus: tavahind ja ühishange</h2>
+        <sc-for list="{{ribad}}" as="r" hint-placeholder-count="4">
+          <div style="display: grid; grid-template-columns: 220px minmax(0, 1fr) 72px; gap: 10px; align-items: center; font-size: 14px;">
+            <span>{{r.label}}</span>
+            <div aria-hidden="true" style="height: 16px; background: #F5F7F9; border-radius: 2px;"><div style="{{r.bar}}"></div></div>
+            <span style="text-align: right; font-weight: 700;">{{r.v}}</span>
+          </div>
+        </sc-for>
+        <span style="font-size: 13px; color: #6B7074;">Sääst on arvutatud Tele2, Telia ja Elisa tavahinna keskmise järgi. Kampaaniahinnaga klient säästab vähem.</span>
+      </div>
+      <div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: #002F63; color: #FFFFFF; border-radius: 2px; padding: 22px; display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 14px; color: #D3E8F5;">Järgmine mahuaste: 5 000 osalejat</span>
+          <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 30px;">hind langeb kõigil</span>
+          <span style="font-size: 14px; line-height: 1.5; color: #D3E8F5;">Hankes on kokku lepitud, et grupi kasvades langeb hind ka varem liitunutel. Sõnum osalejale: „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.”</span>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 18px; display: flex; flex-direction: column; gap: 10px; font-size: 14px;">
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Tuleva tulu: 560 lepingut × 0,50 € × 12 (näidistasu)</span><span style="font-weight: 700; white-space: nowrap;">3 360 € / a</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Uued inimesed Tulevale</span><span style="font-weight: 700;">620 (näidis)</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Tasu osalejale</span><span style="font-weight: 700;">0 €</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px;"><span style="color: #6B7074;">Järgmine hange</span><span style="font-weight: 700;">sügis 2027</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1150}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const big = 'font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 30px; ';
+    const bar = (v, c) => 'height: 16px; border-radius: 2px; background: ' + c + '; width: ' + Math.round(v / 43.99 * 100) + '%;';
+    return {
+      kpi: [
+        { label: 'Osales', v: '1 000', note: 'registreerunut · näidis', style: big + 'color: #002F63;' },
+        { label: 'Leping jõustus', v: '560', note: '575 allkirjastas, 15 taganes', style: big + 'color: #002F63;' },
+        { label: 'Osalejate sääst kuni', v: '≈ 227 000 €', note: 'aastas · hinnang 560 × 405 €', style: big + 'color: #008300;' },
+        { label: 'Sääst tavahinna vastu, kuni', v: '≈ 405 €', note: 'aastas vahetaja kohta · hinnang', style: big + 'color: #008300;' }
+      ],
+      kuud: [['dets', 180], ['jaan', 110], ['veebr', 70], ['märts', 50], ['apr', 35], ['mai', 30], ['juuni', 20], ['juuli', 15], ['aug', 15], ['sept', 20], ['okt', 15], ['nov', 15]].map(([t, v]) => ({ t, v, bar: 'width: 100%; border-radius: 2px; background: #006CE6; height: ' + Math.round(v / 180 * 120) + 'px;' })),
+      kuudKirjeldus: 'Allkirjastatud lepingud kuus, detsember 2026 kuni november 2027: 180, 110, 70, 50, 35, 30, 20, 15, 15, 20, 15, 15. Kokku 575 (näidis).',
+      ribad: [
+        { label: 'Elisa Võimas 5G+', v: '43,99 €', bar: bar(43.99, '#6B7074') },
+        { label: 'Telia Piiramatu', v: '41,65 €', bar: bar(41.65, '#6B7074') },
+        { label: 'Tele2 Piiramatu', v: '34,99 €', bar: bar(34.99, '#6B7074') },
+        { label: 'Ühishange (Operaator A)', v: '6,50 €', bar: bar(6.5, '#008300') }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

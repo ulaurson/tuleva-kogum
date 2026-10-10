@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<title>Lepingu andmed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#006CE6}a:hover{color:#004FA8}
+input{font:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #002F63;outline-offset:2px}
+</style>
+</helmet>
+<div style="width: 390px; min-height: 844px; box-sizing: border-box; background: #FFFFFF; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036; display: flex; flex-direction: column;">
+  <header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; border-bottom: 1px solid #E0E6EC;">
+    <div style="display: flex; align-items: baseline; gap: 6px;">
+      <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 20px; color: #002F63;">Tuleva</span>
+      <span style="font-size: 15px; font-weight: 500; color: #006CE6;">Kogum</span>
+    </div>
+    <span style="font-size: 11px; font-weight: 500; color: #6B7074; background: #F5F7F9; border: 1px solid #D6DEE6; border-radius: 2px; padding: 3px 6px;">Prototüüp · näidisandmed</span>
+  </header>
+
+  <!-- 1. samm: andmed -->
+  <main style="flex-grow: 1; padding: 12px 20px 18px; display: flex; flex-direction: column; gap: 14px;">
+    <a href="M2-Pakkumine.dc.html" style="font-size: 14px; font-weight: 500; text-decoration: none; min-height: 32px; display: flex; align-items: center;">← Tagasi pakkumise juurde</a>
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <span style="font-size: 13px; font-weight: 500; color: #006CE6; letter-spacing: 0.02em;">SAMM 1/3 · ANDMED</span>
+      <h1 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 24px; line-height: 1.3; color: #002F63;">Kelle nimele leping tuleb?</h1>
+      <p style="margin: 0; font-size: 14px; line-height: 1.5;">Küsime ainult seda, mis on lepinguks vaja. E-posti võtame registreerumisest.</p>
+    </div>
+
+    <div role="radiogroup" aria-label="Kliendi tüüp" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+      <sc-for list="{{tyybid}}" as="t" hint-placeholder-count="2">
+        <button type="button" role="radio" aria-checked="{{t.on}}" onClick="{{t.pick}}" style="{{t.style}}">{{t.label}}</button>
+      </sc-for>
+    </div>
+
+    <sc-for list="{{valjad}}" as="f" hint-placeholder-count="5">
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <label for="{{f.id}}" style="font-size: 14px; font-weight: 500;">{{f.label}}</label>
+        <input id="{{f.id}}" value="{{f.value}}" onInput="{{f.set}}" inputmode="{{f.mode}}" autocomplete="{{f.ac}}" aria-describedby="{{f.abiId}}" style="height: 44px; box-sizing: border-box; border: 1px solid #8A929B; border-radius: 2px; padding: 0 12px; color: #293036;">
+        <sc-if value="{{f.abi}}" hint-placeholder-val="{{false}}"><span id="{{f.abiId}}" style="font-size: 12px; line-height: 1.4; color: #6B7074;">{{f.abi}}</span></sc-if>
+      </div>
+    </sc-for>
+
+    <sc-for list="{{valikud}}" as="v" hint-placeholder-count="2">
+      <fieldset style="margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 8px;">
+        <legend style="font-size: 14px; font-weight: 500; padding: 0; margin-bottom: 8px;">{{v.label}}</legend>
+        <div role="radiogroup" aria-label="{{v.label}}" style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <sc-for list="{{v.opts}}" as="o" hint-placeholder-count="3">
+            <button type="button" role="radio" aria-checked="{{o.on}}" onClick="{{o.pick}}" style="{{o.style}}">{{o.label}}</button>
+          </sc-for>
+        </div>
+        <sc-if value="{{v.abi}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; line-height: 1.4; color: #6B7074;">{{v.abi}}</span></sc-if>
+      </fieldset>
+    </sc-for>
+
+    <div style="padding-top: 6px; display: flex; flex-direction: column; gap: 8px;">
+      <a href="{{lepinguLeht}}" style="display: flex; align-items: center; justify-content: center; height: 48px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 16px; text-decoration: none;">Koosta leping</a>
+      <span style="font-size: 12px; line-height: 1.4; color: #6B7074; text-align: center;">Andmed lähevad ainult Operaator A-le lepingu sõlmimiseks. Demos on kõik andmed väljamõeldud.</span>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844},"ettevote":{"editor":"boolean","default":false}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tyyp: (props && props.ettevote) ? 'firma' : 'era',
+      nimi: 'Mari Näidis', isikukood: '4XXXXXXXXXX',
+      firma: 'Näidis OÜ', regkood: '1XXXXXXX',
+      esindaja: 'Jaan Näidis', esIsikukood: '3XXXXXXXXXX', alus: 'juhatus',
+      tel: '+372 5XXX XXXX', epost: 'mari@naidis.ee'
+    };
+  }
+  renderVals() {
+    const s = this.state;
+    const firma = s.tyyp === 'firma';
+    const base = 'min-height: 44px; padding: 0 14px; border-radius: 2px; font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit;';
+    const on = ' background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6;';
+    const off = ' background: #FFFFFF; color: #006CE6; border: 2px solid #006CE6;';
+    const set = (k) => (e) => this.setState({ [k]: e.target.value });
+    const AC = { nimi: 'name', firma: 'organization', esindaja: 'name', tel: 'tel' };
+    const fld = (id, label, mode, abi) => ({ id, label, value: s[id], set: set(id), mode: mode || 'text', abi: abi || '', abiId: abi ? id + '-abi' : '', ac: AC[id] || 'off' });
+    const opt = (key, list) => list.map(([id, label]) => ({ label, on: s[key] === id ? 'true' : 'false', style: base + (s[key] === id ? on : off), pick: () => this.setState({ [key]: id }) }));
+
+    const valjad = firma ? [
+      fld('firma', 'Ettevõtte nimi'),
+      fld('regkood', 'Registrikood', 'numeric'),
+      fld('esindaja', 'Esindaja nimi'),
+      fld('esIsikukood', 'Esindaja isikukood', 'numeric', 'Allkirjastaja. Kontrollime äriregistrist, kas tal on esindusõigus.'),
+      fld('tel', 'Telefoninumber, mille üle viid', 'tel')
+    ] : [
+      fld('nimi', 'Kliendi nimi'),
+      fld('isikukood', 'Isikukood', 'numeric'),
+      fld('tel', 'Telefoninumber, mille üle viid', 'tel')
+    ];
+    const valikud = [];
+    if (firma) valikud.push({ label: 'Esindusõiguse alus', abi: s.alus === 'volikiri' ? 'Volikirja lisad lepinguga koos.' : '', opts: opt('alus', [['juhatus', 'Juhatuse liige'], ['volikiri', 'Volikiri']]) });
+
+    return {
+      tyybid: [['era', 'Eraklient'], ['firma', 'Ettevõte']].map(([id, label]) => ({ label, on: s.tyyp === id ? 'true' : 'false', style: base + (s.tyyp === id ? on : off), pick: () => this.setState({ tyyp: id }) })),
+      valjad, valikud,
+      lepinguLeht: firma ? 'M3d-LepingEttevote.dc.html' : 'M3c-Leping.dc.html'
+    };
+  }
+}
+</script>
+</body>
+</html>

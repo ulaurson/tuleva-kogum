@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<title>Tuleva: pakkumised ja vastuvõtt</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#006CE6}a:hover{color:#004FA8}
+input,select{font:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #002F63;outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height: 900px; box-sizing: border-box; background: #F5F7F9; font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; color: #293036;">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E0E6EC;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 14px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: baseline; gap: 8px;">
+        <span style="font-family: Merriweather, Georgia, serif; font-weight: 900; font-size: 22px; color: #002F63;">Tuleva</span>
+        <span style="font-size: 16px; font-weight: 500; color: #006CE6;">Kogum · haldus</span>
+      </div>
+      <nav style="display: flex; gap: 4px; flex-wrap: wrap;" aria-label="Haldusvaated">
+        <a href="T1-Osalejad.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Osalejad</a>
+        <a href="T2-Hange.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Hange</a>
+        <a href="T3-Pakkumised.dc.html" aria-current="page" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #002F63; border-bottom: 3px solid #006CE6;">Pakkumised</a>
+        <a href="T4-Aasta.dc.html" style="padding: 10px 14px; font-size: 15px; font-weight: 500; text-decoration: none; color: #6B7074; border-bottom: 3px solid transparent;">Aasta</a>
+        </nav>
+      <span style="font-size: 12px; font-weight: 500; color: #6B7074; background: #F5F7F9; border: 1px solid #D6DEE6; border-radius: 2px; padding: 3px 8px;">Prototüüp · näidisandmed</span>
+    </div>
+  </header>
+  <main style="max-width: 1200px; margin: 0 auto; padding: 28px 32px 40px; display: flex; flex-direction: column; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <span style="font-size: 13px; font-weight: 500; color: #006CE6; letter-spacing: 0.02em;">PAKKUMISED</span>
+      <h1 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 30px; color: #002F63;">Operaatorite pakkumised ja võitja</h1>
+    </div>
+
+    <p style="margin: -14px 0 0; font-size: 15px; color: #6B7074;">Operaator A, B ja C on näidispakkujad. Päris operaatorid pole veel pakkunud.</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
+      <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px;">
+        <form onSubmit="{{lisa}}" style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 18px; display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap;">
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 160px;">
+            <label for="uop" style="font-size: 14px; font-weight: 500;">Operaator</label>
+            <select id="uop" onChange="{{setOp}}" style="height: 44px; border: 1px solid #8A929B; border-radius: 2px; padding: 0 10px; background: #FFFFFF;"><option>Operaator A</option><option>Operaator B</option><option>Operaator C</option></select>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 140px;">
+            <label for="uhind" style="font-size: 14px; font-weight: 500;">Piiramatu € kuus</label>
+            <input id="uhind" value="{{uusHind}}" onChange="{{setHind}}" inputmode="decimal" aria-invalid="{{vigaStr}}" aria-describedby="uhind-teade" style="height: 44px; box-sizing: border-box; border: 1px solid #8A929B; border-radius: 2px; padding: 0 10px;">
+          </div>
+          <button type="button" onClick="{{lisa}}" style="height: 44px; padding: 0 20px; background: #006CE6; color: #FFFFFF; border: 2px solid #006CE6; border-radius: 2px; font-weight: 500; font-size: 15px; cursor: pointer;">Sisesta pakkumine</button>
+          <span id="uhind-teade" role="status" aria-live="polite" style="{{teadeStyle}}">{{teade}}</span>
+        </form>
+        <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 0; overflow-x: auto;">
+          <table style="width: 100%; min-width: 600px; border-collapse: collapse; font-size: 14px;">
+            <thead><tr style="text-align: left; color: #6B7074; background: #FAFBFC;">
+              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6;">Operaator</th>
+              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Piiramatu</th>
+              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Koduinternet koos mobiiliga</th>
+              <th style="padding: 10px 14px; font-weight: 500; border-bottom: 1px solid #D6DEE6; text-align: right;">Telepakett koos mobiiliga</th>
+            </tr></thead>
+            <tbody>
+              <sc-for list="{{tabel}}" as="t" hint-placeholder-count="3">
+                <tr style="{{t.rowStyle}}">
+                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; font-weight: 500;">{{t.op}} <sc-if value="{{t.voitja}}" hint-placeholder-val="{{false}}"><span style="margin-left: 6px; font-size: 12px; font-weight: 700; color: #FFFFFF; background: #008300; border-radius: 2px; padding: 2px 6px;">VÕITJA</span></sc-if></td>
+                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right; font-weight: 700;">{{t.a}}</td>
+                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right;">{{t.b}}</td>
+                  <td style="padding: 11px 14px; border-bottom: 1px solid #E0E6EC; text-align: right;">{{t.c}}</td>
+                </tr>
+              </sc-for>
+            </tbody>
+          </table>
+        </div>
+        <span style="font-size: 13px; line-height: 1.5; color: #6B7074;">Võidab madalaim piiramatu hind. Hange õnnestub, kui see on vähemalt 2 € alla parima avaliku pakkumise (15,50 €). Kõik pakkujad maksavad Tulevale sama fikseeritud tasu (näidis 0,50 € kuus lepingu kohta), seda võitja valikul arvesse ei võeta.</span>
+      </div>
+      <div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 16px;">
+        <div style="background: #FFFFFF; border: 1px solid #D6DEE6; border-radius: 2px; padding: 22px; padding: 20px; display: flex; flex-direction: column; gap: 14px;">
+          <h2 style="margin: 0; font-family: Merriweather, Georgia, serif; font-size: 20px; color: #002F63;">Kes päriselt vahetas</h2>
+          <span style="font-size: 14px; color: #6B7074;">Iga number näitab, kust see tuleb.</span>
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <sc-for list="{{ahel}}" as="a" hint-placeholder-count="4">
+              <div style="display: flex; flex-direction: column; gap: 5px;">
+                <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 14px;">
+                  <span style="font-weight: 500;">{{a.t}}</span>
+                  <span style="font-size: 18px; font-weight: 700; color: #002F63;">{{a.n}}</span>
+                </div>
+                <div aria-hidden="true" style="height: 12px; background: #F5F7F9; border-radius: 2px;"><div style="{{a.bar}}"></div></div>
+                <span style="{{a.srcStyle}}">{{a.src}}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { pakk: { 'Operaator A': 6.50, 'Operaator B': 7.20, 'Operaator C': 6.90 }, uOp: 'Operaator A', uHind: '', viga: false, teade: '' }; }
+  renderVals() {
+    const fmt = (x) => x.toFixed(2).replace('.', ',') + ' €';
+    const lisad = { 'Operaator A': ['−50 %', '−50 %'], 'Operaator B': ['−50 %', '−50 %'], 'Operaator C': ['−50 %', '−50 %'] };
+    const ops = Object.keys(this.state.pakk);
+    const best = ops.reduce((m, o) => (m == null || this.state.pakk[o] < this.state.pakk[m] ? o : m), null);
+    const meie = 'font-size: 12px; font-weight: 500; color: #006CE6;';
+    const oper = 'font-size: 12px; font-weight: 500; color: #A15C00;';
+    const riba = (n, c) => 'height: 12px; border-radius: 2px; background: ' + c + '; width: ' + Math.round(n / 1000 * 100) + '%;';
+    return {
+      uusHind: this.state.uHind,
+      vigaStr: this.state.viga ? 'true' : 'false',
+      teade: this.state.teade,
+      teadeStyle: 'flex: 1 1 100%; font-size: 13px; color: ' + (this.state.viga ? '#DB2200' : '#008300') + ';',
+      setOp: (e) => this.setState({ uOp: e.target.value }),
+      setHind: (e) => this.setState({ uHind: e.target.value }),
+      lisa: (e) => { if (e && e.preventDefault) e.preventDefault();
+        const v = parseFloat(String(this.state.uHind).replace(',', '.'));
+        if (isNaN(v)) { this.setState({ viga: true, teade: 'Sisesta hind numbrina, nt 6,90' }); return; }
+        const pakk = Object.assign({}, this.state.pakk, { [this.state.uOp]: v });
+        this.setState({ pakk, uHind: '', viga: false, teade: 'Pakkumine salvestatud: ' + this.state.uOp });
+      },
+      tabel: ops.map((o) => ({ op: o, a: fmt(this.state.pakk[o]), b: lisad[o][0], c: lisad[o][1], voitja: o === best, rowStyle: o === best ? 'background: #F2FAFE;' : '' })),
+      ahel: [
+        { t: 'Sai pakkumise', n: '1 000', bar: riba(1000, '#6B8FB0'), src: 'Tuleva süsteem', srcStyle: meie },
+        { t: 'Võttis pakkumise ja allkirjastas', n: '575', bar: riba(575, '#006CE6'), src: 'Tuleva süsteem', srcStyle: meie },
+        { t: 'Leping jõustus', n: '560', bar: riba(560, '#008300'), src: 'Operaatori aruanne', srcStyle: oper },
+        { t: 'Taganes 14 päeva jooksul', n: '15', bar: riba(15, '#6B7074'), src: 'Operaatori aruanne', srcStyle: oper }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
