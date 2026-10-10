@@ -76,7 +76,7 @@ OCU 2013. aasta energiahanke reeglid olid tõenäoliselt sama mall: võitja peab
 - Tasu lepingu kohta oli algusest vaieldav. Pepephone ja mitu virtuaaloperaatorit jätsid selle tõttu pakkumata.
 - 2023. aasta jaanuaris peatas OCU ka elektri ühishanked. Põhjuseks tõi OCU energiaturu ebakindluse. Samal ajal uuris Hispaania tarbijakaitseministeerium, kas tasud, mida OCU ettevõtetelt saab, sobivad kokku ühenduse sõltumatusega. Artikli järgi maksis tasu ka MásMóvil ([elDiario.es, 18.01.2023](https://www.eldiario.es/economia/ocu-congela-compras-colectivas-luz-cobrar-repsol-comision-15-euros-cliente-captado_1_9875120.html)).
 
-**Hinnang:** tõenäoliselt mõjusid koos kahanev huvi, sama võitja igal aastal ja vaidlused tasude üle. See on meie järeldus, mitte OCU seisukoht. Kindla vastuse annaks OCU pressiteenistus.
+**Hinnang:** tõenäoliselt mõjusid koos kahanev huvi, sama võitja igal aastal, vaidlused tasude üle ja see, et iga hange oli eraldi kampaania ühekordse lepingutasuga, ilma püsiva suhteta osalejaga. See on meie järeldus, mitte OCU seisukoht. Kindla vastuse annaks OCU pressiteenistus.
 
 ## Teised riigid
 
@@ -91,7 +91,7 @@ OCU 2013. aasta energiahanke reeglid olid tõenäoliselt sama mall: võitja peab
 1. **Võitja on väljakutsuja.** Kõik kolm korda võitis väike operaator. Eestis on väikseim Tele2, turuosa 24% (vt [faktid](03-faktid.md)).
 2. **Sääst sõltub sellest, millega võrrelda.** OCU sääst 84–122 € on arvutatud suurte operaatorite hindade vastu. Võitja enda tavahindade vastu oli vahe väike. See on sama erinevus nagu meie [kolme väärtuse](02-idee.md#kolm-väärtust) vahel. Meie „kuni ≈ 405 €” on tavahinna vastu, OCU arvutas samamoodi.
 3. **Vahetajaid võib olla vähe.** OCU energiahankes vahetas umbes 10% registreerunutest. Marju prognoos eeldab 30–56% (vt [tasuvus](13-tasuvus.md)). See on prognoosi suurim risk.
-4. **Huvi langeb, kui hange kordub sama võitjaga.** Iga-aastane hange vajab igal aastal uut põhjust osaleda.
+4. **Ühekordne kampaania ei hoia osalejaid.** Iga OCU hange oli eraldi kampaania uue registreerimise ja ühekordse lepingutasuga. Püsivat suhet osalejaga polnud. Võitja oli kõik kolm korda MásMóvil, nii et varem vahetanutel polnud uuest hankest midagi võita, ja pakkumine kahanes 2018. aastaks 8% soodustuseni võitja tavahinnast (**hinnang** avalike andmete põhjal). Meil on püsiv konto, igakuine tasu seni, kuni liige on klient, ja hinnalagi (vt [otsused](06-otsused.md)).
 5. **Tasu lepingu kohta hoiab osa pakkujaid eemal ja võib hiljem kahjustada mainet.** Meie fikseeritud tasu peab olema algusest avalik ja kõigile sama (vt [otsused](06-otsused.md)).
 6. **Avalda vahetajate arv.** OCU ei avaldanud seda kunagi. Meie hanketingimuses on operaatori kuuaruanne (vt [idee](02-idee.md#lahendus)), nii et saame tegeliku tulemuse avaldada.
 7. **OCU andis liikmetele lisasoodustuse** (5% kogu arvelt), kuigi hange oli avatud kõigile. Sama mõte sobib meile: teenus on Tuleva liikmete oma ja teised tugevdavad ostujõudu.
