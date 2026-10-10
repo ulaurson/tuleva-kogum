@@ -20,6 +20,8 @@ Liige ei jäta vahetamata ainult hinna pärast. Teda peatavad küsimused, millel
 
 ### Mida see prototüübis tähendab
 
+[Ehitusbriifis](09-prototuubi-briif.md) seda veel pole. Kui tiim otsustab, puudutab see registreerimist ja briifi ekraane 4 (pakkumine) ja 5 (leping).
+
 - Küsimuse „Kas sul on tähtajaline pakett?” juurde lisada abi, kust seda vaadata.
 - Kui leping on tähtajaline, ei kirjuta voog „vaheta kohe”. Ta näitab, millal saab vahetada ilma lisatasuta, ja pakub meeldetuletust.
 - Pakkumise vaates enne nuppu „vaheta” on sammud ja ajakulu lühidalt kirjas: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme eest, 14 päeva saab taganeda.

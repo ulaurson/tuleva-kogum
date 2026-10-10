@@ -5,7 +5,8 @@ Tuleva häkatoni (9.–11.10.2026) projekt: Tuleva liikmete mobiilside ühishang
 ## Enne tööd
 
 - Tee `git pull`. Tiim muudab dokumente häkatoni ajal samal ajal.
-- Loe [docs/09-arutelu.md](docs/09-arutelu.md). Seal on tiimi viimased arutelud, mida teistes failides veel pole.
+- Loe [docs/10-arutelu.md](docs/10-arutelu.md). Seal on tiimi viimased arutelud, mida teistes failides veel pole.
+- Kui ehitad prototüüpi, järgi [ehitusbriifi](docs/09-prototuubi-briif.md).
 
 ## Repo on avalik
 
@@ -18,7 +19,7 @@ Kui pole kindel, küsi kasutajalt enne push'i. Privaatsed failid käivad kausta 
 
 ## Tiimi arutelu kirjapanek
 
-Kui kasutaja palub arutelupunkti kirja panna, lisa see faili [docs/09-arutelu.md](docs/09-arutelu.md) uue jaotisena. Vorm on faili alguses.
+Kui kasutaja palub arutelupunkti kirja panna, lisa see faili [docs/10-arutelu.md](docs/10-arutelu.md) uue jaotisena. Vorm on faili alguses.
 
 - Kui punktist saab otsus, lisa rida [otsuste](docs/06-otsused.md) ajaloo tabelisse ja muuda arutelus staatus „otsustatud”.
 - Kui punkt on risk või lahtine küsimus, lisa see ka [avatud küsimustesse](docs/05-avatud-kusimused.md).
