@@ -64,3 +64,11 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 ## 9. Andmekaitse
 
 Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust (vt [õigus](04-oigus.md)).
+
+## 10. Kuidas liikmeteni jõuda?
+
+Tuleb läbi mõelda (tiim 10.10).
+
+- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
+- Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
+- Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
