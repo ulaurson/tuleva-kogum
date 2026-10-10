@@ -10,7 +10,7 @@ Parima hinna saab see, kes jälgib pakkumisi, kaupleb, ähvardab lahkuda ja seob
 
 ## Lahendus
 
-Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke.
+Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke. Osaleda saavad ka teised, et ühine ostujõud oleks tugevam (otsus 10.10).
 
 | # | Samm | Kes | Mis toimub |
 |---|---|---|---|

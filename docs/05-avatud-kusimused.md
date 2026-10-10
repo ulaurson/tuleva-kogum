@@ -13,7 +13,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 ## 2. Kellele hange on avatud?
 
-**Otsus 10.10: hange ei piirdu Tuleva liikmetega** (vt [otsused](06-otsused.md)). See asendab töölehe 9.10 piirangu „mitte liikmed jäävad välja”. Hanketingimus „sama hind kõigile osalejatele” kehtib ka siin (vt [idee](02-idee.md#lahendus)).
+**Otsus 10.10: hange ei piirdu Tuleva liikmetega** (vt [otsused](06-otsused.md)). Teenus on Tuleva liikmete oma, teised teevad ühise ostujõu tugevamaks. See asendab töölehe 9.10 piirangu „mitte liikmed jäävad välja”. Hanketingimus „sama hind kõigile osalejatele” kehtib ka siin (vt [idee](02-idee.md#lahendus)).
 
 - 85 745 on kogujad, mitte ühistu liikmed. Esitluses tuleb öelda õige arv.
 - Otsus 10.10: sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel (vt [otsused](06-otsused.md)).

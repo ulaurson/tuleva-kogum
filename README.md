@@ -2,7 +2,7 @@
 
 *Tuleva häkaton, 9.–11. oktoober 2026, Telliskivi Loomelinnak · Väljakutse 3: Kollektiivne ostujõud*
 
-**Tuleva Kogum** on Tuleva liikmete ühise ostujõu teenus. Esimene hange on mobiilside, hiljem võivad tulla elekter, kindlustus ja liikmete endi algatatud ühispakkumised.
+**Tuleva Kogum** on Tuleva liikmete ühise ostujõu teenus. Osaleda saavad ka teised, et ühine ostujõud oleks veel tugevam. Esimene hange on mobiilside, hiljem võivad tulla elekter, kindlustus ja liikmete endi algatatud ühispakkumised.
 
 **Esimene hange ühe lausega:** kord aastas korraldab Tuleva oma liikmete nimel mobiilside ühishanke. Liikmed annavad teada oma praeguse paketi ja tegeliku kasutuse, operaatorid pakuvad hinda kogu grupile, parim pakkumine läheb liikmetele ja iga liige otsustab ise, kas vahetab.
 
