@@ -34,6 +34,8 @@ Kui võitja hind on sama mis 24-kuuline kampaaniahind, on uudsus ainult sidumise
 
 Mujal maksab korraldajale võitja. Tuleva seda ei tee. Eeldus on, et tulu tuleb uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
 
+Arutlusel (10.10): operaator maksab Tulevale sama tasu iga uue kliendi eest. See läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu”, vt [arutelu punkt 2](10-arutelu.md).
+
 ## 6. Mitu inimest päriselt vahetab?
 
 OCU-s oli võitja odavam 71% registreerunutele, aga tegelik vahetajate arv on teadmata. Mõõdame häkatonil vähemalt, kui suur osa osalejatest maksab üle.
