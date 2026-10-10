@@ -39,6 +39,24 @@
 
 Liikmete säästus on ainult mobiilinumbrid, kodunett ja telepakett ei ole arvestatud.
 
+## Kuupõhine vaade
+
+Ülal on liitujad ühtlaselt üle aasta. Kui leping sõlmitakse 1. kuul, tuleb laine: 60% esimese aasta liitujatest 2.–3. kuul, ülejäänud 4.–12. kuul lepingute lõppedes (hinnang). Lahkumine ~1,3% kuus.
+
+Baasi kuutulu 1. aastal:
+
+| Kuu | 1. | 2. | 3. | 4. | 6. | 12. |
+|---|---|---|---|---|---|---|
+| Ühtlane | 116 € | 231 € | 345 € | 457 € | 676 € | 1 299 € |
+| Laine 2.–3. kuul | 0 € | 419 € | 833 € | 884 € | 984 € | 1 268 € |
+
+| | Pess. | Baas | Opt. |
+|---|---|---|---|
+| 1. aasta tulu: ühtlane → laine | 2,7k → 3,4k € | 8,7k → 11,0k € | 17,6k → 22,4k € |
+| Jooksev kulu kaetud: ühtlane / laine | ei kunagi | 54. / 55. kuu | 14. / 15. kuu |
+
+Laine tõstab 1. aasta tulu ~25%, aga tasuvuse aega peaaegu ei muuda. Selle määrab kogunenud ühikute arv.
+
 ## Järeldused
 
 1. Baasis on liikmete sääst 30–50 korda suurem kui Tuleva tulu.
