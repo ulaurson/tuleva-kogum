@@ -13,7 +13,7 @@
 
 | | Pess. | Baas | Opt. |
 |---|---|---|---|
-| Registreerub liikmetest | 5% | 12% | 20% |
+| Registreerub liikmetest | 10% | 20% | 30% |
 | Registreerunutest vahetab | 30% | 45% | 56% |
 | Numbreid liikme kohta | 1,8 | 1,8 | 1,8 |
 | Lisateenuse võtab (leibkonnast) | 25% | 40% | 55% |
@@ -29,21 +29,21 @@
 
 | | Pess. | Baas | Opt. |
 |---|---|---|---|
-| Vahetab liikmeid 1. aastal | 150 | 540 | 1 120 |
-| Aktiivseid ühikuid 1. / 3. / 5. aasta lõpus | 530 / 1 020 / 1 230 | 1 920 / 3 680 / 4 430 | 4 200 / 8 060 / 9 710 |
-| Tuleva tulu 1. / 3. / 5. aastal | 1,6k / 5,1k / 6,6k € | 5,8k / 18,6k / 23,7k € | 12,6k / 40,8k / 51,9k € |
-| Jooksev kulu kaetud | ei kunagi | 3. aastal | 2. aastal |
-| Kumulatiivne tulemus 5 aastaga | −80k € | −20k € | +79k € |
-| Kumulatiivselt tasa | ei kunagi | 8. aastal | 3. aastal |
-| **Liikmete sääst aastas, 1. / 5. aasta** | 54k / 124k € | **311k / 719k €** | 946k / 2,2M € |
+| Vahetab liikmeid 1. aastal | 300 | 900 | 1 680 |
+| Aktiivseid ühikuid 1. / 3. / 5. aasta lõpus | 860 / 1 650 / 1 990 | 2 800 / 5 360 / 6 460 | 5 700 / 10 930 / 13 180 |
+| Tuleva tulu 1. / 3. / 5. aastal | 2,6k / 8,3k / 10,6k € | 8,4k / 27,1k / 34,6k € | 17,1k / 55,3k / 70,5k € |
+| Jooksev kulu kaetud | ei kunagi | 2. aastal | 2. aastal |
+| Kumulatiivne tulemus 5 aastaga | −66k € | +18k € | +145k € |
+| Kumulatiivselt tasa | ei kunagi | 4. aastal | 2. aastal |
+| **Liikmete sääst aastas, 1. / 5. aasta** | 84k / 195k € | **440k / 1,0M €** | 1,2M / 2,9M € |
 
 Liikmete säästus on ainult mobiilinumbrid, kodunett ja telepakett ei ole arvestatud.
 
 ## Järeldused
 
-1. Baasis on liikmete sääst ~30 korda suurem kui Tuleva tulu.
-2. Tasuvuseks on vaja ~2 900 aktiivset ühikut (17 250 € ÷ 6 €). Baas jõuab sinna 3. aastal.
-3. Ettevõtted on tugev hoob: 150 ettevõtet toob sama palju numbreid kui 330 liiget.
+1. Baasis on liikmete sääst 30–50 korda suurem kui Tuleva tulu.
+2. Tasuvuseks on vaja ~2 900 aktiivset ühikut (17 250 € ÷ 6 €). Baas jõuab sinna 2. aastal.
+3. Ettevõtted on tugev hoob: 150 ettevõtet toob sama palju numbreid kui 330 vahetavat liiget.
 4. 5,50 € hinnast jääb Teliale ilma käibemaksuta ~4,44 €. Tuleva tasu on sellest 11%.
 
 ## Lahtine
