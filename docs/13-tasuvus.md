@@ -48,7 +48,7 @@ Liikmete säästus on ainult mobiilinumbrid, kodunett ja telepakett ei ole arves
 
 ## Lahtine
 
-- Mudel eeldab ainult ühistu liikmeid (~10 000). PR #2 avas hanke ka teistele, siis on maht suurem.
+- Mudel eeldab ainult ühistu liikmeid (~10 000). PR #2 avas hanke ka teistele, siis on maht suurem. Uuendus 10.10: liikmeid oli 31.03.2026 seisuga 9 560 (vt [häkaton](01-hakaton.md)).
 - Kas Telia pakub 5–6 €-ga? Väljakaubeldud hindade kohta on vaja allikat ja kuupäeva.
 - Tegelik registreerumise ja vahetamise osakaal: selle mõõdab esimene hange.
-- Tasu operaatorilt läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu” ([arutelu](10-arutelu.md) p 2).
+- Tasu operaatorilt läheb vastuollu põhimõttega „Tuleva ei võta operaatoritelt vahendustasu” ([arutelu](10-arutelu.md) p 2). Uuendus 10.10: tiim otsustas fikseeritud tasu kasuks (vt [otsused](06-otsused.md)).

@@ -1,12 +1,13 @@
 # Avatud küsimused ja riskid
 
-*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees.*
+*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees. Kõik lahtised küsimused koos sellega, kellelt vastust küsida, on failis [15](15-lahtised-kusimused.md).*
 
 ## 1. Kas operaatorid üldse pakuvad?
 
 Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, mis lööb ka tema praeguseid kliente. Välismaal võitis ühisostu väljakutsuja, mitte turuliider (vt [faktid](03-faktid.md#järeldused-meie-jaoks)).
 
-- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata)
+- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata) Tele2 on väikseim operaator, turuosa 24% (TTJA 2025, vt [14](14-uuring-partnerid.md#turuosad)).
+- Partnerkoostöö näide on olemas: Enefiti kliendid saavad operaatorite koduinternetti soodsamalt (vt [faktid](03-faktid.md#eesti-eeskuju-enefiti-partnerpakkumised)). Avalikku partnerprogrammi, mis maksaks tasu, ei leidnud (vt [14](14-uuring-partnerid.md#kas-operaatorid-maksavad-partneritele-tasu)).
 - Mitu inimest peab registreeruma, et operaator hakkaks huvi tundma?
 - Varuplaan, kui keegi ei paku: Tuleva oma virtuaaloperaator (Tuleva briif: ~350 000 €, tasuvus ~12 000 kliendi juures, mobiilis pole hulgijuurdepääs kohustuslik).
 - **Häkatonil:** küsida äriarenduse mentorilt või saata kiri 1–2 operaatorile ja näidata laval päris vastust.
@@ -15,7 +16,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 **Otsus 10.10: hange ei piirdu Tuleva liikmetega** (vt [otsused](06-otsused.md)). Teenus on Tuleva liikmete oma, teised teevad ühise ostujõu tugevamaks. See asendab töölehe 9.10 piirangu „mitte liikmed jäävad välja”. Hanketingimus „sama hind kõigile osalejatele” kehtib ka siin (vt [idee](02-idee.md#lahendus)).
 
-- 85 745 on kogujad, mitte ühistu liikmed. Esitluses tuleb öelda õige arv.
+- 85 745 on kogujad, mitte ühistu liikmed. Ühistul oli 31.03.2026 seisuga 9 560 liiget (vt [häkaton](01-hakaton.md)). Esitluses tuleb öelda õige arv.
 - Otsus 10.10: sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel (vt [otsused](06-otsused.md)).
 
 ## 3. Mida täpselt hangitakse?
@@ -24,9 +25,9 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
-- Otsus 10.10: kokkuleppega on seotud koduinterneti soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
+- Otsus 10.10: kokkuleppega on seotud koduinterneti ja telepaketi soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
   - Kas soodustusest tekib uus kimbuleping? Kui liige lõpetab mobiili või järgmisel aastal võidab hanke teine operaator, kaotab ta interneti soodustuse. Vajab hiljem täpsustamist.
-  - Otsustatud 10.10: ka internetilepingult saab Tuleva fikseeritud summa paketi kohta kuus. Kuidas operaator neist teatab, lepitakse kokku SLA-s (ettepanek: sama kuuaruanne).
+  - Otsustatud 10.10: ka interneti- ja telepaketi lepingult saab Tuleva fikseeritud summa paketi kohta kuus. Kuidas operaator neist teatab, lepitakse kokku SLA-s (ettepanek: sama kuuaruanne).
 
 ## 4. Kas pakkumine on parem kui turu parim?
 
@@ -41,7 +42,7 @@ Otsus 10.10: Tuleva saab iga lepingu kuumaksest fikseeritud tasu (vt [ärimudel]
 - Kui suur on tasu ja mitu lepingut on vaja, et kulud kaetud oleksid?
 - Kas operaatorid nõustuvad tasuga, mis on kõigile sama ja ei sõltu paketist?
 - Sisend arvutusele (**hinnang**, vt [uuringud](12-uuringud.md)): AI-uuringute järgi on esimese aasta kulu 3 000–36 000 €. Uuringud eeldavad ühekordset tasu 20–30 € liitumise kohta. Uuring A arvutab ka igakuise tasu: teisel aastal 1000 numbri juures umbes 1,6 € numbri kohta kuus.
-- Tasu tuleb ka Tuleva soodustusega internetilepingutelt (otsus 10.10).
+- Tasu tuleb ka Tuleva soodustusega interneti- ja telepaketi lepingutelt (otsus 10.10).
 - Lisatulu võib tulla uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
 
 Tasu maksab operaator ja see on kõigilt pakkujatelt sama (vt [arutelu punkt 2](10-arutelu.md)). Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md)).
@@ -68,21 +69,24 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 - Millise lepingu vormi operaator nõuab ja kas see on igal operaatoril erinev?
 - Kas Tuleva on õiguslikult ainult edastaja, mitte esindaja (küsida õigusmentorilt)?
 - Lepingu jaoks on vaja isikuandmeid (nimi, isikukood, telefoninumber). Demos kasutame ainult väljamõeldud andmeid.
+- Mida teame: Tele2 allkirjastab lepingu Dokobitis ja leping läheb automaatselt Tele2-le. Telias sõlmitakse leping e-keskkonnas. Ühtki juhtu, kus operaator aktsepteerib kolmanda osapoole isikutuvastust, ei leidnud (vt [14](14-uuring-partnerid.md#kuidas-operaator-lepingu-sõlmib-ja-kliendi-tuvastab)).
 
 **Todo: konsulteerida** (10.10)
 
-- [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
+- [ ] Õigusmentor: ESS § 95¹ järgi annab lepingueelse teabe ja lepingu lühikokkuvõtte operaator enne lepingu sõlmimist (kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
 - [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
 - [ ] Operaatorid: leppida SLA-s kokku, kas Tuleva isikutuvastus sobib operaatorile, et liige saaks lepingu täita Tuleva lehel. Kui ei sobi, suuname liikme lepingu sõlmimiseks operaatori lehele.
 
 ## 9. Andmekaitse
 
-Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust (vt [õigus](04-oigus.md)).
+Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust.
+
+Mida teame (**hinnang**, vt [õigus](04-oigus.md#andmekaitse-mida-aki-ütleb)): kui liige küsib ise pakkumist, sobib alus „lepingueelsed meetmed”. Tuleva ja operaator on tõenäoliselt eraldi vastutavad töötlejad.
 
 ## 10. Kuidas liikmeteni jõuda?
 
 Tuleb läbi mõelda (tiim 10.10).
 
-- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
+- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult „oma samasuguste toodete või teenuste” kohta ja pensioni- või ühistusuhe tõenäoliselt ei sobi mobiilipaketi jaoks (ESS § 103¹, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
