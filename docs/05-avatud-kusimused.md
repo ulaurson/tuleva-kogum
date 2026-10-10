@@ -30,6 +30,8 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 Kui võitja hind on sama mis 24-kuuline kampaaniahind, on uudsus ainult sidumise puudumine. Big Switchi õppetund: turul võib kohe olla sama hea pakkumine. Hange peab andma midagi, mida üksikklient ei saa.
 
+Otsus 10.10: hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine (vt [otsused](06-otsused.md)). Lahtine jääb, kas operaatorid sellise hinna annavad.
+
 ## 5. Kas fikseeritud tasu katab kulud?
 
 Otsus 10.10: Tuleva saab iga lepingu kuumaksest fikseeritud tasu (vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)). Arvutused ja projektsioonid teeb Marju.

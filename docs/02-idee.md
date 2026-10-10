@@ -59,6 +59,8 @@ Kõik AI-uuringud (vt [uuringud](11-uuringud.md)) hoiavad need lahus. Ainult tei
 
 **Näide (hinnang):** liige maksab Telia piiramatu paketi eest 41,65 € kuus. Tele2 kampaanias maksab piiramatu 24-kuulise lepinguga 15,50 € (vt [faktid](03-faktid.md)). Kui hange annab sama 15,50 € ilma sidumiseta, on paketi parandamine 26,15 € kuus, aga ühisostu lisaväärtus eurodes 0 €. Siis on hanke väärtus ainult see, et 24-kuulist sidumist pole.
 
+**Millal hange õnnestus** (otsus 10.10): kui ühisostu lisaväärtus on vähemalt 2 € kuus ehk hanke hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine.
+
 ## Täna vs sidehange
 
 | | Täna | Tuleva sidehange |

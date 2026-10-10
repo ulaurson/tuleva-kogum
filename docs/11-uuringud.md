@@ -65,7 +65,7 @@ C hinnangul jõuab huvi avaldanutest aktiveerimiseni 40–50% (**hinnang**).
 
 | Mis | Number | Allikas |
 |---|---|---|
-| Millal on ühisost päriselt kasulik | Vähemalt 2 € kuus odavam kui parim avalik pakkumine: 17 GB kuni 6,50 €, piiramatu kuni 13,50 €. Või sama hind ilma sidumiseta | A, juhtkonna eeldus, mitte hulgihind |
+| Millal on ühisost päriselt kasulik | Vähemalt 2 € kuus odavam kui parim avalik pakkumine: 17 GB kuni 6,50 €, piiramatu kuni 13,50 €. Või sama hind ilma sidumiseta. Tiim võttis 10.10 ainult esimese osa ([otsus](06-otsused.md)) | A, juhtkonna eeldus, mitte hulgihind |
 | Teine lävi | Vähemalt 10% parem kui avalik pakkumine | B |
 | Ühisostu lisasääst, kui hange on 10% parem kui Tele2 kampaania | 17 GB: 10,20 € aastas. Piiramatu: 18,60 € aastas | B |
 | Korraldaja kulu esimesel aastal, 100 / 1000 liitumist | A: 21 575 € / 35 750 €. C: 7 000 € / 18 000 €. B: 2 500 € püsikulu + 5 € liitumise kohta | Illustratiivsed eeldused |
