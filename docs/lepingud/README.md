@@ -7,22 +7,22 @@
 | [eraklient-naidis.md](eraklient-naidis.md) | Eraisik |
 | [ettevote-naidis.md](ettevote-naidis.md) | Ettevõte (juhatuse liige või volikirja alusel esindaja) |
 
-## Vormi väljad
+## Vormi väljad (miinimum, otsus 10.10)
 
-| Väli | Eraklient | Ettevõte | Miks |
-|---|---|---|---|
-| Kliendi nimi / Ettevõtte nimi | ✓ | ✓ | lepingu pool |
-| Isikukood | ✓ | esindaja oma | isiku tuvastus, allkirjastaja |
-| Registrikood | – | ✓ | lepingu pool |
-| Esindaja nimi | – | ✓ | allkirjastaja |
-| Esindusõiguse alus | – | ✓ (juhatuse liige / volikiri) | kontroll äriregistrist; volikiri lisatakse PDF-ina |
-| Telefoninumber, mille üle viid | ✓ | ✓ | numbri üleviimise volitus |
-| Praegune operaator (doonoroperaator) | ✓ | ✓ | numbri üleviimise volitus |
-| Aadress | ✓ | ✓ | numbri üleviimise volituse vormil on aadress kohustuslik |
-| E-post | ✓ | ✓ | arved ja lepingu koopia; tuleb registreerumisest |
-| SIM-kaart / eSIM | ✓ | ✓ | kaardi saatmine |
+| Väli | Eraklient | Ettevõte |
+|---|---|---|
+| Kliendi nimi / Ettevõtte nimi | ✓ | ✓ |
+| Isikukood | ✓ | esindaja oma |
+| Registrikood | – | ✓ |
+| Esindaja nimi | – | ✓ |
+| Esindusõiguse alus | – | ✓ (juhatuse liige / volikiri) |
+| Telefoninumber, mille üle viid | ✓ | ✓ |
 
-Kasutaja palutud väljad: nimi, isikukood, telefon (eraklient); isiku nimi, telefon, isikukood, esindusõiguse alus, ettevõtte nimi, registrikood (ettevõte). Lisatud uurimise põhjal: aadress, praegune operaator, e-post, SIM/eSIM.
+Vormil ei küsita:
+- E-post: tuleb registreerumisest.
+- Praegune operaator: operaator tuvastab numbri järgi (**hinnang, kontrollida operaatoriga**). Numbri üleviimise volituse vormil on see väli olemas.
+- Aadress: volituse vormil on see väli olemas. Kas operaator saab selle ise, on lahtine.
+- SIM / eSIM: vaikimisi SIM-kaart postiga.
 
 ## Allikad (vaadatud 10.10.2026)
 

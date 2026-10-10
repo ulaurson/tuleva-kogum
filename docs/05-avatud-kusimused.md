@@ -117,4 +117,4 @@ Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, n
 
 - Kas operaatorid võtavad vastu Tuleva kaudu tulnud digiallkirjastatud lepingu ja numbri üleviimise volituse?
 - Ettevõte: kas esindusõigust kontrollime äriregistrist automaatselt ja kas volikiri on PDF-ina piisav? Mitu numbrit ühe lepinguga?
-- Kas aadress on päriselt vajalik, kui operaator saab selle Smart-ID / ID-kaardi andmetest?
+- Vorm küsib ainult miinimumi (vt [lepingud](lepingud/README.md)). Kas operaator tuvastab praeguse operaatori numbri järgi ja kas aadress on vajalik? Numbri üleviimise volituse vormil on mõlemad väljad.

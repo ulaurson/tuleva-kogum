@@ -9,8 +9,7 @@
 **Klient**
 - Ettevõtte nimi: {{ettevote}} — näidis: Näidis OÜ
 - Registrikood: {{registrikood}} — näidis: 1XXXXXXX
-- Aadress: {{aadress}} — näidis: Näidise tn 1, Tallinn
-- E-post arvete jaoks: {{epost}} — näidis: arved@naidis.ee
+- E-post (registreerumisest): {{epost}} — näidis: arved@naidis.ee
 
 **Kliendi esindaja**
 - Nimi: {{esindaja_nimi}} — näidis: Jaan Näidis
@@ -29,12 +28,12 @@
 | Kuutasu | 13,50 € (km-ga) |
 | Hinnakindlus | hind ei tõuse 24 kuu jooksul |
 | Sidumine | ei ole |
-| Kaart | {{sim}} |
+| Kaart | SIM-kaart postiga |
 
 ## 3. Numbri üleviimine
 
 - Number: {{telefon}} — näidis: +372 5XXX XXXX
-- Praegune operaator: {{operaator}}
+- Praegune operaator: tuvastatakse numbri järgi
 - Klient volitab Operaator A-d lõpetama praeguse liitumislepingu selle numbri osas ja viima numbri üle. Üleviimine on tasuta.
 - Volitus kehtib 60 kalendripäeva.
 

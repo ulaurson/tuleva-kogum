@@ -9,8 +9,7 @@
 **Klient**
 - Nimi: {{nimi}} — näidis: Mari Näidis
 - Isikukood: {{isikukood}} — näidis: 4XXXXXXXXXX
-- Aadress: {{aadress}} — näidis: Näidise tn 1, Tallinn
-- E-post: {{epost}} — näidis: nimi@naidis.ee
+- E-post (registreerumisest): {{epost}} — näidis: nimi@naidis.ee
 
 **Operaator:** Operaator A (näidis), registrikood XXXXXXXX
 
@@ -24,13 +23,13 @@
 | Kuutasu | 13,50 € (km-ga) |
 | Hinnakindlus | hind ei tõuse 24 kuu jooksul |
 | Sidumine | ei ole, lepingu võib igal ajal lõpetada |
-| Kaart | {{sim}} — SIM-kaart postiga / eSIM |
+| Kaart | SIM-kaart postiga |
 | Lisasoodustus | koduinternet 50 % tavahinnast, telepakett [soodustus]; klient valib need ise operaatori lehel |
 
 ## 3. Numbri üleviimine
 
 - Number: {{telefon}} — näidis: +372 5XXX XXXX
-- Praegune operaator: {{operaator}} — näidis: Tele2
+- Praegune operaator: tuvastatakse numbri järgi
 - Klient volitab Operaator A-d lõpetama praeguse liitumislepingu selle numbri osas ja viima numbri üle. Üleviimine on tasuta.
 - Volitus kehtib 60 kalendripäeva.
 
