@@ -25,6 +25,8 @@ Demo lugu käib nii: kõigepealt üks liige, siis kogu grupp. Ekraanid on järje
    - tegeliku internetikasutuse kuus (GB).
 
    Tähtajalise lepingu küsimuse juures on abi, kust seda vaadata. Vastus „ei tea” on lubatud (vt [arutelu](10-arutelu.md)).
+
+   **Tooteankeedi täiendus 10.10:** telefoninumbri sisestamisel soovime sideettevõtja automaatpäringut, mille tulemuse inimene kinnitab. Liides on teostamata ja ligipääs kinnitamata; täpne nõue on failis [14](14-operaatori-paring.md). Võrguta demos jääb operaatori käsitsi valik või märgistatud näidisvastus. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
 2. **Pakkumine.** Mari näeb, milline pakett talle sobib ja kui palju odavam see on: praegu, täna avalike hindadega ja hankega (**hinnang**). Sääst on näidatud aastas. Pakkumise juures on Tuleva tasu (näidis 0,50 € kuus, kuni Marju arvutus on valmis, vt [arutelu](10-arutelu.md) punkt 2) ja sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” Lisaks on kirjas lisahüve: Tuleva kaudu telefonipaketi võtnu saab koduinterneti 50% tavahinnast odavamalt. Enne nuppu „Vaheta” on lühidalt kirjas, mis edasi juhtub: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme volitusel ja 14 päeva saab taganeda. Kui leping on tähtajaline, ei ütle voog „vaheta kohe”. Selle asemel näitab ta, millal saab vahetada, ja pakub meeldetuletust. Sõnu „ilma trahvita” ei kasutata, kuni lõpetamise tasud on kontrollimata.
 3. **Leping ja allkiri.** Leping on valmis täidetud väljamõeldud andmetega. Mari vajutab „Allkirjasta digitaalselt”, näeb PIN-koodi ootamise ekraani ja siis teadet „Saadetud operaatorile”.
 4. **Minu statistika.** Mari näeb oma hinda teiste osalejatega võrreldes, oma säästu aastas ja seda, kui palju on ta varem üle maksnud.

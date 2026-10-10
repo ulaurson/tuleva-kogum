@@ -82,3 +82,15 @@ Tähtajatu lepingu hinda võib operaator ette teatades muuta ja liige võib siis
 ### Mida see prototüübis tähendab
 
 Hankepäringu tingimused (briifi ekraan 6) on failis [02](02-idee.md#lahendus) uuendatud. Pakkumise ekraanil (briifi ekraan 2) on sõnum hinnakindluse kohta (vt [lähtealused](07-prototuubi-lahtealused.md)).
+
+## 4. Operaatori kontroll telefoninumbri sisestamisel (10.10)
+
+**Staatus:** arutlusel; kasutaja tellitud tooteankeedi arendusnõue on kirjas, liides teostamata.
+
+Soov: inimene sisestab oma numbri ja rakendus saab päringuga sideettevõtja. TTJA avalik numbripäring annab infot numbri ja sideettevõtja seose kohta. Numbri kasutaja nime ega kontaktandmeid andmebaas ei sisalda. [TTJA numeratsioon](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+
+Lahtine: millist masinliidest saab Tuleva kasutada, millistel tingimustel ja millise ajakohasusega. Avalik veebivorm ei kinnita API ligipääsu. Teenusebrändi ja paketi andmed kinnitab inimene eraldi.
+
+### Mida see prototüübis tähendab
+
+Tooteankeedi voog ja vastuvõtukriteeriumid on failis [14](14-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.

@@ -66,3 +66,9 @@ Eesmärk: 20+ päris vastust, täitmine alla 3 minuti. Sissejuhatus vormis:
 Küsimus 9 mõõdab liikme ajakulu: kui paljud ei leia isegi oma kasutust üles, on see tõend, et ülevaatus iseenesest ei juhtu.
 
 **Mida vastustest näidata:** mitu maksab üle ja keskmiselt kui palju kuus; osalejate kogu ülemakse aastas; mitu pole paketti üle 3 aasta üle vaadanud; mitu registreeruks hankesse.
+
+## Tooteankeedi operaatoripäring
+
+**Arendusnõue 10.10, liides teostamata:** tooteankeeti numbri sisestamisel kontrollib rakendus sideettevõtjat välise päringuga. Inimene kinnitab tulemuse ja teenusebrändi. Ligipääs masinliidesele vajab kinnitamist; käsitsi valik peab alati töötama. Voog, allikad ja vastuvõtukriteeriumid on failis [14](14-operaatori-paring.md).
+
+See täiendus ei lisa telefoninumbrit ülalolevasse anonüümsesse häkatoniküsitlusse. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust ega väida, et päris TTJA päring toimus.

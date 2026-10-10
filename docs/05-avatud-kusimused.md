@@ -86,3 +86,12 @@ Tuleb läbi mõelda (tiim 10.10).
 - AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
+
+## 11. Operaatori automaatkontroll numbri järgi
+
+**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [14](14-operaatori-paring.md)). Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva automaatliidese ligipääs on kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+
+- Küsida TTJA-lt, kas Tuleva saab masinliidese, mis tingimustel ja milliste päringulimiitidega. Kui ei saa, hinnata lepingulise API võimalust.
+- Kinnitada teisaldatud numbrite info ajakohasus, vastuse väljad, maksumus ja vahemälu reeglid.
+- Täpsustada numbri edastamise ja tulemuse säilitamise andmekaitsetingimused (vt punkt 9).
+- Kuni liides pole kinnitatud, valib inimene operaatori käsitsi. Sideettevõtja vastus ei kinnita teenusebrändi, paketti ega lepingu tingimusi.
