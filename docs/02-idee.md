@@ -21,14 +21,19 @@ Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke.
 | 5 | Otsus ja leping | Liige | Otsustab ise. Kui vahetab, on leping süsteemis tema andmetega valmis täidetud. Liige vaatab selle üle, allkirjastab digitaalselt ja lubab süsteemil selle operaatorile saata. Iga sammu teeb liige ise, Tuleva ainult valmistab ette ja edastab. Numbri üleviimine on tasuta ja uus operaator lõpetab vana lepingu kliendi volitusel |
 | 6 | Järgmisel aastal uuesti | Tuleva | Uus hange. Liige ei pea ise midagi jälgima, sest hange on päästik |
 
-**Soovitud hanketingimused (eelnõu, kinnitamata):** kampaaniahind ilma 24-kuulise sidumiseta, hind fikseeritud vähemalt 12 kuuks, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel).
+**Soovitud hanketingimused (eelnõu, kinnitamata):** kampaaniahind ilma 24-kuulise sidumiseta, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel).
+
+**Hinnakindlus** (otsustatud 10.10, vt [arutelu](10-arutelu.md) punkt 2):
+
+- hinnalagi, mitte hinnalukk: operaator ei tõsta hinda kokkulepitud aja jooksul, langetada võib alati;
+- küsime 24 kuud, nõustume vähemalt 12 kuuga;
+- mahuastmed, näiteks 1000, 5000 ja 10 000 aktiivse liitumise juures: kui grupp jõuab järgmisele astmele, langeb hind kõigil, ka varem liitunutel;
+- hind ei tõuse, kui grupp kahaneb.
 
 **Mida hankepäringus veel küsida** (AI-uuringute soovitus, tiim pole arutanud, vt [uuringud](11-uuringud.md)):
 
-- hind eraldi 100, 1000 ja 5000 aktiveeritud liitumise kohta, ilma mahugarantiita;
-- lepingu tähtaeg ja hinnakindluse periood eraldi, sest tähtajatu leping ei tähenda muutumatut hinda (vt [õigus](04-oigus.md));
+- kas operaator nõustub, et Tuleva mahtu ei garanteeri;
 - kas hind kehtib ka võitja praegustele klientidele;
-- kas liikme hind muutub, kui osa grupist lahkub;
 - mis saab liikmete lepingutest, kui Tuleva ja operaatori koostöö lõpeb;
 - mitu numbrit ühel arvel, eSIM ja Mobiil-ID.
 

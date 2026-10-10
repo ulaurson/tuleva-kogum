@@ -28,3 +28,33 @@ AI-uuringud lisavad takistusi: number pole liikme nimel, seadme järelmaks või 
 - Kui leping on tähtajaline, ei kirjuta voog „vaheta kohe”. Ta näitab, millal saab vahetada ilma lisatasuta, ja pakub meeldetuletust.
 - Pakkumise vaates enne nuppu „vaheta” on sammud ja ajakulu lühidalt kirjas: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme eest, 14 päeva saab taganeda.
 - Liikmele lubame ainult seda, mis on allikaga kontrollitud. Kuni lõpetamise tasud on kontrollimata, ei kirjuta voog „ilma trahvita”.
+
+## 2. Hinnakindlus: hinnalagi ja mahuastmed (10.10)
+
+**Staatus:** otsustatud (vt [otsused](06-otsused.md))
+
+Mure: algne grupp võib olla 1000 liiget, aga aasta-kahe pärast 10 000. Siis tahaks juba paremat hinda küsida. Kus on tasakaal hinnakindluse ja parema hinna vahel?
+
+Stabiilsus ja parem hind ei ole vastuolus, kui hinnakindlus seob ainult operaatorit. Liikmel on tähtajatu leping ja ta võib alati lahkuda. Hankepäringusse läheb:
+
+- **Hinnalagi, mitte hinnalukk.** Operaator ei tõsta hinda kokkulepitud aja jooksul. Hinda langetada võib alati.
+- **Küsime 24 kuud, nõustume vähemalt 12 kuuga.** 24 kuud on sama pikk kui Tele2 kampaania sidumine (vt [faktid](03-faktid.md)): sama kindlus, aga ilma sidumiseta. 12 kuud on hanketsükli pikkus, seega uuendab iga hange kindlust.
+- **Mahuastmed.** Hankepäringus küsime hinda näiteks 1000, 5000 ja 10 000 aktiivse liitumise juures. Kui grupp jõuab järgmisele astmele, langeb hind kõigil, ka varem liitunutel. Paremat hinda ei pea ootama hinnakindluse lõpuni.
+- **Hind ei tõuse, kui grupp kahaneb.** Seda riski toob välja ka uuring A (vt [uuringud](11-uuringud.md)).
+- **Iga-aastane hange jääb alles** (vt [idee](02-idee.md#käivitajad)). Kui teine operaator pakub paremini, saavad liikmed vahetada, sest sidumist pole.
+
+**Sõnum liikmele:** „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.”
+
+### Mida juba teame
+
+Tähtajatu lepingu hinda võib operaator ette teatades muuta ja liige võib siis lepingu tasuta lõpetada (AI-uuringute väide, õigusmentor pole hinnanud, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Seega tuleb hinnakindlus hankes eraldi kokku leppida.
+
+### Mis on lahtine
+
+- Kas operaatorid nõustuvad hinnalae, mahuastmete ja iga-aastase hankega korraga.
+- Kas hind kehtib ka võitja praegustele klientidele.
+- Sõnum kehtib siis, kui hange annab 24 kuud. Kui saame ainult 12 kuud, muutub ka sõnum.
+
+### Mida see prototüübis tähendab
+
+Ekraani 3 hanketingimused on failis [02](02-idee.md#lahendus) uuendatud. Ekraanil 4 on pakkumise juures sõnum hinnakindluse kohta (vt [lähtealused](07-prototuubi-lahtealused.md)).

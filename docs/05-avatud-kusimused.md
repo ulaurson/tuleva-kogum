@@ -22,7 +22,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 ## 3. Mida täpselt hangitakse?
 
 - Mitu kasutusprofiili (nt kuni 10 GB, 10–50 GB, piiramatu)?
-- Tingimused: sidumine, hinnakindluse periood, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit.
+- Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
 

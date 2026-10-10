@@ -21,6 +21,7 @@
 | **10.10** | **Fookus: side ühishange** | Tiimi otsus häkatonil. Ühine ostujõud vastab väljakutsele 3 otse. Kuna liige vahetab ise, ei sõltu idee volitusest. Mudel on mobiilsides tehtud (OCU, Hispaania), Tuleva eristub sellega, et ei võta võitjalt raha |
 | 10.10 | Kui liige oma kuutasu ei sisesta, võrdleme sama operaatori avaliku sarnase paketi hinnaga | Liige ei pruugi oma kuutasu teada, aga pakkumise saab siis ikkagi näidata. Reegel on failis [07](07-prototuubi-lahtealused.md#arvutusreeglid) |
 | 10.10 | Tuleva tulu: fikseeritud tasu iga lepingu kuumaksest. Asendab põhimõtte „Tuleva ei võta vahendustasu” | Kulud tuleb katta (AI-uuringute hinnang esimeseks aastaks 3 000–36 000 €, vt [uuringud](11-uuringud.md)). Arvutused ja projektsioonid teeb Marju |
+| 10.10 | Hinnakindlus: hinnalagi, mitte hinnalukk. Küsime 24 kuud, nõustume vähemalt 12 kuuga. Mahuastmed langetavad hinda kõigil, hind ei tõuse grupi kahanedes, iga-aastane hange jääb. Sõnum liikmele: „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” | Grupp võib kasvada 1000-lt 10 000-le ja siis tahame paremat hinda. Hinnalagi seob ainult operaatorit, liige võib tähtajatu lepinguga alati lahkuda. Vt [arutelu](10-arutelu.md) punkt 2 |
 
 ## Mis jäi välja ja miks
 
