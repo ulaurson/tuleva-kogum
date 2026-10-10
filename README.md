@@ -24,6 +24,7 @@
 | [docs/10-arutelu.md](docs/10-arutelu.md) | Tiimi viimased arutelud, mida teistes failides veel pole | tahad teada, mida tiim praegu arutab |
 | [docs/11-ulevaade.md](docs/11-ulevaade.md) | Kujunduse ülevaade 10.10: žürii simulatsioon, parandused, lahtised probleemid | valmistud esitluseks |
 | [docs/12-uuringud.md](docs/12-uuringud.md) | AI-uuringute kokkuvõte: milles need kokku langevad, kus meiega ei klapi, vahetuse takistused, sihtklient, ühistu säästumudel | tahad teada, mida uuringud ütlevad |
+| [docs/13-tasuvus.md](docs/13-tasuvus.md) | Tuleva tulu ja kulu prognoos 5 aastaks, kolm stsenaariumi | tahad teada, kas teenus tasub end ära |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
 
 ## Reeglid selles repos
