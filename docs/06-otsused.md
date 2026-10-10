@@ -2,7 +2,7 @@
 
 ## Kehtivad põhimõtted
 
-1. **Tuleva tasu on fikseeritud ja liikmele nähtav.** Tuleva saab iga lepingu kuumaksest sama fikseeritud summa (otsus 10.10). Tasu ei sõltu sellest, millise paketi liige valib, ja liige näeb seda enne liitumist (õigusmentor 7.10). Kuni 10.10 kehtis põhimõte „Tuleva ei võta operaatoritelt vahendustasu”.
+1. **Tuleva tasu on fikseeritud ja liikmele nähtav.** Tuleva saab iga lepingu kuumaksest sama fikseeritud summa (otsus 10.10). Tasu maksab operaator, liikmele on teenus tasuta (vt [arutelu](10-arutelu.md) punkt 2). Tasu ei sõltu sellest, millise paketi liige valib, ja liige näeb seda enne liitumist (õigusmentor 7.10). Kuni 10.10 kehtis põhimõte „Tuleva ei võta operaatoritelt vahendustasu”.
 2. **Liige otsustab ise.** Tuleva ei vaheta kellegi eest. Põhjused: operaatorid ei pea Tuleva volitust aktsepteerima (õigusmentor 7.10) ja Suurbritannia autovahetajad kaotasid usalduse, kui vahetasid inimesi nende teadmata.
 3. **Tuleva ei soovita, kuhu sääst panna.** Isikustatud „pane sääst III sambasse” on tõenäoliselt investeerimisnõustamine. Näitame säästu ja üldist infot.
 4. **Prototüübis töötab liikme nähtav pool, tagapool on käsitsi.** Esimene päris hange tehakse tabelite ja kirjadega, automatiseerime viimasena.
@@ -20,9 +20,9 @@
 | 10.10 | „Aitab vahetada” = leping on süsteemis valmis, liige allkirjastab ja lubab saata ise | Liige jääb lepingu pooleks ja Tuleva ei pea olema tema esindaja |
 | **10.10** | **Fookus: side ühishange** | Tiimi otsus häkatonil. Ühine ostujõud vastab väljakutsele 3 otse. Kuna liige vahetab ise, ei sõltu idee volitusest. Mudel on mobiilsides tehtud (OCU, Hispaania), Tuleva eristub sellega, et ei võta võitjalt raha |
 | 10.10 | Kui liige oma kuutasu ei sisesta, võrdleme sama operaatori avaliku sarnase paketi hinnaga | Liige ei pruugi oma kuutasu teada, aga pakkumise saab siis ikkagi näidata. Reegel on failis [07](07-prototuubi-lahtealused.md#arvutusreeglid) |
-| 10.10 | Tuleva tulu: fikseeritud tasu iga lepingu kuumaksest. Asendab põhimõtte „Tuleva ei võta vahendustasu” | Kulud tuleb katta (AI-uuringute hinnang esimeseks aastaks 3 000–36 000 €, vt [uuringud](11-uuringud.md)). Arvutused ja projektsioonid teeb Marju |
-| 10.10 | Hinnakindlus: hinnalagi, mitte hinnalukk. Küsime 24 kuud, nõustume vähemalt 12 kuuga. Mahuastmed langetavad hinda kõigil, hind ei tõuse grupi kahanedes, iga-aastane hange jääb. Sõnum liikmele: „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” | Grupp võib kasvada 1000-lt 10 000-le ja siis tahame paremat hinda. Hinnalagi seob ainult operaatorit, liige võib tähtajatu lepinguga alati lahkuda. Vt [arutelu](10-arutelu.md) punkt 2 |
-| 10.10 | Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine | Uuringu A künnis (vt [uuringud](11-uuringud.md)). Haru „sama hind ilma sidumiseta” tiim ei võtnud |
+| 10.10 | Tuleva tulu: fikseeritud tasu iga lepingu kuumaksest. Asendab põhimõtte „Tuleva ei võta vahendustasu” | Kulud tuleb katta (AI-uuringute hinnang esimeseks aastaks 3 000–36 000 €, vt [uuringud](12-uuringud.md)). Arvutused ja projektsioonid teeb Marju |
+| 10.10 | Hinnakindlus: hinnalagi, mitte hinnalukk. Küsime 24 kuud, nõustume vähemalt 12 kuuga. Mahuastmed langetavad hinda kõigil, hind ei tõuse grupi kahanedes, iga-aastane hange jääb. Sõnum liikmele: „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” | Grupp võib kasvada 1000-lt 10 000-le ja siis tahame paremat hinda. Hinnalagi seob ainult operaatorit, liige võib tähtajatu lepinguga alati lahkuda. Vt [arutelu](10-arutelu.md) punkt 3 |
+| 10.10 | Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine | Uuringu A künnis (vt [uuringud](12-uuringud.md)). Haru „sama hind ilma sidumiseta” tiim ei võtnud |
 
 ## Mis jäi välja ja miks
 

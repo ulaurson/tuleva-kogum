@@ -13,7 +13,7 @@
 
 ## Mida AI-uuringud õiguse kohta väidavad
 
-*Need on AI-uuringute väited (vt [uuringud](11-uuringud.md)). Õigusmentor pole neid hinnanud ja seaduse teksti me üle ei kontrollinud.*
+*Need on AI-uuringute väited (vt [uuringud](12-uuringud.md)). Õigusmentor pole neid hinnanud ja seaduse teksti me üle ei kontrollinud.*
 
 | Teema | Uuringu väide | Mida see meile tähendaks |
 |---|---|---|
