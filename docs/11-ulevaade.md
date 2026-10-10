@@ -71,6 +71,6 @@
 5. **Elisa kontrollimata hind on graafikul.** Kas kontrollida üle või võtta välja.
 6. **Ümberarvutust liikmetele/kogujatele aasta vaates pole** (07 p 2). Marju baas: liikmete sääst ≈ 311 000 € 1. aastal (hinnang).
 7. **K1b 2027 bänner** viib 2026 pakkumise ekraanile. Demos ära näita või tee eraldi vaade.
-8. **Telepakett „[soodustus]”** on laval täitmata koht.
+8. Telepakett: ekraanil nüüd 50 % tavahinnast (otsus 10.10).
 9. **Ligipääsetavus HTML-is:** valikunupud päris `input type="radio"` peale, tegevused (`Koosta leping`, `Saada Operaator A-le`) `button`-iks, tagasilingid 44 px.
 10. Operaatori signaali ja koguja väärtuse küsimus on endiselt lahti (vt eespool).

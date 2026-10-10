@@ -93,7 +93,7 @@ Tuleb läbi mõelda (tiim 10.10).
 
 ## 11. Telepakett ja koduinterneti hinnad
 
-- Telepaketi soodustuse suurus on lahtine. Telepakettide hindu pole veel kogutud.
+- Telepaketi soodustus on 50 % tavahinnast (otsus 10.10). Telepakettide hindu pole veel kogutud.
 - Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia ja Tele2, 10.10). Elisa puudub. Kiirus ja hind sõltuvad aadressist.
 
 ## 12. Konto ja andmed
