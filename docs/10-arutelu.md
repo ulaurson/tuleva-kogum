@@ -37,14 +37,14 @@ Tuleva Kogum on eraldi äri ja peab ennast ära tasuma, et saaks liikmetele head
 |---|---|---|
 | Kas see läheb vastuollu senise põhimõttega? | Jah. Senine põhimõte 1 on „Tuleva ei võta operaatoritelt vahendustasu” ja see on olnud idee peamine eristaja (vt [otsused](06-otsused.md)). Võrdlusportaalidel ja välismaa ühisostudel (OCU) maksab korraldajale võitja, ja just seda huvide konflikti oleme seni välja toonud | Kas tiim muudab põhimõtet? Kui jah, tuleb uuendada otsused, README reegel 3 ja esitluse sõnum |
 | Kuidas huvide konflikti vähendada? | **Hinnang:** kõik pakkujad maksavad sama fikseeritud tasu uue kliendi kohta, see on hanketingimustes avalik ega mõjuta võitja valikut. Liige näeb enne vahetamist, et Tuleva saab tasu ja kui suure | Kas see on žüriile piisav? Kas operaatorid nõustuvad? |
-| Kui suur on tulu? | **Hinnang** näidisandmete põhjal (56 % osalejatest vahetab): 20 € tasuga ja 1 000 osalejaga ≈ 11 200 € aastas. 10 000 liikme juures on äri väike | Tasu suurus. Tegelik vahetajate osa |
+| Kui suur on tulu? | **Hinnang** näidisandmete põhjal (56 % osalejatest vahetab): 0,50 € kuus jõustunud lepingu kohta ja 1 000 osalejaga ≈ 3 360 € aastas. 10 000 liikme juures on äri väike | Tasu suurus. Tegelik vahetajate osa |
 | Mida see seaduse mõttes tähendab? | Õigusmentor: edukustasu on lubatud, kui see on enne lepingut selgelt öeldud (vt [õigus](04-oigus.md)) | Kas operaatori makstav tasu teeb Tulevast vahendaja, kellele kehtivad lisanõuded? Küsida õigusmentorilt |
 
 Alternatiiv, mis säilitab eristaja: tasu maksab liige ise, näiteks 10 % esimese aasta säästust ja ainult siis, kui ta vahetab (sama mudel oli autopiloodi ideel).
 
 ### Mida see prototüübis tähendab
 
-- Prototüübis on praegu operaatori makstav tasu, näidis 20 € jõustunud lepingu kohta.
+- Prototüübis on praegu operaatori makstav tasu, näidis 0,50 € kuus jõustunud lepingu kohta (Ülari ettepanek 10.10, kokku leppimata).
 - Pakkumise ekraan ütleb liikmele: „Sulle tasuta. Tuleva saab iga uue liikme eest operaatorilt sama tasu, olenemata sellest, kes hanke võitis.”
 - Hanke ja pakkumiste vaates on kirjas, et tasu on kõigilt pakkujatelt sama ja võitja valikul seda arvesse ei võeta.
-- Aasta statistikas on Tuleva tulu (14 × 20 € = 280 €; 1 000 osalejaga ≈ 11 200 €) ja tasu liikmele 0 €.
+- Aasta statistikas on Tuleva tulu (14 × 0,50 € × 12 = 84 € aastas; 1 000 osalejaga ≈ 3 360 €) ja tasu liikmele 0 €.
