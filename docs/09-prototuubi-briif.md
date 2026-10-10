@@ -19,7 +19,7 @@ Ekraanid on järjekorras. Kuidas need täpselt välja näevad, otsustab ehitaja.
 1. **Mari:** väljamõeldud liige vanuses 35–45. Tal on praegune pakett, kuutasu ja tegelik kasutus ning ekraanil on tema ülemakse aastas.
 2. **Grupp:** umbes 25 näidisliiget. Näha on, mitu neist maksab üle ja kui palju kokku aastas. Ümberarvutus 85 745 kogujale on märgitud sõnaga **hinnang**.
 3. **Hankepäring:** mitu inimest osaleb, kuidas nad jagunevad kasutusprofiilide vahel ja millised on hanketingimused (eelnõu failis 02).
-4. **Mari isiklik pakkumine:** kolm hinda kõrvuti: praegu, täna avalike hindadega ja hankega (**hinnang**). Lisaks sääst aastas ja nupp „Vaheta”. Liige otsustab ise.
+4. **Mari isiklik pakkumine:** kolm hinda kõrvuti: praegu, täna avalike hindadega ja hankega (**hinnang**). Lisaks sääst aastas, Tuleva tasu (näidissumma, kuni Marju arvutus on valmis) ja nupp „Vaheta”. Liige otsustab ise.
 5. **Leping:** valmis täidetud leping väljamõeldud andmetega. Liige vajutab „Allkirjasta digitaalselt”, siis tuleb PIN-koodi ootamise ekraan ja lõpuks teade „Saadetud operaatorile”.
 
 ## Piirid

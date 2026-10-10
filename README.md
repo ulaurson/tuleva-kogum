@@ -29,7 +29,7 @@
 
 1. **Iga turufakt käib koos allika ja kuupäevaga.** Hinnad ja seadused muutuvad. Enda arvutus või oletus märgitakse sõnaga **hinnang**.
 2. **Repo on avalik, isikuandmeid siia ei panda.** Küsitluse vastused, arved, nimed ja telefoninumbrid hoitakse kaustas `andmed-privaatne/`, mida git ei jälgi (vt `.gitignore`).
-3. **Tuleva ei võta operaatoritelt vahendustasu.** Lahendus ei tohi sellele toetuda. See on idee peamine eristaja (vt [otsused](docs/06-otsused.md)).
+3. **Tuleva tasu on fikseeritud ja liikmele nähtav.** Iga lepingu kuumaksest saab Tuleva sama summa, mis ei sõltu paketist (vt [otsused](docs/06-otsused.md)).
 4. **Prototüübis töötab liikme nähtav pool.** Tagapool (päris hange, operaatorite pakkumised) võib olla käsitsi või näidisandmetega, kui see on demos ausalt öeldud.
 5. **Liige otsustab alati ise.** Tuleva ei vaheta kellegi eest ega soovita, kuhu sääst panna (vt [õigus](docs/04-oigus.md)).
 

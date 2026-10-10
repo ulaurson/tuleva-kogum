@@ -21,7 +21,7 @@ Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke.
 | 5 | Otsus ja leping | Liige | Otsustab ise. Kui vahetab, on leping süsteemis tema andmetega valmis täidetud. Liige vaatab selle üle, allkirjastab digitaalselt ja lubab süsteemil selle operaatorile saata. Iga sammu teeb liige ise, Tuleva ainult valmistab ette ja edastab. Numbri üleviimine on tasuta ja uus operaator lõpetab vana lepingu kliendi volitusel |
 | 6 | Järgmisel aastal uuesti | Tuleva | Uus hange. Liige ei pea ise midagi jälgima, sest hange on päästik |
 
-**Soovitud hanketingimused (eelnõu, kinnitamata):** kampaaniahind ilma 24-kuulise sidumiseta, hind fikseeritud vähemalt 12 kuuks, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks).
+**Soovitud hanketingimused (eelnõu, kinnitamata):** kampaaniahind ilma 24-kuulise sidumiseta, hind fikseeritud vähemalt 12 kuuks, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu, sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel).
 
 **Mida hankepäringus veel küsida** (AI-uuringute soovitus, tiim pole arutanud, vt [uuringud](11-uuringud.md)):
 
@@ -40,7 +40,7 @@ Tiimi töölehe (9.10) järgi tegutseb liige kahel puhul: kui hind tõuseb või 
 
 Operaator saab 1000 kliendiga rääkimise asemel rääkida ühega. **Hinnang:** grupihange vähendab operaatori kulu uue kliendi saamiseks. Kui suur see kulu Eestis on, pole teada.
 
-Sama mudeli on teinud Hispaania tarbijaorganisatsioon OCU mobiilsidega ja Suurbritannia Which? energiaga (vt [faktid](03-faktid.md#välismaa-eeskujud)). Tuleva erinevus: korraldaja ei võta võitjalt raha.
+Sama mudeli on teinud Hispaania tarbijaorganisatsioon OCU mobiilsidega ja Suurbritannia Which? energiaga (vt [faktid](03-faktid.md#välismaa-eeskujud)). Tuleva tasu on fikseeritud, ei sõltu paketist ja liige näeb seda enne liitumist (vt [ärimudel](#ärimudel-eeldus-kinnitamata)).
 
 ## Kolm väärtust
 
@@ -63,14 +63,13 @@ Kõik AI-uuringud (vt [uuringud](11-uuringud.md)) hoiavad need lahus. Ainult tei
 | Sidumine | Parim hind ainult 24-kuulise lepinguga | Eesmärk: parim hind ilma pika sidumiseta |
 | Ülevaatus | Keegi ei tee | Kord aastas, hange ise on meeldetuletus |
 | Liikme töö | Tunde võrdlemist ja kauplemist | Üks vorm aastas ja üks otsus |
-| Kelle huvides | Võrdlusportaal või maakler teenib operaatorilt | Tuleva ei võta operaatorilt midagi |
+| Kelle huvides | Võrdlusportaal või maakler teenib operaatorilt | Tuleva tasu on fikseeritud ja liikmele nähtav |
 
 ## Ärimudel (eeldus, kinnitamata)
 
-- Tuleva kogujatele tasuta.
-- Tuleva ei võta võitjalt ega teistelt operaatoritelt vahendustasu. Välismaal maksab korraldajale tavaliselt võitja, Tuleva teeb teisiti.
+- Tuleva saab iga lepingu kuumaksest fikseeritud tasu (otsus 10.10). Tasu ei sõltu paketist ja liige näeb seda enne liitumist. Summa ja projektsioonid arvutab Marju.
 - Tuleva võit on uus koguja ja lojaalsus. Kui palju maksab Tulevale täna ühe koguja saamine, on veel teadmata.
-- Kõik kolm AI-uuringut eeldavad, et korraldajale maksab operaator. Nende kulumudelite järgi on esimese aasta kulu 100 liitumise juures umbes 3 000–21 600 € ja 1000 liitumise juures umbes 7 500–35 800 € (**hinnang**, illustratiivsed eeldused, vt [uuringud](11-uuringud.md)).
+- AI-uuringute kulumudelite järgi on esimese aasta kulu 100 liitumise juures umbes 3 000–21 600 € ja 1000 liitumise juures umbes 7 500–35 800 € (**hinnang**, illustratiivsed eeldused, vt [uuringud](11-uuringud.md)).
 - Varasem mõte: mitte-kogujatele 10% esimese aasta säästust ja ainult siis, kui sääst tekib. Kas hange on üldse avatud mitte-kogujatele, on lahtine (vt [avatud küsimused](05-avatud-kusimused.md)).
 
 ## Hilisemad sammud (visioon, mitte häkatoni skoop)

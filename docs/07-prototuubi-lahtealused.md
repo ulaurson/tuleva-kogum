@@ -7,7 +7,7 @@
 1. **Sama teenuse eest makstakse väga erinevalt.** Päris andmed häkatoni osalejatelt: mitu maksab üle ja kui palju.
 2. **Grupp koos on suur.** N osalejat, kokku X € ülemakset aastas. Ümberarvutus Tuleva 85 745 kogujale märgitakse **hinnanguks**.
 3. **Hankepäring on valmis.** Kiri operaatoritele: mitu inimest, kasutusprofiilide jaotus, tingimused.
-4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut, allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
+4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, Tuleva tasu (vt [õigus](04-oigus.md)), nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut, allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
 
 ## Piirangud
 
@@ -21,6 +21,8 @@
 ## Arvutusreeglid
 
 Sisend: `hind_praegu` (€/kuu), `kasutus_gb` (viimase 3 kuu keskmine), `puhver = 1,2`.
+
+**Kui liige kuutasu ei sisesta** (otsus 10.10): `hind_praegu` on sama operaatori avalik hind paketile, mis vastab liikme paketi nimele või mahule. Kui leping on tähtajaline ja operaatoril on 24 kuu hind, kasuta seda, muidu sidumata hinda. Ekraanil on märge „avalik hind, mitte sinu arve”.
 
 1. **Vajalik maht** = `kasutus_gb × 1,2`.
 2. **Sobiv pakett** = odavaim pakett, mille maht ≥ vajalik maht. Piiramatu = 9999 GB.
@@ -51,7 +53,7 @@ Eesmärk: 20+ päris vastust, täitmine alla 3 minuti. Sissejuhatus vormis:
 
 1. **Operaator:** Telia / Elisa / Tele2 / muu
 2. **Paketi nimi:** vaba tekst (nt „17 GB”)
-3. **Kuutasu eurodes:** arvelt, koos käibemaksuga, ühe numbri kohta
+3. **Kuutasu eurodes:** arvelt, koos käibemaksuga, ühe numbri kohta. Kui ei tea, jäta tühjaks
 4. **Leping:** tähtajaline (24 kuud) / tähtajatu / ei tea
 5. **Kui tähtajaline, millal lõpeb?** kuu ja aasta (valikuline)
 6. **Tegelik andmekasutus kuus (GB):** viimase 3 kuu keskmine iseteenindusest. Kui ei leia: alla 5 / 5–15 / 15–50 / üle 50 / ei tea

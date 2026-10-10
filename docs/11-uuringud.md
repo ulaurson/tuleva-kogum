@@ -25,8 +25,8 @@
 
 | Teema | Uuringud | Meie repo |
 |---|---|---|
-| Kes maksab korraldajale | Kõik kolm eeldavad operaatori kliendihanketasu, 20–30 € liitumise kohta (**hinnang**, mitte pakkumine) | Tuleva ei võta vahendustasu ([otsused](06-otsused.md)) |
-| Kus liige lepingu allkirjastab | Operaatori keskkonnas, sest lepingueelse teabe ja lepingu kokkuvõtte annab operaator (A, C) | Leping on valmis Tuleva süsteemis ja Tuleva edastab selle (otsus 10.10) |
+| Korraldaja tasu | Kõik kolm eeldavad ühekordset kliendihanketasu, 20–30 € liitumise kohta (**hinnang**, mitte pakkumine) | Fikseeritud tasu iga lepingu kuumaksest ([otsus](06-otsused.md) 10.10) |
+| Kus liige lepingu allkirjastab | Operaatori keskkonnas, sest lepingueelse teabe ja lepingu kokkuvõtte annab operaator (A, C) | Leping on valmis Tuleva süsteemis ja Tuleva edastab selle (otsus 10.10). Konsulteerimine on todo ([05](05-avatud-kusimused.md)) |
 | Sihtrühm | Käitumise ja kasutuse järgi (A, C, D) | Vanus 35–45 ([tööleht](08-tooleht-2026-10-09.md)) |
 | Mitme numbriga pere | D: hea esimene sihtklient. A: Tele2 Piiramatu Klubis maksab iga järgmine piiramatu pakett 12,99 €, seega pere pole automaatselt hea sihtrühm | Pole arutatud |
 | Tele2 24 kuu hinnad | A ja B: kampaaniahinnad 8,50 € ja 15,50 €. C: 10,50 € ja 17,50 € | `hinnad.csv` seisuga 26.09: 10,50 € ja 17,50 €. Kampaania kontrollitud 10.10 ([faktid](03-faktid.md)) |

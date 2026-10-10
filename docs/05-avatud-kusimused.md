@@ -30,9 +30,14 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 Kui võitja hind on sama mis 24-kuuline kampaaniahind, on uudsus ainult sidumise puudumine. Big Switchi õppetund: turul võib kohe olla sama hea pakkumine. Hange peab andma midagi, mida üksikklient ei saa.
 
-## 5. Kuidas kulud kaetakse ilma vahendustasuta?
+## 5. Kas fikseeritud tasu katab kulud?
 
-Mujal maksab korraldajale võitja. Tuleva seda ei tee. Eeldus on, et tulu tuleb uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
+Otsus 10.10: Tuleva saab iga lepingu kuumaksest fikseeritud tasu (vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)). Arvutused ja projektsioonid teeb Marju.
+
+- Kui suur on tasu ja mitu lepingut on vaja, et kulud kaetud oleksid?
+- Kas operaatorid nõustuvad tasuga, mis on kõigile sama ja ei sõltu paketist?
+- Sisend arvutusele (**hinnang**, vt [uuringud](11-uuringud.md)): AI-uuringute järgi on esimese aasta kulu 3 000–36 000 €. Uuringud eeldavad ühekordset tasu 20–30 € liitumise kohta. Uuring A arvutab ka igakuise tasu: teisel aastal 1000 numbri juures umbes 1,6 € numbri kohta kuus.
+- Lisatulu võib tulla uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
 
 ## 6. Mitu inimest päriselt vahetab?
 
@@ -50,6 +55,11 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 - Millise lepingu vormi operaator nõuab ja kas see on igal operaatoril erinev?
 - Kas Tuleva on õiguslikult ainult edastaja, mitte esindaja (küsida õigusmentorilt)?
 - Lepingu jaoks on vaja isikuandmeid (nimi, isikukood, telefoninumber). Demos kasutame ainult väljamõeldud andmeid.
+
+**Todo: konsulteerida** (10.10)
+
+- [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
+- [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
 
 ## 9. Andmekaitse
 

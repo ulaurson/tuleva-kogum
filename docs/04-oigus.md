@@ -6,7 +6,7 @@
 |---|---|---|
 | Kes teenust pakub | Tuleva Fondid AS (fondivalitseja) ei tohi seda teenust pakkuda. Pakkuda saab Tulundusühistu Tuleva või eraldi tütarettevõte | Ütle „Tuleva ühistu korraldab hanke”, mitte „Tuleva Fondid” |
 | Liikme nimel vahetamine | Operaatoritel pole kohustust volitatud esindajat aktsepteerida, iga operaator otsustab ise oma tingimustes | Sidehankes **vahetab liige ise** otse operaatoriga. Tuleva ei pea volitust küsima, see risk kaob |
-| Tasu | Edukustasu on lubatud, kui tasu suurus ja arvutus on enne lepingut selgelt öeldud. Sides on tegevusloa kohustus ebatõenäoline | Kui kunagi võetakse tasu, peab see olema enne liitumist selgelt näha |
+| Tasu | Edukustasu on lubatud, kui tasu suurus ja arvutus on enne lepingut selgelt öeldud. Sides on tegevusloa kohustus ebatõenäoline | Tuleva fikseeritud tasu (otsus 10.10) peab olema enne liitumist selgelt näha: summa ja kuidas see arvutatakse |
 | Vastutus ja taganemine | Uue operaatori lepingule kehtib 14-päevane taganemisõigus, selle tagab operaator | Võib öelda: „iga vahetuse saad 14 päeva jooksul tagasi võtta” |
 | Lepingu edastamine (meie lahendus 10.10, mentor pole hinnanud) | Liige allkirjastab lepingu ise ja Tuleva süsteem ainult edastab selle. See ei ole esindamine volituse alusel. **Hinnang:** volituse probleem kaob, aga operaator peab olema nõus lepinguid selle kanali kaudu vastu võtma | Kanali aktsepteerimine on hanketingimus. Küsida õigusmentorilt, kas Tuleva on siin ainult edastaja |
 | Säästu suunamine | Isikustatud soovitus „pane sääst III sambasse” on tõenäoliselt investeerimisnõustamine, mis vajab tegevusluba | **Demo ei soovita, kuhu sääst panna.** Lubatud on üldine info, näiteks „III samba sissemaksult saab 22% tulumaksu tagasi”, ja liige otsustab ise |

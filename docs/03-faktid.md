@@ -76,5 +76,5 @@ Registreerimine 2–3 nädalat → pöördoksjon 1–2 nädalat (pakkujad võist
 
 1. **Mudel töötab ja on mobiilsides tehtud** (OCU). Me ei pea tõestama, et ühisost on võimalik, vaid et Tuleva teeb seda paremini.
 2. **Võitja on tavaliselt väljakutsuja, mitte turuliider.** Eestis on kolm suurt operaatorit. Kes oleks siin väljakutsuja, on lahtine.
-3. **Mujal maksab korraldajale võitja.** Tuleva ei võta midagi ja see on eristaja, aga siis tuleb kulud katta muust (vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)).
+3. **Mujal maksab korraldajale võitja.** Ka Tuleva saab tasu: fikseeritud summa iga lepingu kuumaksest, liikmele nähtav (otsus 10.10, vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)).
 4. **Pakkumine peab olema parem kui turu parim**, muidu kordub Big Switchi õppetund. Hanke tingimus „kampaaniahind ilma sidumiseta” on see, mida turul täna pole. Kuni 15.11.2026 on latt Tele2 kampaania: 17 GB 8,50 € ja piiramatu 15,50 € (vt [kolm väärtust](02-idee.md#kolm-väärtust)).
