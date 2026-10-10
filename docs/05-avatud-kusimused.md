@@ -72,6 +72,7 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 
 - [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
 - [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
+- [ ] Operaatorid: leppida SLA-s kokku, kas Tuleva isikutuvastus sobib operaatorile, et liige saaks lepingu täita Tuleva lehel. Kui ei sobi, suuname liikme lepingu sõlmimiseks operaatori lehele.
 
 ## 9. Andmekaitse
 
