@@ -1,6 +1,6 @@
 # AI-uuringute kokkuvõte (10.10.2026)
 
-*Tiim kasutas kolme AI süvauuringut ja üht ChatGPT vestlust. Siin on nende olulisem sisu ja see, kus need meie otsustega ei klapi. Uuringud on teisene allikas. Turufaktid, mida kontrollisime algallikast, on failis [03](03-faktid.md) märgiga ✅. Kõik muu on uuringu väide või **hinnang**. Uuringute algfailid repos ei ole.*
+*Tiim kasutas kolme AI süvauuringut, üht ChatGPT vestlust ja üht Excel-mudelit. Siin on nende olulisem sisu ja see, kus need meie otsustega ei klapi. Uuringud on teisene allikas. Turufaktid, mida kontrollisime algallikast, on failis [03](03-faktid.md) märgiga ✅. Kõik muu on uuringu väide või **hinnang**. Uuringute algfailid repos ei ole.*
 
 | Tähis | Allikas | Fookus |
 |---|---|---|
@@ -8,6 +8,7 @@
 | B | „Eesti eraisikute side- ja elektriühisost: teostatavus, sääst ja 30 päeva piloot” | Side ja elekter, sääst ja tasuvus |
 | C | „Süvauuring: Tuleva liikmete mobiilipakettide ühispakkumise elluviimine” | Mobiil: vahendusmudel, Mobiil-ID, andmekaitse, riskid |
 | D | ChatGPT vestlus „Esimene sihtklient” | Persoona |
+| E | Excel-mudel „telco_mutual_model” (10.10.2026) | Ühistu säästupotentsiaal leibkonna sidekulu põhjal |
 
 ## Milles uuringud kokku langevad
 
@@ -60,6 +61,26 @@ C hinnangul jõuab huvi avaldanutest aktiveerimiseni 40–50% (**hinnang**).
 - **Keskmesse ei sobi:** inimene, kes võrdleb niigi pidevalt hindu, ja inimene, kes otsib eelkõige paremat levi.
 - **Sihtimine käitumise järgi:** vastutab lepingute eest, pole neid hiljuti üle vaadanud, saab oma andmed esitada, vahetab selgelt parema pakkumise korral.
 - **Sõnum:** „Laseme teenusepakkujatel meie ühise kliendigrupi nimel konkureerida. Näitame sinu tegelikku aastast säästu, kõiki tasusid ja tingimusi. Sina otsustad, kas vahetus tasub ära.”
+
+## Ühistu säästumudel (E)
+
+*Mudel arvutab, kui palju saaks 5 000 liikmega ühistu säästa ja mida nõuab 1 mln € aastas. Kõik tulemused on **hinnang**.*
+
+| Mis | Number | Alus |
+|---|---|---|
+| Leibkonna sidekulu täna | umbes 835 € aastas ehk 70 € kuus | 279,2 € inimese kohta (2020, ✅ vt [faktid](03-faktid.md)) × 2,3 inimest (2011. aasta andmed) × 1,3 (hinnatõus alates 2020, eeldus). See on kogu sidekulu koos koduinterneti, posti ja telefonidega, mitte ainult mobiil |
+| 5 000 leibkonna sidekulu | umbes 4,2 mln € aastas | Kui liikmed on üksikisikud, mitte leibkonnad: umbes 1,8 mln € |
+| Mida nõuab 1 mln € säästu | 200 € leibkonna kohta aastas ehk 24% sidekulust | |
+| Säästuhoovad | Grupisoodustus 15% (10–20%), pakett kasutuse järgi 8% (5–15%), lisade eemaldamine 3% (2–5%), oma virtuaaloperaator 0% | Eeldused, mitte allikaga. Kokku 24%, sest hoovad korrutuvad, mitte ei liitu |
+| Tulemus 5 000 leibkonnaga | umbes 957 000 € aastas pärast 5% halduskulu. 1 mln € täitub umbes 5 220 leibkonna juures | Mudeli enda hinnangul on realistlik 0,5–1,0 mln € aastas |
+| Mis räägib vastu | 5 000 leibkonda on alla 1% Eesti leibkondadest. Hinnad on juba madalad. Paljudel aadressidel on koduinternetis üks pakkuja | |
+
+**Kuidas see meie ideega haakub (hinnang):**
+
+- Mudel liidab grupisoodustuse ja paketi sobitamise kokku. Meie [kolm väärtust](02-idee.md#kolm-väärtust) hoiavad need lahus: grupisoodustus on ühisostu lisaväärtus, sobitamine on paketi parandamine.
+- 15% grupisoodustus eeldab mudeli järgi mitmeaastast kohustust ja ühte arvet nagu ärikliendil. Meil on tähtajatu leping ja iga liige maksab operaatorile ise. Uuringu B järgi annaks 10% Tele2 kampaaniast odavam hind 10–19 € aastas numbri kohta.
+- 5% halduskulu säästust eeldab, et ühistu ise arveldab ja teenindab. Meil teeb seda operaator ja Tuleva tulu on fikseeritud tasu iga lepingu kuumaksest ([otsused](06-otsused.md)).
+- Mudel hõlmab kogu sidekulu. Mobiili osakaal sellest on teadmata, seega mobiili hange annab väiksema summa.
 
 ## Numbrid, mis on ainult hinnang
 

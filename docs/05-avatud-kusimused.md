@@ -18,6 +18,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Ainult Tuleva kogujatele, ühistu liikmetele või kõigile, kes soovivad?
 - Kui kõigile, kas parim hind kehtib kõigile või ainult Tuleva liikmetele? Kui ainult liikmetele, kuidas operaator liikmesust kontrollib (sooduskood, Tuleva ID)?
 - 85 745 on kogujad, mitte ühistu liikmed. Esitluses tuleb öelda õige arv.
+- Otsus 10.10: sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid (vt [otsused](06-otsused.md)). Mida see hankele, lepingule ja demole tähendab, on arutamata.
 
 ## 3. Mida täpselt hangitakse?
 

@@ -23,6 +23,7 @@
 | 10.10 | Tuleva tulu: fikseeritud tasu iga lepingu kuumaksest. Asendab põhimõtte „Tuleva ei võta vahendustasu” | Kulud tuleb katta (AI-uuringute hinnang esimeseks aastaks 3 000–36 000 €, vt [uuringud](12-uuringud.md)). Arvutused ja projektsioonid teeb Marju |
 | 10.10 | Hinnakindlus: hinnalagi, mitte hinnalukk. Küsime 24 kuud, nõustume vähemalt 12 kuuga. Mahuastmed langetavad hinda kõigil, hind ei tõuse grupi kahanedes, iga-aastane hange jääb. Sõnum liikmele: „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” | Grupp võib kasvada 1000-lt 10 000-le ja siis tahame paremat hinda. Hinnalagi seob ainult operaatorit, liige võib tähtajatu lepinguga alati lahkuda. Vt [arutelu](10-arutelu.md) punkt 3 |
 | 10.10 | Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine | Uuringu A künnis (vt [uuringud](12-uuringud.md)). Haru „sama hind ilma sidumiseta” tiim ei võtnud |
+| 10.10 | Sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid | Tiimi otsus. Mida see hankele, lepingule ja demole tähendab, on arutamata (vt [avatud küsimused](05-avatud-kusimused.md#2-kellele-hange-on-avatud)) |
 
 ## Mis jäi välja ja miks
 
