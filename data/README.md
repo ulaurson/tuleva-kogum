@@ -21,6 +21,15 @@ Eesti kolme suure operaatori eraisiku mobiilipaketid. Hinnad on €/kuu koos kä
 - Minutid, SMS-id ja EL-i rändluse maht puuduvad.
 - Väiksemaid pakkujaid ja alambrände tabelis pole.
 
+## koduinternet.csv
+
+Telia ja Tele2 eraisiku koduinterneti paketid, €/kuu koos käibemaksuga, kontrollitud 10.10.2026 operaatorite lehtedelt.
+
+- `kiirus_mbit`: allalaadimiskiirus. 5G pakettidel sõltub kiirus levist, seepärast on lahter tühi.
+- Hinnale võib lisanduda ruuteri rent: Telia 4,13 € kuus (praegu 12 kuud tasuta), Tele2 1,99–3,50 € kuus (kampaaniahind).
+- Kiirus ja hind sõltuvad aadressist.
+- **Elisa puudub:** leht ei avanenud 10.10. Lisada, kui hinnad on kontrollitud.
+
 ## Isikuandmed
 
 Küsitluse vastuseid siia ei panda. Hoia neid kaustas `andmed-privaatne/`, mida git ei jälgi.

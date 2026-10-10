@@ -90,3 +90,23 @@ Tuleb läbi mõelda (tiim 10.10).
 - AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult „oma samasuguste toodete või teenuste” kohta ja pensioni- või ühistusuhe tõenäoliselt ei sobi mobiilipaketi jaoks (ESS § 103¹, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
+
+## 11. Telepakett ja koduinterneti hinnad
+
+- Telepaketi soodustuse suurus on lahtine. Telepakettide hindu pole veel kogutud.
+- Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia ja Tele2, 10.10). Elisa puudub. Kiirus ja hind sõltuvad aadressist.
+
+## 12. Konto ja andmed
+
+Registreerumisel saab inimene konto (otsus 10.10).
+
+- Millised andmed kontol on ja kui kaua neid hoitakse? Küsida andmekaitse mentorilt.
+- Kas konto on Tuleva iseteeninduse osa või eraldi? Kuidas sisse logitakse (e-post, Smart-ID)?
+- Registreerumisel annab inimene nõusoleku saada ühishanke pakkumist e-postiga (seotud punktiga 10).
+
+## 13. Üks pakett kõigile
+
+Hange küsib ainult piiramatut paketti (otsus 10.10).
+
+- Väikese kasutusega inimene maksab täna Tele2 kampaanias 2 GB eest 5,50 € (vt [faktid](03-faktid.md)). Talle ei ole 13,50 € piiramatu sääst. Kas ütleme seda pakkumise juures ausalt?
+- Keskmine sääst (≈ 298 € aastas, hinnang) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.

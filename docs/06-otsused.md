@@ -29,6 +29,8 @@
 | 10.10 | Ka Tuleva soodustusega internetilepingult saab Tuleva fikseeritud summa paketi kohta kuus | Sama loogika mis mobiilil. Operaator teab soodustuse kaudu, millised lepingud on Tuleva kaudu |
 | 10.10 | Demo hanke stsenaarium: hanke hind on 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta. `hinnad.csv` uuendatud Tele2 kampaaniahindadega | Stsenaarium järgib hanketingimust. Testjuhtumid on uuendatud failis [07](07-prototuubi-lahtealused.md#testjuhtumid) |
 | 10.10 | 50% soodustus tavahinnast kehtib ka telepaketile. Ka telepaketi lepingult saab Tuleva fikseeritud summa kuus | Sama mis Marju tasuvusprognoosis (vt [tasuvus](13-tasuvus.md)) |
+| 10.10 (mentorid) | Esimene samm on registreerumine: inimene annab nõusoleku osaleda ja e-posti ning saab konto. See ei kohusta millekski. Konto kaudu näeb ta ka järgmiste aastate pakkumisi | Madal lävi liitumiseks. Andmeid kogutakse vähe, nagu soovitavad AI-uuringud (vt [uuringud](12-uuringud.md)) |
+| 10.10 | Hange küsib kõigilt operaatoritelt ühte pakkumist: piiramatu mobiilipakett. Osaleja ei sisesta oma praegust paketti ega hinda. Sääst näidatakse operaatorite avalike hindade järgi keskmisena (**hinnang**) | Lihtsam osalejale ja pakkumised on võrreldavad. Vähem isikuandmeid. Asendab profiilid ja isikliku säästuarvutuse failis [07](07-prototuubi-lahtealused.md) |
 
 ## Mis jäi välja ja miks
 
