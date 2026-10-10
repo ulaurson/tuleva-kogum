@@ -1,12 +1,13 @@
 # Avatud küsimused ja riskid
 
-*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees.*
+*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees. Kõik lahtised küsimused koos sellega, kellelt vastust küsida, on failis [15](15-lahtised-kusimused.md).*
 
 ## 1. Kas operaatorid üldse pakuvad?
 
 Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, mis lööb ka tema praeguseid kliente. Välismaal võitis ühisostu väljakutsuja, mitte turuliider (vt [faktid](03-faktid.md#järeldused-meie-jaoks)).
 
-- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata)
+- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata) Tele2 on väikseim operaator, turuosa 24% (TTJA 2025, vt [14](14-uuring-partnerid.md#turuosad)).
+- Partnerkoostöö näide on olemas: Enefiti kliendid saavad operaatorite koduinternetti soodsamalt (vt [faktid](03-faktid.md#eesti-eeskuju-enefiti-partnerpakkumised)). Avalikku partnerprogrammi, mis maksaks tasu, ei leidnud (vt [14](14-uuring-partnerid.md#kas-operaatorid-maksavad-partneritele-tasu)).
 - Mitu inimest peab registreeruma, et operaator hakkaks huvi tundma?
 - Varuplaan, kui keegi ei paku: Tuleva oma virtuaaloperaator (Tuleva briif: ~350 000 €, tasuvus ~12 000 kliendi juures, mobiilis pole hulgijuurdepääs kohustuslik).
 - **Häkatonil:** küsida äriarenduse mentorilt või saata kiri 1–2 operaatorile ja näidata laval päris vastust.
@@ -15,7 +16,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 **Otsus 10.10: hange ei piirdu Tuleva liikmetega** (vt [otsused](06-otsused.md)). Teenus on Tuleva liikmete oma, teised teevad ühise ostujõu tugevamaks. See asendab töölehe 9.10 piirangu „mitte liikmed jäävad välja”. Hanketingimus „sama hind kõigile osalejatele” kehtib ka siin (vt [idee](02-idee.md#lahendus)).
 
-- 85 745 on kogujad, mitte ühistu liikmed. Esitluses tuleb öelda õige arv.
+- 85 745 on kogujad, mitte ühistu liikmed. Ühistul oli 31.03.2026 seisuga 9 560 liiget (vt [häkaton](01-hakaton.md)). Esitluses tuleb öelda õige arv.
 - Otsus 10.10: sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel (vt [otsused](06-otsused.md)).
 
 ## 3. Mida täpselt hangitakse?
@@ -24,9 +25,9 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
-- Otsus 10.10: kokkuleppega on seotud koduinterneti soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
+- Otsus 10.10: kokkuleppega on seotud koduinterneti ja telepaketi soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
   - Kas soodustusest tekib uus kimbuleping? Kui liige lõpetab mobiili või järgmisel aastal võidab hanke teine operaator, kaotab ta interneti soodustuse. Vajab hiljem täpsustamist.
-  - Otsustatud 10.10: ka internetilepingult saab Tuleva fikseeritud summa paketi kohta kuus. Kuidas operaator neist teatab, lepitakse kokku SLA-s (ettepanek: sama kuuaruanne).
+  - Otsustatud 10.10: ka interneti- ja telepaketi lepingult saab Tuleva fikseeritud summa paketi kohta kuus. Kuidas operaator neist teatab, lepitakse kokku SLA-s (ettepanek: sama kuuaruanne).
 
 ## 4. Kas pakkumine on parem kui turu parim?
 
@@ -41,7 +42,7 @@ Otsus 10.10: Tuleva saab iga lepingu kuumaksest fikseeritud tasu (vt [ärimudel]
 - Kui suur on tasu ja mitu lepingut on vaja, et kulud kaetud oleksid?
 - Kas operaatorid nõustuvad tasuga, mis on kõigile sama ja ei sõltu paketist?
 - Sisend arvutusele (**hinnang**, vt [uuringud](12-uuringud.md)): AI-uuringute järgi on esimese aasta kulu 3 000–36 000 €. Uuringud eeldavad ühekordset tasu 20–30 € liitumise kohta. Uuring A arvutab ka igakuise tasu: teisel aastal 1000 numbri juures umbes 1,6 € numbri kohta kuus.
-- Tasu tuleb ka Tuleva soodustusega internetilepingutelt (otsus 10.10).
+- Tasu tuleb ka Tuleva soodustusega interneti- ja telepaketi lepingutelt (otsus 10.10).
 - Lisatulu võib tulla uutest kogujatest, aga ühe koguja hind on teadmata (küsida Tuleva meeskonnalt).
 
 Tasu maksab operaator ja see on kõigilt pakkujatelt sama (vt [arutelu punkt 2](10-arutelu.md)). Põhimõte „Tuleva ei võta operaatoritelt vahendustasu” on asendatud (vt [otsused](06-otsused.md)).
@@ -68,30 +69,69 @@ Liige ei pruugi teada, kas tal on tähtajaline leping, ega seda, mis maksab enne
 - Millise lepingu vormi operaator nõuab ja kas see on igal operaatoril erinev?
 - Kas Tuleva on õiguslikult ainult edastaja, mitte esindaja (küsida õigusmentorilt)?
 - Lepingu jaoks on vaja isikuandmeid (nimi, isikukood, telefoninumber). Demos kasutame ainult väljamõeldud andmeid.
+- Mida teame: Tele2 allkirjastab lepingu Dokobitis ja leping läheb automaatselt Tele2-le. Telias sõlmitakse leping e-keskkonnas. Ühtki juhtu, kus operaator aktsepteerib kolmanda osapoole isikutuvastust, ei leidnud (vt [14](14-uuring-partnerid.md#kuidas-operaator-lepingu-sõlmib-ja-kliendi-tuvastab)).
 
 **Todo: konsulteerida** (10.10)
 
-- [ ] Õigusmentor: AI-uuringute järgi peab lepingueelse teabe ja lepingu kokkuvõtte andma operaator (vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
+- [ ] Õigusmentor: ESS § 95¹ järgi annab lepingueelse teabe ja lepingu lühikokkuvõtte operaator enne lepingu sõlmimist (kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)). Kas Tuleva süsteemis valmis täidetud leping sobib või peab liige allkirjastama operaatori keskkonnas?
 - [ ] Operaatorid: kas operaatori lepingu kokkuvõtet saab näidata Tuleva süsteemis enne allkirjastamist?
 - [ ] Operaatorid: leppida SLA-s kokku, kas Tuleva isikutuvastus sobib operaatorile, et liige saaks lepingu täita Tuleva lehel. Kui ei sobi, suuname liikme lepingu sõlmimiseks operaatori lehele.
 
 ## 9. Andmekaitse
 
-Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust (vt [õigus](04-oigus.md)).
+Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentori vastust.
+
+Mida teame (**hinnang**, vt [õigus](04-oigus.md#andmekaitse-mida-aki-ütleb)): kui liige küsib ise pakkumist, sobib alus „lepingueelsed meetmed”. Tuleva ja operaator on tõenäoliselt eraldi vastutavad töötlejad.
 
 ## 10. Kuidas liikmeteni jõuda?
 
 Tuleb läbi mõelda (tiim 10.10).
 
-- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
+- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult „oma samasuguste toodete või teenuste” kohta ja pensioni- või ühistusuhe tõenäoliselt ei sobi mobiilipaketi jaoks (ESS § 103¹, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.
 
-## 11. Operaatori automaatkontroll numbri järgi
+## 11. Telepakett ja koduinterneti hinnad
 
-**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [14](14-operaatori-paring.md)). Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva automaatliidese ligipääs on kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+- Telepaketi soodustus on 50 % tavahinnast (otsus 10.10). Telepakettide hindu pole veel kogutud.
+- Koduinterneti hinnad on failis `data/koduinternet.csv` (Telia ja Tele2, 10.10). Elisa puudub. Kiirus ja hind sõltuvad aadressist.
 
-- Küsida TTJA-lt, kas Tuleva saab masinliidese, mis tingimustel ja milliste päringulimiitidega. Kui ei saa, hinnata lepingulise API võimalust.
-- Kinnitada teisaldatud numbrite info ajakohasus, vastuse väljad, maksumus ja vahemälu reeglid.
+## 12. Konto ja andmed
+
+Registreerumisel saab inimene konto (otsus 10.10).
+
+- Millised andmed kontol on ja kui kaua neid hoitakse? Küsida andmekaitse mentorilt.
+- Kas konto on Tuleva iseteeninduse osa või eraldi? Kuidas sisse logitakse (e-post, Smart-ID)?
+- Registreerumisel annab inimene nõusoleku saada ühishanke pakkumist e-postiga (seotud punktiga 10).
+
+## 13. Üks pakett kõigile
+
+Hange küsib ainult piiramatut paketti (otsus 10.10).
+
+- Väikese kasutusega inimene maksab täna Tele2 kampaanias 2 GB eest 5,50 € (vt [faktid](03-faktid.md)). Talle ei ole 6,50 € piiramatu sääst. Kas ütleme seda pakkumise juures ausalt?
+- Keskmine sääst (≈ 405 € aastas, hinnang hanke hinnaga 6,50 €, Tele2, Telia ja Elisa tavahinna keskmine) eeldab, et inimene maksab praegu piiramatu paketi tavahinda. Kui tal on kampaaniahind, on sääst väike.
+
+## 14. Leping ja allkirjastaja
+
+Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, näidised kaustas [lepingud](lepingud/README.md)).
+
+- Kas operaatorid võtavad vastu Tuleva kaudu tulnud digiallkirjastatud lepingu ja numbri üleviimise volituse?
+- Ettevõte: kas esindusõigust kontrollime äriregistrist automaatselt ja kas volikiri on PDF-ina piisav? Mitu numbrit ühe lepinguga?
+- Vorm küsib ainult miinimumi (vt [lepingud](lepingud/README.md)). Kas operaator tuvastab praeguse operaatori numbri järgi ja kas aadress on vajalik? Numbri üleviimise volituse vormil on mõlemad väljad.
+
+## 15. Kas 6,50 € on usutav?
+
+- Operaatorile jääks 6,50 €-st pärast käibemaksu ja Tuleva tasu ≈ 4,74 € (**hinnang**). Turu soodushinnad on 12,99 € (Tele2 Piiramatu Klubi lisaliin) ja 15,50 € (Tele2 kampaania 24 kuuga), vt [faktid](03-faktid.md).
+- Signaal: üks liige mainis 10.10 hinda 7 € (suuline, allikata; kas see on pakkumine, mille ta sai, või tema arvates õiglane hind, on teadmata).
+- Katse enne pühapäeva: küsida mentorilt või ühelt operaatorilt madalaimat hinda 1 000 liinile. Kuni vastust pole, öelda laval „sihthind”.
+- Ülari otsus 10.10: prototüübis jääb 6,50 € (sihthind), 7 € signaal ei muuda seda.
+
+## 16. Operaatori automaatkontroll numbri järgi
+
+**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [18](18-operaatori-paring.md)). [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud. Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva ligipääs TTJA masinliidesele on endiselt kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+
+- Kontrollida Twilio teisaldatud numbrite info täpsust ja ajakohasust teadaoleva tulemusega.
+- Enne ühise veebirakenduse käivitamist määrata API konto, eelarve, autentimine, serveri saladused ja püsiv päringupiir.
 - Täpsustada numbri edastamise ja tulemuse säilitamise andmekaitsetingimused (vt punkt 9).
-- Kuni liides pole kinnitatud, valib inimene operaatori käsitsi. Sideettevõtja vastus ei kinnita teenusebrändi, paketti ega lepingu tingimusi.
+- Küsida TTJA-lt eraldi masinliidese ligipääsu ja tingimusi, kui seda soovitakse Twilio asemel kasutada.
+- Käsitsi valik jääb alati toimima. Sideettevõtja vastus ei kinnita teenusebrändi, paketti ega lepingu tingimusi.

@@ -2,6 +2,8 @@
 
 Kohalik katsetööriist ühendab Eesti mobiilinumbri Twilio Lookup v2 teenusega. See on eraldi ühenduse katse, mitte kogu Tuleva hankeprototüüp. Päris päringud vajavad kasutaja Twilio kontot ja API võtit.
 
+**Arendajale:** [rakendusse ühendamise juhis](INTEGRATSIOON.md) kirjeldab olemasolevat HTTP API-t ja tooteankeedi välju. Kood on kasutatav serveriühenduse alusena. Veebirakendusse paigaldamine ja ühine kontoseadistus tuleb teha eraldi.
+
 ## Piirid
 
 - Katse algab alles nupust „Alusta 3-päevast katset”. Aktiveerimine lubab kuni 100 väljakutset 72 tunni jooksul.
@@ -35,6 +37,8 @@ Ilma Windowsi käivitajata saab serverit käivitada `node server.mjs` käsuga. T
 ## Kontrollimine
 
 `node --test server.test.mjs` kontrollib ühendust teenuse näidisvastustega. See ei tee tasulisi päringuid ega tõenda päris võtme või Eesti operaatoriinfo toimimist. Päris ühendus on kinnitatud alles pärast lubatud testnumbri edukat live-päringut.
+
+**Kohaliku katse tulemus 10.10.2026:** lubatud numbri päring andis Twiliolt kasutatava vastuse. See kinnitas ühenduse toimimist selle konto ja võtmega. Number, konto, võti ning päringu üksikasjad ei ole avaliku repo osa; teisaldatud numbri operaatoriinfo täpsus vajab eraldi kontrolli.
 
 ## Käivitustõrge pärast jõuga sulgemist
 

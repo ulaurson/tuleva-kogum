@@ -15,7 +15,7 @@ Liige ei jäta vahetamata ainult hinna pärast. Teda peatavad küsimused, millel
 | Liikme küsimus | Mida juba teame | Mis on lahtine |
 |---|---|---|
 | Kas mul on tähtajaline leping? Kuidas ma sellest aru saan? | Küsimustikus on vastusevariant „ei tea” (vt [lähtealused](07-prototuubi-lahtealused.md#küsimustik-osalejatele-side)). Juhist, kust seda vaadata, meil veel pole | Kust näeb seda Tele2, Telia ja Elisa klient (iseteenindus, arve, leping)? Kas lepingu lõppkuupäev on seal kirjas? |
-| Kas saan lepingu ilma trahvita lõpetada või pean lõpuni ootama? | Kui leping on pooleli, kehtib hanke pakkumine 12 kuud ja liige saab meeldetuletuse, kui tema leping lõpeb (vt [idee](02-idee.md#käivitajad)) | Mis maksab ennetähtaegne lõpetamine, näiteks saadud soodustuse tagasimaks või seadme järelmaks? Kontrollida seadusest ja kolme operaatori tingimustest, allika ja kuupäevaga |
+| Kas saan lepingu ilma trahvita lõpetada või pean lõpuni ootama? | Kui leping on pooleli, kehtib hanke pakkumine 12 kuud ja liige saab meeldetuletuse, kui tema leping lõpeb (vt [idee](02-idee.md#käivitajad)). Tele2 kampaanias tuleb ennetähtaegsel lõpetamisel maksta järelejäänud kuutasud või saadud soodustus, kumb on väiksem (vt [faktid](03-faktid.md)). Tähtajatu lepingu võib tarbija igal ajal üles öelda (ESS § 100 lg 1, vt [õigus](04-oigus.md#mida-seadus-ütleb)) | Mis maksab ennetähtaegne lõpetamine, näiteks saadud soodustuse tagasimaks või seadme järelmaks? Kontrollida seadusest ja kolme operaatori tingimustest, allika ja kuupäevaga |
 | Mida pean tegema, kui Tuleva pakkumise vastu võtan? Kas sellega kaasneb palju vaeva või ebamugavusi? | Number jääb samaks. Üleviimine on tasuta, mobiilinumbril 3–25 tööpäeva, ja uus operaator lõpetab vana lepingu kliendi volitusel (TTJA, vt [faktid](03-faktid.md#turg-ja-käitumine)). Alates 1.11.2026 hakkab number uues võrgus tööle järgmisel tööpäeval (Justiits- ja Digiministeerium). Mobiil-ID tuleb uuel SIM-kaardil ID-kaardi ja PIN-koodidega uuesti aktiveerida, Smart-ID jääb tööle (RIA, vt [faktid](03-faktid.md#turg-ja-käitumine)). Leping on süsteemis valmis täidetud ja liige allkirjastab selle digitaalselt (vt [idee](02-idee.md#lahendus)). Uuel lepingul on 14-päevane taganemisõigus (õigusmentori hinnang, vt [õigus](04-oigus.md)) | Kuidas liige saab uue SIM-kaardi (post, esindus, eSIM)? Kas üleviimise ajal on hetk, kui telefon ei tööta? Mis saab vana operaatori viimasest arvest? |
 
 AI-uuringud lisavad takistusi: number pole liikme nimel, seadme järelmaks või kimbuleping, vana operaatori vastupakkumine üleviimise ajal (vt [uuringud](12-uuringud.md#vahetuse-takistused)).
@@ -71,7 +71,7 @@ Stabiilsus ja parem hind ei ole vastuolus, kui hinnakindlus seob ainult operaato
 
 ### Mida juba teame
 
-Tähtajatu lepingu hinda võib operaator ette teatades muuta ja liige võib siis lepingu tasuta lõpetada (AI-uuringute väide, õigusmentor pole hinnanud, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)). Seega tuleb hinnakindlus hankes eraldi kokku leppida.
+Tähtajatu lepingu hinda võib operaator muuta, kui teatab vähemalt kuu ette. Liige võib siis lepingu ühe kuu jooksul lisakuludeta üles öelda (ESS § 99 lg 3, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)). Seega tuleb hinnakindlus hankes eraldi kokku leppida.
 
 ### Mis on lahtine
 
@@ -85,12 +85,14 @@ Hankepäringu tingimused (briifi ekraan 6) on failis [02](02-idee.md#lahendus) u
 
 ## 4. Operaatori kontroll telefoninumbri sisestamisel (10.10)
 
-**Staatus:** arutlusel; kasutaja tellitud tooteankeedi arendusnõue on kirjas, liides teostamata.
+**Staatus:** kohalikus katses teostatud; põhirakendusse ühendamine on veel tegemata.
 
 Soov: inimene sisestab oma numbri ja rakendus saab päringuga sideettevõtja. TTJA avalik numbripäring annab infot numbri ja sideettevõtja seose kohta. Numbri kasutaja nime ega kontaktandmeid andmebaas ei sisalda. [TTJA numeratsioon](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
 
-Lahtine: millist masinliidest saab Tuleva kasutada, millistel tingimustel ja millise ajakohasusega. Avalik veebivorm ei kinnita API ligipääsu. Teenusebrändi ja paketi andmed kinnitab inimene eraldi.
+10.10 on lisatud [Twilio Lookupi kohalik katse](../prototuup/twilio-katse/README.md), mille ühendus on lubatud numbri päringuga kontrollitud. Katse kestab aktiveerimisest 72 tundi ja lubab kuni 100 väljakutset. [Rakendusse ühendamise juhis](../prototuup/twilio-katse/INTEGRATSIOON.md) kirjeldab API-t. Võtmed ja päris päringu üksikasjad reposse ei lähe.
+
+Lahtine: teisaldatud numbrite info täpsus, ühise rakenduse API konto, eelarve ja andmekaitsetingimused. TTJA avalik veebivorm ei kinnita API ligipääsu. Teenusebrändi ja paketi andmed kinnitab inimene eraldi.
 
 ### Mida see prototüübis tähendab
 
-Tooteankeedi voog ja vastuvõtukriteeriumid on failis [14](14-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
+Tooteankeedi voog ja vastuvõtukriteeriumid on failis [18](18-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.

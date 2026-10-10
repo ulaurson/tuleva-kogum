@@ -25,7 +25,10 @@
 | [docs/11-ulevaade.md](docs/11-ulevaade.md) | Kujunduse ülevaade 10.10: žürii simulatsioon, parandused, lahtised probleemid | valmistud esitluseks |
 | [docs/12-uuringud.md](docs/12-uuringud.md) | AI-uuringute kokkuvõte: milles need kokku langevad, kus meiega ei klapi, vahetuse takistused, sihtklient, ühistu säästumudel | tahad teada, mida uuringud ütlevad |
 | [docs/13-tasuvus.md](docs/13-tasuvus.md) | Tuleva tulu ja kulu prognoos 5 aastaks, kolm stsenaariumi | tahad teada, kas teenus tasub end ära |
-| [docs/14-operaatori-paring.md](docs/14-operaatori-paring.md) | Numbri järgi operaatori kontroll: ankeedi voog, liidese eeldused ja vead | ehitad tooteankeeti või uurid API ligipääsu |
+| [docs/14-uuring-partnerid.md](docs/14-uuring-partnerid.md) | Operaatorid, õigus, andmekaitse ja Tuleva numbrid: mida leidsime, tingimused operaatoritele | valmistud operaatori või mentoriga rääkima |
+| [docs/15-lahtised-kusimused.md](docs/15-lahtised-kusimused.md) | Kõik lahtised küsimused, rühmitatud selle järgi, kellelt vastust küsida | tahad teada, mis on veel vastuseta |
+| [docs/18-operaatori-paring.md](docs/18-operaatori-paring.md) | Numbri järgi operaatori kontroll: ankeedi voog, Twilio katse ja vead | ehitad tooteankeeti või ühendad API-t |
+| [prototuup/twilio-katse/](prototuup/twilio-katse/README.md) | Twilio Lookupi server, katsevorm ja rakendusse ühendamise juhis | tahad operaatoripäringut käivitada või koodi kasutada |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
 
 ## Reeglid selles repos

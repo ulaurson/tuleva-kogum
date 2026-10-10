@@ -6,26 +6,26 @@
 
 Masinloetav tabel: [`data/hinnad.csv`](../data/hinnad.csv).
 
-**Tele2** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 26.09.2026)
+**Tele2** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026). 24 kuu hinnad on kampaaniahinnad 5.10–15.11.2026.
 
 | Pakett | 24 kuud | Ilma sidumiseta | Vahe |
 |---|---|---|---|
 | 2 GB | 5,50 € | 6,99 € | +27% |
-| 9 GB | 7,50 € | 10,99 € | +47% |
-| 17 GB | 10,50 € | 15,99 € | +52% |
-| 55 GB | 13,50 € | 21,99 € | +63% |
-| 250 GB | 15,50 € | 27,99 € | +81% |
-| Piiramatu Eesti | 17,50 € | 34,99 € | +100% |
+| 9 GB | pole | 10,99 € | |
+| 17 GB | 8,50 € | 15,99 € | +88% |
+| 55 GB | pole | 21,99 € | |
+| 250 GB | pole | 27,99 € | |
+| Piiramatu Eesti | 15,50 € | 34,99 € | +126% |
 
 Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
-**Tele2 kampaania 5.10–15.11.2026** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026): 24-kuulise lepinguga 2 GB 5,50 €, 17 GB 8,50 € ja Piiramatu Eestis 15,50 € kuus. 25. kuust kehtib tavahind. Pakkumine on uutele ja olemasolevatele eraklientidele, kes sõlmivad uue lepingu. Ennetähtaegsel lõpetamisel tuleb maksta järelejäänud kuutasud või saadud soodustus, olenevalt sellest, kumb on väiksem. 9 GB, 55 GB ja 250 GB 24 kuu hinda lehel 10.10 ei olnud. Ülal oleva tabeli ja `hinnad.csv` 24 kuu hinnad on seisuga 26.09.
+**Tele2 kampaania 5.10–15.11.2026** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026): 24-kuulise lepinguga 2 GB 5,50 €, 17 GB 8,50 € ja Piiramatu Eestis 15,50 € kuus. 25. kuust kehtib tavahind. Pakkumine on uutele ja olemasolevatele eraklientidele, kes sõlmivad uue lepingu. Ennetähtaegsel lõpetamisel tuleb maksta järelejäänud kuutasud või saadud soodustus, olenevalt sellest, kumb on väiksem. 9 GB, 55 GB ja 250 GB 24 kuu hinda lehel 10.10 ei olnud. 26.09 olid 24 kuu hinnad: 9 GB 7,50 €, 17 GB 10,50 €, 55 GB 13,50 €, 250 GB 15,50 € ja piiramatu 17,50 €. Need olid Tele2 eelmise kampaania „Kõik on tublid” (3.08–3.10.2026) hinnad ([tingimused](https://tele2.ee/abi/lepingud-ja-arveldus/kampaania-tingimused/kampaania-koik-on-tublid-tingimused)).
 
-**Tele2 Piiramatu Klubi** ✅ (sama leht, 10.10.2026): iga järgmine piiramatu pakett maksab 12,99 € kuus.
+**Tele2 Piiramatu Klubi** ✅ (sama leht, 10.10.2026): iga järgmine piiramatu pakett maksab 12,99 € kuus. Klubi tingimuste järgi on soodustus mobiilipaketile 22 € ja internetipaketile 18 € kuus 24 kuuks, kuni 9 lisapaketti ([tele2.ee/piiramatu](https://tele2.ee/piiramatu), kehtib kuni 31.12.2026).
 
 **Telia** ✅ ([telia.ee](https://www.telia.ee/era/mobiil/paketid), kontrollitud 27.09.2026, tähtajatu leping): 3 GB 13,20 €, 8 GB 19,30 €, 16 GB 26,42 €, 50 GB 33,53 €, piiramatu 41,65 €.
 
-**Elisa** ⚠️ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil) ja [mobiilipaketid.ee](https://mobiilipaketid.ee/), vaadatud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu 43,99 €. Elisa lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 18 GB 13,99 €) ja sidumise tingimusi lehelt ei selgu. Enne kasutamist kontrolli.
+**Elisa** ✅ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil), kontrollitud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu Eestis ja Soomes 43,99 €, Ultra 5G+ piiramatu Eestis ja Põhjamaades 53,99 €. Sidumise tingimusi leht ei näita. Lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 13,99 €), mida võrdluses ei kasuta.
 
 ## Turg ja käitumine
 
@@ -40,6 +40,17 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 | Tele2 piiras ajutiselt uusi Mobiil-ID liitumisi: liituda saab ainult siis, kui uuem SIM-kaart on juba olemas | ✅ | [tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026 |
 | Leibkonnaliikme aastane kulu sidele oli 279,2 € (2020) ja 276,1 € (2019). Kategooria (COICOP 08) sisaldab ka postiteenuseid ja telefone, mitte ainult mobiilsidet | ✅ | [Statistikaamet: leibkonnad](https://www.stat.ee/en/avasta-statistikat/valdkonnad/heaolu/households), tabel LE201, vaadatud 10.10.2026 |
 | Eestis on 651 300 leibkonda (2025) | ✅ | sama leht, tabel LEM01 |
+| Mobiilside turuosad lõppkasutajate arvu järgi 2025. aasta lõpus: Telia 44%, Elisa 32%, Tele2 24%. Lepingulisi kasutajaid umbes 1 797 000 | ✅ | [TTJA side aastaraamat 2025](https://ttja.ee/sites/default/files/documents/2026-04/Side%20aastaraamat%202025.pdf), graafikud 10–11 |
+
+## Eesti eeskuju: Enefiti partnerpakkumised ✅
+
+Enefiti lehel on operaatorite koduinterneti pakkumised Enefiti klientidele. Klient sõlmib lepingu ise otse operaatoriga. Kas Enefit saab operaatorilt tasu, leht ei ütle ([enefit.ee](https://enefit.ee/en/kiire-interneti-pakkumised), kontrollitud 10.10.2026).
+
+| Operaator | Pakkumine |
+|---|---|
+| Tele2 | „Tele2 Home Internet -50% for two years”, uutele klientidele, 24-kuuline leping |
+| Telia | 25% soodustus kiirele internetile ja ruuteri rendile üheks aastaks |
+| Elisa | parem hind esimeseks 12 kuuks Enefiti võrgu piirkonnas |
 
 ## Välismaa eeskujud
 
@@ -80,3 +91,4 @@ Registreerimine 2–3 nädalat → pöördoksjon 1–2 nädalat (pakkujad võist
 2. **Võitja on tavaliselt väljakutsuja, mitte turuliider.** Eestis on kolm suurt operaatorit. Kes oleks siin väljakutsuja, on lahtine.
 3. **Mujal maksab korraldajale võitja.** Ka Tuleva saab tasu: fikseeritud summa iga lepingu kuumaksest, liikmele nähtav (otsus 10.10, vt [ärimudel](02-idee.md#ärimudel-eeldus-kinnitamata)).
 4. **Pakkumine peab olema parem kui turu parim**, muidu kordub Big Switchi õppetund. Hanke tingimus on hind vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta. Kuni 15.11.2026 on latt Tele2 kampaania: 17 GB 8,50 € ja piiramatu 15,50 € (vt [kolm väärtust](02-idee.md#kolm-väärtust)). Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine (otsus 10.10).
+5. **Eestis on partnerkoostöö olemas** (Enefit). Operaatorid annavad partneri klientidele soodustust ja klient sõlmib lepingu ise. Mobiilsides sellist näidet ei leidnud.

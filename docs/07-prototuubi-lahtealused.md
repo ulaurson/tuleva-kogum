@@ -7,7 +7,7 @@
 1. **Sama teenuse eest makstakse väga erinevalt.** Päris andmed häkatoni osalejatelt: mitu maksab üle ja kui palju.
 2. **Grupp koos on suur.** N osalejat, kokku X € ülemakset aastas. Ümberarvutus Tuleva 85 745 kogujale märgitakse **hinnanguks**.
 3. **Hankepäring on valmis.** Kiri operaatoritele: mitu inimest, kasutusprofiilide jaotus, tingimused.
-4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, Tuleva tasu (vt [õigus](04-oigus.md)), sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” (vt [otsused](06-otsused.md)), info lisahüve kohta (koduinternet 50% tavahinnast), nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut, allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
+4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, Tuleva tasu (vt [õigus](04-oigus.md)), sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” (vt [otsused](06-otsused.md)), info lisahüve kohta (koduinternet ja telepakett 50% tavahinnast), nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut koos operaatori lepingueelse teabe ja lühikokkuvõttega (ESS § 95¹, vt [õigus](04-oigus.md#mida-seadus-ütleb)), allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
 
 ## Piirangud
 
@@ -35,16 +35,16 @@ Sisend: `hind_praegu` (€/kuu), `kasutus_gb` (viimase 3 kuu keskmine), `puhver 
 ### Kaks stsenaariumi, näita eraldi
 
 - **Täna:** avalikud hinnad ilma sidumiseta (`hind_kuupohine_eur`).
-- **Hange (hinnang):** eeldame, et hange saavutab 24-kuulise kampaaniahinna ilma sidumiseta (`hind_24k_eur`, kui olemas, muidu kuupõhine).
+- **Hange (hinnang):** eeldame, et hange täidab hanketingimuse: vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta (vt [idee](02-idee.md#lahendus)). Arvutuses on hanke hind täpselt 2 € alla. Parim avalik sarnane pakkumine on odavaim kontrollitud hind paketile, mille maht ≥ vajalik maht. Hinnaks võetakse `hind_24k_eur`, kui see on olemas, muidu `hind_kuupohine_eur`.
 
 ### Testjuhtumid
 
-Kui kood annab teise tulemuse, on arvutuses viga.
+Kui kood annab teise tulemuse, on arvutuses viga. Uuendatud 10.10 koos `hinnad.csv`-ga.
 
 | Juhtum | Praegu | Kasutus | Täna, avalikud hinnad | Hange (hinnang) |
 |---|---|---|---|---|
-| A | Tele2 17 GB, 15,99 € | 6 GB | Tele2 9 GB 10,99 € → **60,00 € aastas** | Tele2 9 GB 7,50 € → **101,88 € aastas** |
-| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa 25 GB 16,99 € (kontrollimata hind) → 216,00 €; kontrollitud hindadest Tele2 55 GB 21,99 € → **156,00 € aastas** | Tele2 55 GB 13,50 € → **257,88 € aastas** |
+| A | Tele2 17 GB, 15,99 € | 6 GB | Tele2 9 GB 10,99 € → **60,00 € aastas** | parim avalik Tele2 17 GB 8,50 € (24 kuud) − 2 € = 6,50 € → **113,88 € aastas** |
+| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa 25 GB 16,99 € (kontrollimata hind) → 216,00 €; kontrollitud hindadest Tele2 55 GB 21,99 € → **156,00 € aastas** | parim avalik Tele2 Piiramatu 15,50 € (24 kuud) − 2 € = 13,50 € → **257,88 € aastas** |
 
 ## Küsimustik osalejatele (side)
 
@@ -69,6 +69,6 @@ Küsimus 9 mõõdab liikme ajakulu: kui paljud ei leia isegi oma kasutust üles,
 
 ## Tooteankeedi operaatoripäring
 
-**Arendusnõue 10.10, liides teostamata:** tooteankeeti numbri sisestamisel kontrollib rakendus sideettevõtjat välise päringuga. Inimene kinnitab tulemuse ja teenusebrändi. Ligipääs masinliidesele vajab kinnitamist; käsitsi valik peab alati töötama. Voog, allikad ja vastuvõtukriteeriumid on failis [14](14-operaatori-paring.md).
+**Arendusnõue 10.10:** tooteankeeti numbri sisestamisel kontrollib rakendus sideettevõtjat välise päringuga. [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud; põhirakendusse ühendamine on veel tegemata. Inimene kinnitab tulemuse ja teenusebrändi. Käsitsi valik peab alati töötama. Voog, allikad ja vastuvõtukriteeriumid on failis [18](18-operaatori-paring.md).
 
 See täiendus ei lisa telefoninumbrit ülalolevasse anonüümsesse häkatoniküsitlusse. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust ega väida, et päris TTJA päring toimus.

@@ -5,6 +5,7 @@ Tuleva häkatoni (9.–11.10.2026) projekt: Tuleva liikmete mobiilside ühishang
 ## Enne tööd
 
 - Tee `git pull`. Tiim muudab dokumente häkatoni ajal samal ajal.
+- Vaata [lahtisi küsimusi](docs/15-lahtised-kusimused.md). Need on veel vastuseta.
 - Loe [docs/10-arutelu.md](docs/10-arutelu.md). Seal on tiimi viimased arutelud, mida teistes failides veel pole.
 - Kui ehitad prototüüpi, järgi [ehitusbriifi](docs/09-prototuubi-briif.md).
 
@@ -22,7 +23,7 @@ Kui pole kindel, küsi kasutajalt enne push'i. Privaatsed failid käivad kausta 
 Kui kasutaja palub arutelupunkti kirja panna, lisa see faili [docs/10-arutelu.md](docs/10-arutelu.md) uue jaotisena. Vorm on faili alguses.
 
 - Kui punktist saab otsus, lisa rida [otsuste](docs/06-otsused.md) ajaloo tabelisse ja muuda arutelus staatus „otsustatud”.
-- Kui punkt on risk või lahtine küsimus, lisa see ka [avatud küsimustesse](docs/05-avatud-kusimused.md).
+- Kui punkt on risk või lahtine küsimus, lisa see ka [avatud küsimustesse](docs/05-avatud-kusimused.md) ja [lahtiste küsimuste nimekirja](docs/15-lahtised-kusimused.md) selle alla, kellelt vastust küsida. Kui küsimusele tuleb vastus, kustuta see failist 15.
 - Kui punkt muudab seda, mida demo peab tegema, uuenda [prototüübi lähtealuseid](docs/07-prototuubi-lahtealused.md).
 
 ## Kirjutamine

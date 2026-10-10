@@ -26,9 +26,9 @@ Demo lugu käib nii: kõigepealt üks liige, siis kogu grupp. Ekraanid on järje
 
    Tähtajalise lepingu küsimuse juures on abi, kust seda vaadata. Vastus „ei tea” on lubatud (vt [arutelu](10-arutelu.md)).
 
-   **Tooteankeedi täiendus 10.10:** telefoninumbri sisestamisel soovime sideettevõtja automaatpäringut, mille tulemuse inimene kinnitab. Liides on teostamata ja ligipääs kinnitamata; täpne nõue on failis [14](14-operaatori-paring.md). Võrguta demos jääb operaatori käsitsi valik või märgistatud näidisvastus. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
-2. **Pakkumine.** Mari näeb, milline pakett talle sobib ja kui palju odavam see on: praegu, täna avalike hindadega ja hankega (**hinnang**). Sääst on näidatud aastas. Pakkumise juures on Tuleva tasu (näidis 0,50 € kuus, kuni Marju arvutus on valmis, vt [arutelu](10-arutelu.md) punkt 2) ja sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” Lisaks on kirjas lisahüve: Tuleva kaudu telefonipaketi võtnu saab koduinterneti 50% tavahinnast odavamalt. Enne nuppu „Vaheta” on lühidalt kirjas, mis edasi juhtub: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme volitusel ja 14 päeva saab taganeda. Kui leping on tähtajaline, ei ütle voog „vaheta kohe”. Selle asemel näitab ta, millal saab vahetada, ja pakub meeldetuletust. Sõnu „ilma trahvita” ei kasutata, kuni lõpetamise tasud on kontrollimata.
-3. **Leping ja allkiri.** Leping on valmis täidetud väljamõeldud andmetega. Mari vajutab „Allkirjasta digitaalselt”, näeb PIN-koodi ootamise ekraani ja siis teadet „Saadetud operaatorile”.
+   **Tooteankeedi täiendus 10.10:** numbri järgi sideettevõtja kontrollimiseks on eraldi [Twilio kohalik katse](../prototuup/twilio-katse/README.md). Päring käivitub seal nõusoleku ja nupuvajutusega; inimene kinnitab tulemuse ning teenusebrändi. Põhirakendusse ühendamine on veel tegemata; täpne nõue on failis [18](18-operaatori-paring.md). Võrguta demos jääb käsitsi valik või märgistatud näidisvastus. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
+2. **Pakkumine.** Mari näeb, milline pakett talle sobib ja kui palju odavam see on: praegu, täna avalike hindadega ja hankega (**hinnang**). Sääst on näidatud aastas. Pakkumise juures on Tuleva tasu (näidis 0,50 € kuus, kuni Marju arvutus on valmis, vt [arutelu](10-arutelu.md) punkt 2) ja sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” Lisaks on kirjas lisahüve: Tuleva kaudu telefonipaketi võtnu saab koduinterneti ja telepaketi 50% tavahinnast odavamalt. Enne nuppu „Vaheta” on lühidalt kirjas, mis edasi juhtub: number jääb samaks, üleviimine on tasuta, vana leping lõpetatakse liikme volitusel ja 14 päeva saab taganeda. Kui leping on tähtajaline, ei ütle voog „vaheta kohe”. Selle asemel näitab ta, millal saab vahetada, ja pakub meeldetuletust. Sõnu „ilma trahvita” ei kasutata, kuni lõpetamise tasud on kontrollimata.
+3. **Leping ja allkiri.** Leping on valmis täidetud väljamõeldud andmetega. Enne allkirja on näha operaatori lepingueelne teave ja lühikokkuvõte (näidis), sest seadus nõuab neid enne lepingu sõlmimist (vt [õigus](04-oigus.md#mida-seadus-ütleb)). Mari vajutab „Allkirjasta digitaalselt”, näeb PIN-koodi ootamise ekraani ja siis teadet „Saadetud operaatorile”.
 4. **Minu statistika.** Mari näeb oma hinda teiste osalejatega võrreldes, oma säästu aastas ja seda, kui palju on ta varem üle maksnud.
 
 ### Tuleva vaade
@@ -56,7 +56,7 @@ Demo lugu käib nii: kõigepealt üks liige, siis kogu grupp. Ekraanid on järje
 
 - Claude Designis on kõik 8 ekraani ja Ülari on need üle vaadanud.
 - `prototuup/index.html` avaneb Macis topeltklikiga Safaris ja Chrome'is ilma internetita. Liikme lugu (ekraanid 1–4) ja Tuleva vaate (5–8) saab läbi klikkida alla 3 minuti. Esitleja liigub nooleklahvidega edasi ja tagasi. Ekraanil 7 sisestatud hind muudab ekraanide 5–8 numbreid kohe.
-- Testjuhtumite tulemus on A puhul 60,00 € ja 101,88 € ning B puhul 156,00 € ja 257,88 €. Kontroll näitab tulemust (nt `?test` aadressi lõpus).
+- Testjuhtumite tulemus on A puhul 60,00 € ja 113,88 € ning B puhul 156,00 € ja 257,88 €. Kontroll näitab tulemust (nt `?test` aadressi lõpus).
 - Varuplaaniks on igast ekraanist pilt kaustas `prototuup/ekraanid/`.
 - Muudatused on commititud, aga pushitud mitte. Ülari pushib ise.
 - Lõpuks ütle, kus fail on, ja kirjelda tehtut 3 lausega. Rohkem pole vaja.

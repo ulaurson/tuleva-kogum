@@ -2,7 +2,16 @@
 
 **Arendusnõue 10.10.2026:** kui inimene sisestab tooteankeeti oma Eesti telefoninumbri, teeb rakendus päringu ja täidab sideettevõtja välja. Inimene kinnitab tulemuse ning täpsustab teenusebrändi. Eesmärk on vähendada käsitsi sisestamist ja parandada hanke lähteandmeid.
 
-**Teostuse seis:** nõue on kirjeldatud. Päris automaatpäringut ega API-liidest ei ole selles repos teostatud. Avalik TTJA veebipäring on olemas; automaatliidese ligipääs ja kasutustingimused vajavad kinnitamist.
+**Teostuse seis 10.10.2026:** [Twilio Lookup v2 kohalik katse](../prototuup/twilio-katse/README.md) on teostatud ja ühendus lubatud numbri päringuga kontrollitud. Ühisesse veebirakendusse ühendamine on veel tegemata. TTJA masinliidese ligipääs ja kasutustingimused on endiselt kinnitamata.
+
+## Olemasolev kood
+
+- [Server](../prototuup/twilio-katse/server.mjs) teeb päringu Twiliole ja tagastab sideettevõtja, allika, aja ning numbri tüübi.
+- [Katsevorm](../prototuup/twilio-katse/index.html) näitab vastust ja laseb inimesel operaatori ning teenusebrändi kinnitada.
+- [Rakendusse ühendamise juhis](../prototuup/twilio-katse/INTEGRATSIOON.md) kirjeldab HTTP API-t ja ankeedi väljade seost vastusega.
+- Piloot lubab aktiveerimisest 72 tundi ja kuni 100 väljakutset. Võtmed ja katseolek on kohalikus privaatses kaustas; neid ei lisata reposse.
+
+Kohalik ühenduse test ei tõenda teisaldatud numbri operaatoriinfo täpsust. See vajab võrdlust teadaoleva tulemusega. Põhirakendus vajab oma serveriseadistust ja autentimist; pilooti ei avata muutmata kujul internetti.
 
 ## Mida ametlik allikas kinnitab
 
@@ -16,7 +25,7 @@ Päringust ei tuletata kasutaja nime, numbri omanikku, paketti, kuutasu, lepingu
 
 1. Inimene sisestab oma numbri. Välja juures on selgitus: „Kontrollime numbri järgi sideettevõtjat. Paketi ja lepingu andmed lisad ise.”
 2. Rakendus normaliseerib numbri ja kontrollib, kas see sobib Eesti numbripäringuks. Käsitletakse riigikoodiga `+372`, `00372` ja riigikoodita sisendit. Tühikud ja lubatud eraldajad eemaldatakse; numbri kehtivust ei otsustata ainult pikkuse järgi.
-3. Pärast korrektse numbri sisestamise lõpetamist, näiteks väljalt lahkumisel, algab üks päring. Iga klahvivajutus päringut ei käivita. Välise teenuse kutsumine käib serveri kaudu.
+3. Piloodis algab päring pärast korrektse numbri sisestamist, nõusolekut ja nupuvajutust. Iga klahvivajutus päringut ei käivita. Välise teenuse kutsumine käib serveri kaudu.
 4. Õnnestunud vastus täidab sideettevõtja välja. Inimene näeb tulemust ja päringu aega ning kinnitab või parandab valiku. Teenusebränd küsitakse eraldi, kui päring seda ei kinnita.
 5. Kui liides puudub, teenus ei vasta või numbrit ei leita, näidatakse selget teadet ja inimene valib operaatori ise. Ankeedi täitmine saab jätkuda.
 6. Kinnitatud operaator ja teenusebränd lähevad osaleja andmetesse. Hankepäringus kasutatakse operaatorite jaotust koondina; telefoninumbrit ei lisata vaikimisi operaatoritele saadetavasse koondpäringusse.
@@ -25,9 +34,9 @@ Päringust ei tuletata kasutaja nime, numbri omanikku, paketti, kuutasu, lepingu
 
 ## Liidese valik ja käivitamise eeldused
 
-Eelistatud lahendus on TTJA kinnitatud masinliides. Kui see pole Tulevale kättesaadav, saab hinnata lepingulist operaatori või muu teenusepakkuja API-t, mis arvestab numbri teisaldamist. Konkreetset API aadressi, ligipääsu, hinda ega päringulimiiti ei ole kinnitatud.
+Piloodis kasutatakse Twilio Lookup v2 paketti `line_type_intelligence`. Aadress, autentimine ja katse piirid on [käivitusjuhises](../prototuup/twilio-katse/README.md) ning [ühendamisjuhises](../prototuup/twilio-katse/INTEGRATSIOON.md). API konto ja võti seadistatakse serveris eraldi. TTJA kinnitatud masinliides jääb võimalikuks alternatiiviks, mille ligipääs on kinnitamata.
 
-Enne päris automaatpäringu käivitamist tuleb kinnitada:
+Enne ühise veebirakenduse päringute käivitamist tuleb kinnitada:
 
 - kellelt saab liidese ja ligipääsu ning kas Tuleva tohib seda selleks eesmärgiks kasutada;
 - kas vastus kajastab ka teisaldatud numbreid, kui kiiresti info uueneb ja kas vastus sisaldab ainult sideettevõtjat või ka teenusebrändi;
@@ -36,11 +45,11 @@ Enne päris automaatpäringu käivitamist tuleb kinnitada:
 
 TTJA avaliku veebivormi olemasolu ei tõenda avaliku API ega masspäringute kasutusõigust. TTJA kasutusjuhend kirjeldab numbriloa omaniku masinliidest, kuid avaliku päringu esitaja veebiliidest. Juhend on **15.07.2019** seisuga ja ei kinnita Tuleva tänast ligipääsu. [NBA kasutusjuhend](https://www.ttja.ee/sites/default/files/documents/2021-01/nba_kasutusjuhend.pdf), vaadatud 10.10.2026.
 
-Kuni ligipääs on kinnitamata, töötab käsitsi operaatorivalik ja abi juures on TTJA avaliku päringu link. Avaliku vormi automaatset kraapimist ei käsitleta kokkulepitud API-na.
+Käsitsi operaatorivalik töötab alati ja abi juures on TTJA avaliku päringu link. Avaliku vormi automaatset kraapimist ei käsitleta kokkulepitud API-na.
 
 ## Andmed ja vead
 
-Allolev on kavandatav andmemudel, mitte olemasoleva API vastuse kirjeldus.
+Allolev on tooteankeedi kavandatav andmemudel. Piloodi API tagastab väiksema vastuse; väljade vastavus on [ühendamisjuhises](../prototuup/twilio-katse/INTEGRATSIOON.md).
 
 | Väli | Sisu |
 |---|---|

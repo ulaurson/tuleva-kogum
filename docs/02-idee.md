@@ -2,7 +2,7 @@
 
 ## Probleem
 
-Sama mobiilipakett maksab eri inimestele väga erinevat hinda. Tele2 17 GB pakett maksab 24-kuulise lepinguga 10,50 € ja ilma sidumiseta 15,99 € kuus. Piiramatu paketi puhul maksab sidumata klient topelt: 17,50 € vs 34,99 € (vt [faktid](03-faktid.md)).
+Sama mobiilipakett maksab eri inimestele väga erinevat hinda. Tele2 17 GB pakett maksab 24-kuulise lepinguga 8,50 € ja ilma sidumiseta 15,99 € kuus. Piiramatu paketi puhul maksab sidumata klient üle kahe korra rohkem: 15,50 € vs 34,99 € (kampaania kuni 15.11.2026, vt [faktid](03-faktid.md)).
 
 Parima hinna saab see, kes jälgib pakkumisi, kaupleb, ähvardab lahkuda ja seob end 24 kuuks. Enamik inimesi seda ei tee. Operaatorid tõstavad hindu ja vähemalt Tele2 sõnul viisid kliendid 2025. aastal numbrit üle vähem kui 2024. aastal.
 
@@ -21,7 +21,7 @@ Kord aastas korraldab Tuleva liikmetele mobiilside ühishanke. Osaleda saavad ka
 | 5 | Otsus ja leping | Liige | Otsustab ise. Kui vahetab, on leping süsteemis tema andmetega valmis täidetud. Liige vaatab selle üle, allkirjastab digitaalselt ja lubab süsteemil selle operaatorile saata. Iga sammu teeb liige ise, Tuleva ainult valmistab ette ja edastab. Numbri üleviimine on tasuta ja uus operaator lõpetab vana lepingu kliendi volitusel |
 | 6 | Järgmisel aastal uuesti | Tuleva | Uus hange. Liige ei pea ise midagi jälgima, sest hange on päästik |
 
-**Soovitud hanketingimused (eelnõu, kinnitamata):** hind vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu (SLA-s lepitakse kokku, kas Tuleva isikutuvastus sobib operaatorile; kui ei, suuname liikme lepingu sõlmimiseks operaatori lehele), operaator teatab Tulevale kord kuus Tuleva viitenumbri järgi, millised lepingud jõustusid, tühistati või millest taganeti (ilma lisaisikuandmeteta), sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel). Kokkuleppega on seotud koduinterneti soodustus: 50% operaatori tavahinnast seni, kuni inimene on Tuleva kaudu klient. See on võimalus kõigile, kes võtsid Tuleva kaudu telefonipaketi, ja internetipaketi valib igaüks ise (otsus 10.10). Ka internetilepingult saab Tuleva sama loogikaga fikseeritud summa paketi kohta kuus.
+**Soovitud hanketingimused (eelnõu, kinnitamata):** hind vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta, sama hind kõigile osalejatele, numbri üleviimine ilma lisatasuta, operaator võtab vastu Tuleva süsteemi kaudu saadetud ja liikme allkirjastatud lepingu (SLA-s lepitakse kokku, kas Tuleva isikutuvastus sobib operaatorile; kui ei, suuname liikme lepingu sõlmimiseks operaatori lehele), operaator teatab Tulevale kord kuus Tuleva viitenumbri järgi, millised lepingud jõustusid, tühistati või millest taganeti (ilma lisaisikuandmeteta), sama võrk ja teenuse kvaliteet mis operaatori tavapaketil (liige ei taha, et teenus halveneks). Iga lepingu kuumaksest läheb Tulevale fikseeritud tasu (otsus 10.10, summa on arvutamisel). Kokkuleppega on seotud koduinterneti ja telepaketi soodustus: 50% operaatori tavahinnast seni, kuni inimene on Tuleva kaudu klient. See on võimalus kõigile, kes võtsid Tuleva kaudu telefonipaketi, ja interneti- või telepaketi valib igaüks ise (otsus 10.10). Ka interneti- ja telepaketi lepingult saab Tuleva sama loogikaga fikseeritud summa paketi kohta kuus.
 
 **Hinnakindlus** (otsustatud 10.10, vt [arutelu](10-arutelu.md) punkt 3):
 
@@ -44,6 +44,8 @@ Tiimi töölehe (9.10) järgi tegutseb liige kahel puhul: kui hind tõuseb või 
 ### Miks operaator peaks pakkuma
 
 Operaator saab 1000 kliendiga rääkimise asemel rääkida ühega. **Hinnang:** grupihange vähendab operaatori kulu uue kliendi saamiseks. Kui suur see kulu Eestis on, pole teada.
+
+Eestis on sarnane koostöö juba olemas: Enefiti kliendid saavad Tele2, Telia ja Elisa koduinternetti soodsamalt ja sõlmivad lepingu ise otse operaatoriga (vt [faktid](03-faktid.md#eesti-eeskuju-enefiti-partnerpakkumised)). Mobiilsides sellist näidet ei leidnud.
 
 Sama mudeli on teinud Hispaania tarbijaorganisatsioon OCU mobiilsidega ja Suurbritannia Which? energiaga (vt [faktid](03-faktid.md#välismaa-eeskujud)). Tuleva tasu on fikseeritud, ei sõltu paketist ja liige näeb seda enne liitumist (vt [ärimudel](#ärimudel-eeldus-kinnitamata)).
 
@@ -74,8 +76,8 @@ Kõik AI-uuringud (vt [uuringud](12-uuringud.md)) hoiavad need lahus. Ainult tei
 
 ## Ärimudel (eeldus, kinnitamata)
 
-- Tuleva saab iga lepingu kuumaksest fikseeritud tasu (otsus 10.10), ka Tuleva soodustusega internetilepingult. Tasu maksab operaator, liikmele on teenus tasuta (vt [arutelu](10-arutelu.md) punkt 2). Tasu ei sõltu paketist ja liige näeb seda enne liitumist. Summa ja projektsioonid arvutab Marju.
-- Tuleva võit on uus koguja ja lojaalsus. Kui palju maksab Tulevale täna ühe koguja saamine, on veel teadmata.
+- Tuleva saab iga lepingu kuumaksest fikseeritud tasu (otsus 10.10), ka Tuleva soodustusega interneti- ja telepaketi lepingult. Tasu maksab operaator, liikmele on teenus tasuta (vt [arutelu](10-arutelu.md) punkt 2). Tasu ei sõltu paketist ja liige näeb seda enne liitumist. Summa ja projektsioonid arvutab Marju.
+- Tuleva võit on uus koguja ja lojaalsus. Tuleva enda numbrid pole avalikud. Avalike aruannete põhjal toob koguja Tuleva Fondidele umbes 33 € tulu aastas ja ühistule umbes 7 € litsentsitasu (**hinnang**, vt [uuring](14-uuring-partnerid.md#koguja-väärtus-hinnang-avalike-numbrite-põhjal)).
 - AI-uuringute kulumudelite järgi on esimese aasta kulu 100 liitumise juures umbes 3 000–21 600 € ja 1000 liitumise juures umbes 7 500–35 800 € (**hinnang**, illustratiivsed eeldused, vt [uuringud](12-uuringud.md)).
 - Varasem mõte: mitte-kogujatele 10% esimese aasta säästust ja ainult siis, kui sääst tekib. Hange on avatud ka mitte-liikmetele (otsus 10.10, vt [otsused](06-otsused.md)).
 
