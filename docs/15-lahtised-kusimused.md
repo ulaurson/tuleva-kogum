@@ -35,7 +35,7 @@
 - [ ] Kas ühistu või Tuleva Fondid AS kogutud kontaktandmeid tohib kasutada kutse saatmiseks?
 - [ ] Kui kaua andmeid hoitakse ja mida ütleb privaatsusteade?
 - [ ] Mis kehtib juriidilise isiku kontaktisiku andmetele?
-- [ ] Milline alus ja teavitus sobivad numbri saatmiseks Twiliole ning millised säilitamisreeglid kehtivad operaatoripäringu tulemusele (vt [18](18-operaatori-paring.md))?
+- [ ] Milline alus ja teavitus sobivad numbri saatmiseks Twiliole ning millised säilitamisreeglid kehtivad operaatoripäringu tulemusele (vt [19](19-operaatori-paring.md))?
 
 ## Marju
 

@@ -95,4 +95,4 @@ Lahtine: teisaldatud numbrite info täpsus, ühise rakenduse API konto, eelarve 
 
 ### Mida see prototüübis tähendab
 
-Tooteankeedi voog ja vastuvõtukriteeriumid on failis [18](18-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
+Tooteankeedi voog ja vastuvõtukriteeriumid on failis [19](19-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.

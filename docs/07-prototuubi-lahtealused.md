@@ -69,6 +69,6 @@ Küsimus 9 mõõdab liikme ajakulu: kui paljud ei leia isegi oma kasutust üles,
 
 ## Tooteankeedi operaatoripäring
 
-**Arendusnõue 10.10:** tooteankeeti numbri sisestamisel kontrollib rakendus sideettevõtjat välise päringuga. [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud; põhirakendusse ühendamine on veel tegemata. Inimene kinnitab tulemuse ja teenusebrändi. Käsitsi valik peab alati töötama. Voog, allikad ja vastuvõtukriteeriumid on failis [18](18-operaatori-paring.md).
+**Arendusnõue 10.10:** tooteankeeti numbri sisestamisel kontrollib rakendus sideettevõtjat välise päringuga. [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud; põhirakendusse ühendamine on veel tegemata. Inimene kinnitab tulemuse ja teenusebrändi. Käsitsi valik peab alati töötama. Voog, allikad ja vastuvõtukriteeriumid on failis [19](19-operaatori-paring.md).
 
 See täiendus ei lisa telefoninumbrit ülalolevasse anonüümsesse häkatoniküsitlusse. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust ega väida, et päris TTJA päring toimus.

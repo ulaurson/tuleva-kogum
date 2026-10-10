@@ -128,7 +128,7 @@ Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, n
 
 ## 16. Operaatori automaatkontroll numbri järgi
 
-**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [18](18-operaatori-paring.md)). [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud. Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva ligipääs TTJA masinliidesele on endiselt kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [19](19-operaatori-paring.md)). [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud. Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva ligipääs TTJA masinliidesele on endiselt kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
 
 - Kontrollida Twilio teisaldatud numbrite info täpsust ja ajakohasust teadaoleva tulemusega.
 - Enne ühise veebirakenduse käivitamist määrata API konto, eelarve, autentimine, serveri saladused ja püsiv päringupiir.

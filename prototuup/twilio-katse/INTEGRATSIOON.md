@@ -1,6 +1,6 @@
 # Operaatoripäringu kasutamine oma rakenduses
 
-Seis 10.10.2026. [server.mjs](server.mjs) sisaldab töötavat HTTP-liidese koodi ja [index.html](index.html) selle kasutamise näidet. Praegune teostus on **localhosti piloot**, mitte avaliku rakenduse valmis teenus. Käivitamine, võtme seadistamine, hinnainfo ja katse lõpetamine on [README-s](README.md). Ankeedi üldine nõue on [dokumendis 18](../../docs/18-operaatori-paring.md); siin kirjeldatakse olemasolevat Twilio teostust, mitte kinnitatud TTJA API-t.
+Seis 10.10.2026. [server.mjs](server.mjs) sisaldab töötavat HTTP-liidese koodi ja [index.html](index.html) selle kasutamise näidet. Praegune teostus on **localhosti piloot**, mitte avaliku rakenduse valmis teenus. Käivitamine, võtme seadistamine, hinnainfo ja katse lõpetamine on [README-s](README.md). Ankeedi üldine nõue on [dokumendis 19](../../docs/19-operaatori-paring.md); siin kirjeldatakse olemasolevat Twilio teostust, mitte kinnitatud TTJA API-t.
 
 ## Ühenduse ülesehitus
 
@@ -61,7 +61,7 @@ Muud protokollivead on 404 `not_found`, 405 `method_not_allowed`, 413 `body_too_
 4. Näita sideettevõtjat ja päringu aega. Kasutaja kinnitab või parandab sideettevõtja ning valib teenusebrändi eraldi. Puuduv või vigane vastus jätab käsitsi valiku avatuks.
 5. Numbri muutmisel eemalda vana tulemus ja kinnitus. Ära lase hilinenud vastusel uue numbri välja täita. Anonüümne häkatoniküsitlus jääb telefoninumbrita.
 
-[Dokumendi 18](../../docs/18-operaatori-paring.md) kavandatud väljad seotakse nii; piloot ise neid andmebaasi ei kirjuta:
+[Dokumendi 19](../../docs/19-operaatori-paring.md) kavandatud väljad seotakse nii; piloot ise neid andmebaasi ei kirjuta:
 
 | Ankeedi väli | Allikas |
 |---|---|
