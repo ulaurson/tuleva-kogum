@@ -58,7 +58,7 @@ Arvutuses on keskmine 142 € teenuse kohta aastas, kui internetti ja telepakett
 | Mobiili sääst 1. aastal (tabel ülal) | 84k € | 440k € | 1,2M € |
 | **Liikmete sääst kokku 1. aastal** | **101k €** | **522k €** | **1,41M €** |
 
-**Ühe leibkonna näide:** üks number ja nii internet kui telepakett. Mobiil umbes 405 € (prototüübi arvutus, vt [otsused](06-otsused.md)), internet 176 € ja telepakett 108 €, kokku umbes 689 € aastas.
+**Ühe leibkonna näide:** üks number ja nii internet kui telepakett. Mobiil kuni ≈ 405 € (prototüübi arvutus tavahinna vastu, vt [otsused](06-otsused.md)), internet 176 € ja telepakett 108 €, kokku kuni ≈ 689 € aastas.
 
 **Piirang:** sääst on arvutatud tavahinna vastu. Kes maksab juba kampaaniahinda, säästab vähem. Tele2 Kodunett on kampaanias 24 kuuks juba umbes 50% odavam, nii et Tele2 kampaaniakliendile on meie soodustuse lisaväärtus selle aja jooksul ligikaudu null. Meie soodustus kehtib aga seni, kuni inimene on Tuleva kaudu klient, ja ilma 24-kuulise sidumiseta.
 

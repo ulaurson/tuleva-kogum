@@ -58,6 +58,8 @@ Enefiti lehel on operaatorite koduinterneti pakkumised Enefiti klientidele. Klie
 
 ### OCU, Hispaania: mobiilside ühisost ✅
 
+Põhjalikum juhtumiuuring, sh 2014 ja 2018 hanked, on failis [18](18-ocu-juhtum.md).
+
 | | |
 |---|---|
 | Korraldaja | OCU, Hispaania tarbijaorganisatsioon |

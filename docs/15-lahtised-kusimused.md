@@ -42,7 +42,7 @@
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
-- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange.
+- [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange. OCU energiahankes vahetas umbes 10% registreerunutest, prognoos eeldab 30–56% (vt [OCU juhtum](18-ocu-juhtum.md#mida-see-meile-õpetab-hinnang)).
 
 ## Tiim
 

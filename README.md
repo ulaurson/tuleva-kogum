@@ -27,6 +27,7 @@
 | [docs/13-tasuvus.md](docs/13-tasuvus.md) | Tuleva tulu ja kulu prognoos 5 aastaks, kolm stsenaariumi | tahad teada, kas teenus tasub end ära |
 | [docs/14-uuring-partnerid.md](docs/14-uuring-partnerid.md) | Operaatorid, õigus, andmekaitse ja Tuleva numbrid: mida leidsime, tingimused operaatoritele | valmistud operaatori või mentoriga rääkima |
 | [docs/15-lahtised-kusimused.md](docs/15-lahtised-kusimused.md) | Kõik lahtised küsimused, rühmitatud selle järgi, kellelt vastust küsida | tahad teada, mis on veel vastuseta |
+| [docs/18-ocu-juhtum.md](docs/18-ocu-juhtum.md) | OCU (Hispaania) mobiilside ühisostu juhtumiuuring 2014–2018: kuidas toimis, kes maksis, mida see meile õpetab | tahad välismaa näidet esitlusse |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
 
 ## Reeglid selles repos
