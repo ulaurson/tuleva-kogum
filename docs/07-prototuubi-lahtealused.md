@@ -44,7 +44,7 @@ Kui kood annab teise tulemuse, on arvutuses viga. Uuendatud 10.10 koos `hinnad.c
 | Juhtum | Praegu | Kasutus | Täna, avalikud hinnad | Hange (hinnang) |
 |---|---|---|---|---|
 | A | Tele2 17 GB, 15,99 € | 6 GB | Tele2 9 GB 10,99 € → **60,00 € aastas** | parim avalik Tele2 17 GB 8,50 € (24 kuud) − 2 € = 6,50 € → **113,88 € aastas** |
-| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa 25 GB 16,99 € (kontrollimata hind) → 216,00 €; kontrollitud hindadest Tele2 55 GB 21,99 € → **156,00 € aastas** | parim avalik Tele2 Piiramatu 15,50 € (24 kuud) − 2 € = 13,50 € → **257,88 € aastas** |
+| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa Optimaalne 5G 25 GB 16,99 € → **216,00 € aastas** | parim avalik Tele2 Piiramatu 15,50 € (24 kuud) − 2 € = 13,50 € → **257,88 € aastas** |
 
 ## Küsimustik osalejatele (side)
 

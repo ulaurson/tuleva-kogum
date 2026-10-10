@@ -54,7 +54,7 @@ Demo lugu käib nii: kõigepealt üks liige, siis kogu grupp. Ekraanid on järje
 
 - Claude Designis on kõik 8 ekraani ja Ülari on need üle vaadanud.
 - `prototuup/index.html` avaneb Macis topeltklikiga Safaris ja Chrome'is ilma internetita. Liikme lugu (ekraanid 1–4) ja Tuleva vaate (5–8) saab läbi klikkida alla 3 minuti. Esitleja liigub nooleklahvidega edasi ja tagasi. Ekraanil 7 sisestatud hind muudab ekraanide 5–8 numbreid kohe.
-- Testjuhtumite tulemus on A puhul 60,00 € ja 113,88 € ning B puhul 156,00 € ja 257,88 €. Kontroll näitab tulemust (nt `?test` aadressi lõpus).
+- Testjuhtumite tulemus on A puhul 60,00 € ja 113,88 € ning B puhul 216,00 € ja 257,88 €. Kontroll näitab tulemust (nt `?test` aadressi lõpus).
 - Varuplaaniks on igast ekraanist pilt kaustas `prototuup/ekraanid/`.
 - Muudatused on commititud, aga pushitud mitte. Ülari pushib ise.
 - Lõpuks ütle, kus fail on, ja kirjelda tehtut 3 lausega. Rohkem pole vaja.
