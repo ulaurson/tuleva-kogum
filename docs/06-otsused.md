@@ -27,6 +27,7 @@
 | 10.10 | Sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel | Tiimi otsus. Äripakettide võrdlust ei lisata, et mitte tekitada lisakeerukust |
 | 10.10 | Hankekokkuleppega on seotud koduinterneti soodustus: 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient. Võimalus on kõigil, kes võtsid Tuleva kaudu telefonipaketi, internetipaketi valib igaüks ise. Demos on see lehel lisahüvena kirjas | Tiimi otsus. Lahtised küsimused on [avatud küsimustes](05-avatud-kusimused.md#3-mida-täpselt-hangitakse) |
 | 10.10 | Ka Tuleva soodustusega internetilepingult saab Tuleva fikseeritud summa paketi kohta kuus | Sama loogika mis mobiilil. Operaator teab soodustuse kaudu, millised lepingud on Tuleva kaudu |
+| 10.10 | Demo hanke stsenaarium: hanke hind on 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta. `hinnad.csv` uuendatud Tele2 kampaaniahindadega | Stsenaarium järgib hanketingimust. Testjuhtumid on uuendatud failis [07](07-prototuubi-lahtealused.md#testjuhtumid) |
 
 ## Mis jäi välja ja miks
 

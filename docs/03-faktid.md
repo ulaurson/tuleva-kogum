@@ -6,20 +6,20 @@
 
 Masinloetav tabel: [`data/hinnad.csv`](../data/hinnad.csv).
 
-**Tele2** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 26.09.2026)
+**Tele2** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026). 24 kuu hinnad on kampaaniahinnad 5.10–15.11.2026.
 
 | Pakett | 24 kuud | Ilma sidumiseta | Vahe |
 |---|---|---|---|
 | 2 GB | 5,50 € | 6,99 € | +27% |
-| 9 GB | 7,50 € | 10,99 € | +47% |
-| 17 GB | 10,50 € | 15,99 € | +52% |
-| 55 GB | 13,50 € | 21,99 € | +63% |
-| 250 GB | 15,50 € | 27,99 € | +81% |
-| Piiramatu Eesti | 17,50 € | 34,99 € | +100% |
+| 9 GB | pole | 10,99 € | |
+| 17 GB | 8,50 € | 15,99 € | +88% |
+| 55 GB | pole | 21,99 € | |
+| 250 GB | pole | 27,99 € | |
+| Piiramatu Eesti | 15,50 € | 34,99 € | +126% |
 
 Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
-**Tele2 kampaania 5.10–15.11.2026** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026): 24-kuulise lepinguga 2 GB 5,50 €, 17 GB 8,50 € ja Piiramatu Eestis 15,50 € kuus. 25. kuust kehtib tavahind. Pakkumine on uutele ja olemasolevatele eraklientidele, kes sõlmivad uue lepingu. Ennetähtaegsel lõpetamisel tuleb maksta järelejäänud kuutasud või saadud soodustus, olenevalt sellest, kumb on väiksem. 9 GB, 55 GB ja 250 GB 24 kuu hinda lehel 10.10 ei olnud. Ülal oleva tabeli ja `hinnad.csv` 24 kuu hinnad on seisuga 26.09.
+**Tele2 kampaania 5.10–15.11.2026** ✅ ([tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026): 24-kuulise lepinguga 2 GB 5,50 €, 17 GB 8,50 € ja Piiramatu Eestis 15,50 € kuus. 25. kuust kehtib tavahind. Pakkumine on uutele ja olemasolevatele eraklientidele, kes sõlmivad uue lepingu. Ennetähtaegsel lõpetamisel tuleb maksta järelejäänud kuutasud või saadud soodustus, olenevalt sellest, kumb on väiksem. 9 GB, 55 GB ja 250 GB 24 kuu hinda lehel 10.10 ei olnud. 26.09 olid 24 kuu hinnad: 9 GB 7,50 €, 17 GB 10,50 €, 55 GB 13,50 €, 250 GB 15,50 € ja piiramatu 17,50 €. Need olid Tele2 eelmise kampaania „Kõik on tublid” (3.08–3.10.2026) hinnad ([tingimused](https://tele2.ee/abi/lepingud-ja-arveldus/kampaania-tingimused/kampaania-koik-on-tublid-tingimused)).
 
 **Tele2 Piiramatu Klubi** ✅ (sama leht, 10.10.2026): iga järgmine piiramatu pakett maksab 12,99 € kuus.
 
