@@ -22,6 +22,7 @@
 | [docs/08-tooleht-2026-10-09.md](docs/08-tooleht-2026-10-09.md) | Tiimi tööleht: probleem, sihtrühm, skoop, väärtuspakkumine | tahad teada, milles tiim kokku leppis |
 | [docs/09-prototuubi-briif.md](docs/09-prototuubi-briif.md) | Demo ehitusbriif: ekraanid, piirid, mida tähendab valmis | ehitad prototüüpi |
 | [docs/10-arutelu.md](docs/10-arutelu.md) | Tiimi viimased arutelud, mida teistes failides veel pole | tahad teada, mida tiim praegu arutab |
+| [docs/11-uuringud.md](docs/11-uuringud.md) | AI-uuringute kokkuvõte: milles need kokku langevad, kus meiega ei klapi, vahetuse takistused, sihtklient | tahad teada, mida uuringud ütlevad |
 | [data/](data/) | Operaatorite hinnatabel (`hinnad.csv`) | vajad hindu |
 
 ## Reeglid selles repos
