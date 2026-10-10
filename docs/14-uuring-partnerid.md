@@ -67,8 +67,8 @@ Kokku võetud failist [02](02-idee.md#lahendus) ja [otsustest](06-otsused.md).
 4. Hind ei tõuse, kui grupp kahaneb.
 5. Sama hind kõigile osalejatele, ka juriidilise isiku numbritele.
 6. Numbri üleviimine ilma lisatasuta. Sama võrk ja teenuse kvaliteet mis tavapaketil.
-7. Koduinterneti soodustus 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient.
-8. Tuleva tasu: fikseeritud summa iga mobiili- ja internetilepingu kohta kuus, sama kõigilt pakkujatelt.
+7. Koduinterneti ja telepaketi soodustus 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient.
+8. Tuleva tasu: fikseeritud summa iga mobiili-, interneti- ja telepaketi lepingu kohta kuus, sama kõigilt pakkujatelt.
 9. Kuuaruanne Tuleva viitenumbri järgi: millised lepingud jõustusid, tühistati või millest taganeti.
 10. SLA: kas Tuleva isikutuvastus sobib, et liige täidab lepingu Tuleva lehel. Kui ei, suuname operaatori lehele.
 11. Operaator annab lepingueelse teabe ja lepingu lühikokkuvõtte nii, et liige näeb neid Tuleva lehel enne allkirja (ESS § 95¹, vt punkt 3).

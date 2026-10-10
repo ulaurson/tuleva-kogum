@@ -7,7 +7,7 @@
 1. **Sama teenuse eest makstakse väga erinevalt.** Päris andmed häkatoni osalejatelt: mitu maksab üle ja kui palju.
 2. **Grupp koos on suur.** N osalejat, kokku X € ülemakset aastas. Ümberarvutus Tuleva 85 745 kogujale märgitakse **hinnanguks**.
 3. **Hankepäring on valmis.** Kiri operaatoritele: mitu inimest, kasutusprofiilide jaotus, tingimused.
-4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, Tuleva tasu (vt [õigus](04-oigus.md)), sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” (vt [otsused](06-otsused.md)), info lisahüve kohta (koduinternet 50% tavahinnast), nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut koos operaatori lepingueelse teabe ja lühikokkuvõttega (ESS § 95¹, vt [õigus](04-oigus.md#mida-seadus-ütleb)), allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
+4. **Liige näeb isiklikku pakkumist ja otsustab ise.** Praegune hind, pakkumise hind, sääst aastas, Tuleva tasu (vt [õigus](04-oigus.md)), sõnum „Hind ei tõuse 24 kuu jooksul. Kui grupp kasvab, võib see langeda.” (vt [otsused](06-otsused.md)), info lisahüve kohta (koduinternet ja telepakett 50% tavahinnast), nupp „vaheta”. Seejärel näeb liige valmis täidetud lepingut koos operaatori lepingueelse teabe ja lühikokkuvõttega (ESS § 95¹, vt [õigus](04-oigus.md#mida-seadus-ütleb)), allkirjastab selle (demos simuleeritud) ja lubab selle operaatorile saata.
 
 ## Piirangud
 

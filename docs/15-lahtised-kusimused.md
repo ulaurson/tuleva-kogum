@@ -6,13 +6,13 @@
 
 - [ ] Kas operaator hankes üldse osaleb? Mitu osalejat on vaja, et ta huvi tunneks?
 - [ ] Kas operaator nõustub hinnalae (24 kuud, vähemalt 12), mahuastmete ja iga-aastase hankega korraga?
-- [ ] Kas operaator nõustub Tuleva fikseeritud tasuga mobiili- ja internetilepingult? Kui suure tasuga?
+- [ ] Kas operaator nõustub Tuleva fikseeritud tasuga mobiili-, interneti- ja telepaketi lepingult? Kui suure tasuga?
 - [ ] Kas hind kehtib ka võitja praegustele klientidele?
 - [ ] Kas operaator nõustub kuuaruandega Tuleva viitenumbri järgi?
 - [ ] Kas Tuleva isikutuvastus sobib operaatorile (SLA)? Kui ei, kuidas käib suunamine operaatori lehele?
 - [ ] Kuidas jõuab operaatori lepingueelne teave ja lühikokkuvõte Tuleva lehele enne allkirja (ESS § 95¹)?
 - [ ] Kas operaator lubab Tuleva vahendusrolli lepingus? Tele2 üldtingimused keelavad teenuse vahendamise ilma nõusolekuta (vt [14](14-uuring-partnerid.md#kas-tuleva-roll-on-operaatori-tingimustega-lubatud)).
-- [ ] Kas koduinterneti 50% soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
+- [ ] Kas koduinterneti ja telepaketi 50% soodustus jääb kehtima, kui liige lõpetab mobiili või järgmisel aastal võidab teine operaator? Muidu tekib uus kimbuleping.
 - [ ] Kas juriidilise isiku numbrid saavad sama hinna?
 - [ ] Mis saab liikmete lepingutest, kui Tuleva ja operaatori koostöö lõpeb? (uuringute soovitus)
 - [ ] Kas operaator nõustub, et Tuleva mahtu ei garanteeri? (uuringute soovitus)
@@ -41,7 +41,6 @@
 Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivse numbri, koduinterneti ja telepaketi eest. Baasstsenaariumis kaetakse jooksev kulu 3. aastal.
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
-- [ ] Prognoos eeldab 50% soodustust ka telepaketile. Tiimi otsus räägib ainult koduinternetist (vt [otsused](06-otsused.md)). Kumb kehtib?
 - [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange.
 
 ## Tiim
