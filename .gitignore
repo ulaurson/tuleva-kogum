@@ -1,0 +1,12 @@
+# Isikuandmed: ära kunagi commit'i
+andmed-privaatne/
+vastused*.csv
+arved/
+
+# Süsteem ja tööriistad
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.env
+.venv/
