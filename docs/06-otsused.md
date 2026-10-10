@@ -25,7 +25,7 @@
 | 10.10 | Hange õnnestus, kui hind on vähemalt 2 € kuus odavam kui parim avalik sarnane pakkumine | Uuringu A künnis (vt [uuringud](12-uuringud.md)). Haru „sama hind ilma sidumiseta” tiim ei võtnud |
 | 10.10 | Hange ei piirdu Tuleva liikmetega | Tiimi otsus. Asendab töölehe 9.10 piirangu „ainult liikmed” |
 | 10.10 | Sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel | Tiimi otsus. Äripakettide võrdlust ei lisata, et mitte tekitada lisakeerukust |
-| 10.10 | Hankekokkuleppega on seotud koduinterneti 50% soodustus. Liige saab selle soovi korral ise juurde võtta | Tiimi otsus. Täpsed tingimused on arutamata (vt [avatud küsimused](05-avatud-kusimused.md#3-mida-täpselt-hangitakse)) |
+| 10.10 | Hankekokkuleppega on seotud koduinterneti soodustus: 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient. Võimalus on kõigil, kes võtsid Tuleva kaudu telefonipaketi, internetipaketi valib igaüks ise. Demos on see lehel lisahüvena kirjas | Tiimi otsus. Lahtised küsimused on [avatud küsimustes](05-avatud-kusimused.md#3-mida-täpselt-hangitakse) |
 
 ## Mis jäi välja ja miks
 

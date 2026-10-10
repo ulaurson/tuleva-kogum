@@ -24,7 +24,9 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
-- Otsus 10.10: kokkuleppega on seotud koduinterneti 50% soodustus, mille liige saab soovi korral juurde võtta (vt [otsused](06-otsused.md)). Täpsed tingimused on arutamata. Uuringu B järgi sõltub koduinterneti saadavus ja kiirus aadressist (vt [uuringud](12-uuringud.md)).
+- Otsus 10.10: kokkuleppega on seotud koduinterneti soodustus, 50% tavahinnast seni, kuni inimene on Tuleva kaudu klient (vt [otsused](06-otsused.md)). Lahtine:
+  - Kas soodustusest tekib uus kimbuleping? Kui liige lõpetab mobiili või järgmisel aastal võidab hanke teine operaator, kaotab ta interneti soodustuse. Vajab hiljem täpsustamist.
+  - Kas Tuleva tasu tuleb ka internetilepingult? Ettepanek: leppida SLA-s kokku, et operaator teatab samas kuuaruandes ka Tuleva soodustusega internetilepingud.
 
 ## 4. Kas pakkumine on parem kui turu parim?
 
