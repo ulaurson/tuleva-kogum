@@ -136,7 +136,8 @@ td{padding:11px 14px;border-bottom:1px solid var(--line)}
 /* ---------- andmed (näidis) ---------- */
 var TAVA = { Elisa: 43.99, Telia: 41.65, Tele2: 34.99 }; // tavahinnad, operaatorite lehed 10.10.2026
 var TAVA_KESK = (TAVA.Elisa + TAVA.Telia + TAVA.Tele2) / 3;
-var TASU = 0.5; // Tuleva tasu operaatorilt, näidis
+var TASU = 1; // Tuleva tasu operaatorilt (otsus 10.10)
+var TASU_T = '1 €';
 var LEPINGUID = 560;
 
 var S = algseis();
@@ -186,7 +187,7 @@ R.main = function () {
     '<p class="lead">Koos on meil läbirääkimisjõud, mida üksi pole. Tuleva küsib kõigilt operaatoritelt ühe hinna piiramatule mobiilipaketile: sama kõigile ja ilma sidumiseta.</p>' +
     '<p class="lead" style="font-size:14px">Osalemine ei kohusta vahetama ega maksa sulle midagi. Osaleda saavad kõik, ka ettevõtted.</p>' +
     '<div class="field"><label for="epost">E-post</label><input id="epost" type="email" autocomplete="email" data-bind="epost" value="' + esc(S.epost) + '" aria-describedby="epost-abi"><span id="epost-abi" class="small">Ainult pakkumise ja meeldetuletuste jaoks.</span></div>' +
-    '<div style="padding-top:4px"><a class="btn" href="#k1">Jah, soovin osaleda</a></div>'
+    '<div class="stack8" style="padding-top:4px"><a class="btn" href="#k1">Jah, soovin osaleda</a><span class="xs" style="text-align:center">Vajutades „Jah, soovin osaleda” paned end ühishankesse osalejaks kirja. Saad konto, kus näed pakkumist.</span></div>'
   );
 };
 R.k1 = function () {
@@ -218,7 +219,7 @@ R.m2 = function () {
     '<div class="row" style="border-top:1px solid var(--line);padding-top:10px"><span style="font-size:15px;font-weight:500">Sääst tavahinnaga võrreldes <span class="xs">(hinnang)</span></span><strong style="font-size:20px;color:var(--green);white-space:nowrap">kuni ≈ ' + tuh(saastAastas(h)) + ' € aastas</strong></div>' +
     '<span class="small">Kui maksad praegu vähem kui tavahinda, säästad vähem.</span></section>' +
     '<div class="stack8"><a class="btn" href="#m3">Võtan pakkumise</a><a class="btn3" href="#m2b">Mul on tähtajaline leping</a><a class="btn2" href="#m6">Mitte praegu</a>' +
-    '<span class="xs" style="text-align:center">Sina Tulevale ei maksa. Operaator maksab Tulevale iga lepingu eest ' + eur(TASU) + ' kuus (näidis). Summa on kõigil operaatoritel sama.</span></div>'
+    '<span class="xs" style="text-align:center">Sina Tulevale ei maksa. Operaator maksab Tulevale iga lepingu eest ' + TASU_T + ' kuus. Summa on kõigil operaatoritel sama.</span></div>'
   );
 };
 R.m2b = function () {
@@ -278,7 +279,7 @@ function lepinguTekst() {
   S.lisad.forEach(function (t) { teenus.push('Lisanumber: ' + esc(t || '(number lisamata)') + ', sama hinnaga.'); });
   if (n > 1) teenus.push('Kokku ' + n + ' numbrit, ' + eur(n * h) + ' kuus.');
   teenus.push('Kaart: SIM-kaart' + (n > 1 ? 'id saadetakse' : ' saadetakse') + ' postiga.');
-  var muud = firma ? ['Tuleva saab operaatorilt fikseeritud tasu (näidis ' + eur(TASU) + ' kuus lepingu kohta).'] : ['14 päeva jooksul võid lepingust taganeda.', 'Tuleva saab operaatorilt fikseeritud tasu (näidis ' + eur(TASU) + ' kuus lepingu kohta). Sulle on Tuleva teenus tasuta.'];
+  var muud = firma ? ['Tuleva saab operaatorilt fikseeritud tasu (' + TASU_T + ' kuus lepingu kohta).'] : ['14 päeva jooksul võid lepingust taganeda.', 'Tuleva saab operaatorilt fikseeritud tasu (' + TASU_T + ' kuus lepingu kohta). Sulle on Tuleva teenus tasuta.'];
   var osad = [['1. Pooled', pooled], ['2. Teenus', teenus], ['3. Numbri üleviimine', ['Number: ' + esc(S.tel) + '. Praegune operaator tuvastatakse numbri järgi.', 'Klient volitab ' + op + '-d lõpetama praeguse lepingu selle numbri osas ja viima numbri üle. Üleviimine on tasuta. Volitus kehtib 60 päeva.']], ['4. Muud tingimused', muud]];
   return '<article class="doc" aria-labelledby="leping-h"><div class="stack" style="gap:2px"><h2 id="leping-h" class="serif" style="font-size:16px;color:var(--navy)">Mobiilsideteenuse leping</h2><span class="small" style="font-size:13px">Nr TK-2026-1040 · 10.10.2026 · näidis</span></div>' +
     osad.map(function (o) { return '<section class="stack" style="gap:4px"><h3>' + o[0] + '</h3>' + o[1].map(function (r) { return '<p>' + r + '</p>'; }).join('') + '</section>'; }).join('') +
@@ -360,7 +361,7 @@ R.t2 = function () {
     '<div class="field"><label for="siht" class="row" style="font-size:14px"><span>Sihthind kuus</span><span id="t2-siht" style="font-size:22px;font-weight:700;color:var(--blue)">' + eur(S.siht) + '</span></label><input id="siht" type="range" min="4" max="16" step="0.5" value="' + S.siht + '" data-slider="siht" style="height:auto;border:0;padding:0;accent-color:var(--blue)"></div>' +
     '<span role="status" id="t2-tulemus" style="font-size:14px;font-weight:500;color:' + (a.ok ? 'var(--green)' : 'var(--red)') + '">' + a.tulemus + '</span>' +
     '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:14px"><div style="background:var(--bg);border-radius:2px;padding:12px"><div class="k" style="color:var(--muted)">Sääst tavahinnaga võrreldes, kuni</div><div class="green" style="font-size:20px" id="t2-saast">' + a.saast + ' € aastas</div></div><div style="background:var(--bg);border-radius:2px;padding:12px"><div style="color:var(--muted)">1 000 osalejat, 56 % vahetab</div><div class="green" style="font-size:20px" id="t2-kokku">≈ ' + a.kokku + ' € aastas</div></div></div></div>' +
-    '<div class="card narrow" style="flex:1 1 340px"><h2>Hankepäring</h2><div class="stack8" style="font-size:14px;line-height:1.5"><span><strong>Pakett:</strong> üks, piiramatu internet Eestis.</span><span><strong>Hind:</strong> vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta, sama kõigile.</span><span><strong>Mahuastmed:</strong> 1 000 / 5 000 / 10 000: grupi kasvades langeb hind kõigil.</span><span><strong>Muu:</strong> tasuta numbri üleviimine · võtab vastu osaleja allkirjastatud lepingu · teatab kord kuus jõustunud lepingud · Tuleva fikseeritud tasu kuumaksest (näidis 0,50 €), kõigile sama.</span><span class="small">Hange on avatud kõigile.</span></div><button type="button" class="btn" data-act="paring">Saada päring kõigile operaatoritele (näidis)</button><span class="small" id="t2-paring" role="status"></span></div></div>'
+    '<div class="card narrow" style="flex:1 1 340px"><h2>Hankepäring</h2><div class="stack8" style="font-size:14px;line-height:1.5"><span><strong>Pakett:</strong> üks, piiramatu internet Eestis.</span><span><strong>Hind:</strong> vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta, sama kõigile.</span><span><strong>Mahuastmed:</strong> 1 000 / 5 000 / 10 000: grupi kasvades langeb hind kõigil.</span><span><strong>Muu:</strong> tasuta numbri üleviimine · võtab vastu osaleja allkirjastatud lepingu · teatab kord kuus jõustunud lepingud · Tuleva fikseeritud tasu kuumaksest 1 €, kõigile sama.</span><span class="small">Hange on avatud kõigile.</span></div><button type="button" class="btn" data-act="paring">Saada päring kõigile operaatoritele (näidis)</button><span class="small" id="t2-paring" role="status"></span></div></div>'
   );
 };
 R.t3 = function () {
@@ -374,7 +375,7 @@ R.t3 = function () {
     '<span id="t3-teade" role="status" style="flex:1 1 100%;font-size:13px;color:' + (S.viga ? 'var(--red)' : 'var(--green)') + '">' + esc(S.teade) + '</span></form>' +
     '<div class="card" style="padding:0;overflow-x:auto" tabindex="0" aria-label="Pakkumiste tabel"><table style="min-width:360px"><thead><tr><th>Operaator</th><th class="num">Piiramatu</th></tr></thead><tbody>' +
     Object.keys(S.pakk).map(function (o) { return '<tr' + (o === b ? ' style="background:#F2FAFE"' : '') + '><td style="font-weight:500">' + o + (o === b ? '<span class="badge">VÕITJA</span>' : '') + '</td><td class="num" style="font-weight:700">' + eur(S.pakk[o]) + '</td></tr>'; }).join('') +
-    '</tbody></table></div><span class="small">Võidab madalaim piiramatu hind. Hange õnnestub, kui see on vähemalt 2 € alla parima avaliku pakkumise (15,50 €). Kõik pakkujad maksavad Tulevale sama fikseeritud tasu (näidis 0,50 € kuus lepingu kohta), seda võitja valikul arvesse ei võeta. Võitja hind liigub kohe liikme pakkumisse ja aasta vaatesse.</span></div>' +
+    '</tbody></table></div><span class="small">Võidab madalaim piiramatu hind. Hange õnnestub, kui see on vähemalt 2 € alla parima avaliku pakkumise (15,50 €). Kõik pakkujad maksavad Tulevale sama fikseeritud tasu (1 € kuus lepingu kohta), seda võitja valikul arvesse ei võeta. Võitja hind liigub kohe liikme pakkumisse ja aasta vaatesse.</span></div>' +
     '<div class="card narrow" style="flex:1 1 340px"><h2>Kes päriselt vahetas</h2><span class="small">Iga number näitab, kust see tuleb.</span>' +
     ahel.map(function (x) { return '<div class="stack" style="gap:4px"><div class="row"><span>' + x[0] + '</span><strong>' + tuh(x[1]) + '</strong></div><div class="track" style="height:12px" aria-hidden="true"><div style="height:12px;border-radius:2px;background:' + x[2] + ';width:' + Math.round(x[1] / 10) + '%"></div></div><span style="font-size:12px;font-weight:500;color:' + x[4] + '">' + x[3] + '</span></div>'; }).join('') + '</div></div>'
   );
@@ -393,7 +394,7 @@ R.t4 = function () {
     r.map(function (x, i) { return '<div class="hbar" aria-hidden="true"><span>' + x[0] + '</span><div class="track"><div class="fill" style="width:' + Math.round(x[1] / TAVA.Elisa * 100) + '%' + (i === 3 ? ';background:var(--green)' : '') + '"></div></div><span class="num" style="font-weight:700">' + eur(x[1]) + '</span></div>'; }).join('') +
     '</div><span class="small">Sääst on arvutatud Tele2, Telia ja Elisa tavahinna keskmise järgi. Kampaaniahinnaga osaleja säästab vähem.</span></div>' +
     '<div class="narrow"><div class="navycard"><span class="s">Järgmine mahuaste: 5 000 osalejat</span><span class="serif" style="font-weight:900;font-size:30px">hind langeb kõigil</span><span class="s">Hankes on kokku lepitud, et grupi kasvades langeb hind ka varem liitunutel. Sõnum osalejale: „Kui grupp kasvab, võib hind langeda.”</span></div>' +
-    '<div class="card" style="padding:18px;gap:10px;font-size:14px"><div class="row"><span class="k">Tuleva tulu: 560 lepingut × ' + eur(TASU) + ' × 12 (näidistasu)</span><strong style="white-space:nowrap">' + tuh(LEPINGUID * TASU * 12) + ' € / a</strong></div><div class="row"><span class="k">Osaleja maksab Tulevale</span><strong>0 €</strong></div><div class="row"><span class="k">Järgmine hange</span><strong>sügis 2027</strong></div></div></div></div>'
+    '<div class="card" style="padding:18px;gap:10px;font-size:14px"><div class="row"><span class="k">Tuleva tulu: 560 lepingut × ' + TASU_T + ' × 12</span><strong style="white-space:nowrap">' + tuh(LEPINGUID * TASU * 12) + ' € / a</strong></div><div class="row"><span class="k">Osaleja maksab Tulevale</span><strong>0 €</strong></div><div class="row"><span class="k">Järgmine hange</span><strong>sügis 2027</strong></div></div></div></div>'
   );
 };
 
