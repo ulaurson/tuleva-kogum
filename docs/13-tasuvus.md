@@ -80,6 +80,19 @@ Baasi kuutulu 1. aastal:
 
 Laine tõstab 1. aasta tulu ~25%, aga tasuvuse aega peaaegu ei muuda. Selle määrab kogunenud ühikute arv.
 
+## Tundlikkus: tasu 1 € kuus
+
+Sama mudel, Tuleva tasu 1 € kuus ühiku kohta 0,50 € asemel.
+
+| | Pess. | Baas | Opt. |
+|---|---|---|---|
+| Tulu 1. / 5. aastal | 5,2k / 21,3k € | 16,8k / 69,1k € | 34,2k / 141,0k € |
+| Jooksev kulu kaetud | ei kunagi | 2. aastal (15. kuu) | 2. aastal (13. kuu) |
+| Kumulatiivne tulemus 5 aastaga | −132k € | +37k € | +290k € |
+| Kumulatiivselt tasa | ei kunagi | 4. aastal | 2. aastal |
+
+1 € on 23% Telia käibemaksuta tulust numbri kohta (0,50 € on 11%).
+
 ## Järeldused
 
 1. Baasis on liikmete sääst 30–50 korda suurem kui Tuleva tulu.
