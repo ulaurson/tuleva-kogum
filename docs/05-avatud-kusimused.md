@@ -118,3 +118,11 @@ Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, n
 - Kas operaatorid võtavad vastu Tuleva kaudu tulnud digiallkirjastatud lepingu ja numbri üleviimise volituse?
 - Ettevõte: kas esindusõigust kontrollime äriregistrist automaatselt ja kas volikiri on PDF-ina piisav? Mitu numbrit ühe lepinguga?
 - Vorm küsib ainult miinimumi (vt [lepingud](lepingud/README.md)). Kas operaator tuvastab praeguse operaatori numbri järgi ja kas aadress on vajalik? Numbri üleviimise volituse vormil on mõlemad väljad.
+
+## 15. Kas 6,50 € on usutav?
+
+- Operaatorile jääks 6,50 €-st pärast käibemaksu ja Tuleva tasu ≈ 4,74 € (**hinnang**). Turu soodushinnad on 12,99 € (Tele2 Piiramatu Klubi lisaliin) ja 15,50 € (Tele2 kampaania 24 kuuga), vt [faktid](03-faktid.md).
+- Signaal: üks liige mainis 10.10 hinda 7 € (suuline, allikata; kas see on pakkumine, mille ta sai, või tema arvates õiglane hind, on teadmata).
+- Katse enne pühapäeva: küsida mentorilt või ühelt operaatorilt madalaimat hinda 1 000 liinile. Kuni vastust pole, öelda laval „sihthind”.
+- Ülari otsus 10.10: prototüübis jääb 6,50 € (sihthind), 7 € signaal ei muuda seda.
+
