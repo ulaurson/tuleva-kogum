@@ -38,6 +38,12 @@ Mujal maksab korraldajale võitja. Tuleva seda ei tee. Eeldus on, et tulu tuleb 
 
 OCU-s oli võitja odavam 71% registreerunutele, aga tegelik vahetajate arv on teadmata. Mõõdame häkatonil vähemalt, kui suur osa osalejatest maksab üle.
 
+**Kuidas me vahetamist mõõdame (10.10).** Tuleva näeb ise ainult seda, mis toimub tema süsteemis: kes sai pakkumise ja kes allkirjastas. Seda, kas leping jõustus, number viidi üle või liige taganes 14 päeva jooksul, teab ainult operaator.
+
+- Ettepanek: hanketingimus, et võitja teatab Tulevale kord kuus Tuleva viitenumbri järgi, millised lepingud jõustusid, tühistati või millest taganeti (vt [idee](02-idee.md#lahendus)). Kas operaatorid sellega nõustuvad ja kas see vajab liikme eraldi nõusolekut, on lahtine (vt punkt 9).
+- Varuvariant: 30 päeva pärast küsime liikmelt ühe klikiga, kas number on üle viidud. See on lihtne, aga kõik ei vasta.
+- Prototüübis on numbrid ahelana ja iga numbri juures on allikas: pakkumise sai ja allkirjastas (Tuleva süsteem), leping jõustus ja taganes (operaatori aruanne).
+
 ## 7. Tähtajalised lepingud
 
 Kui liikmel on 24-kuuline leping pooleli, ei saa ta kohe vahetada. Kas pakkumine kehtib ka lepingu lõppedes? Kas hange toimub kord aastas kindlal ajal või jooksvalt?
