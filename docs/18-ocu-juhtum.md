@@ -67,6 +67,17 @@ OCU 2013. aasta energiahanke reeglid olid tõenäoliselt sama mall: võitja peab
 - **Kriitika:** virtuaaloperaator Pepephone keeldus pakkumast „eetilistel põhjustel” ja viitas läbipaistvuse puudumisele. Xataka hinnangul olid 2014. aasta pakkumise erinevused MásMóvili tavahindadest „väga väikesed”.
 - **Pärast 2018. aastat** OCU telekomi ühisoste enam ei korraldanud. Energiahanked jätkuvad.
 
+### Miks telekomi hanked lõppesid?
+
+**OCU ametlikku põhjust ei leidnud.** Avalikest allikatest on teada:
+
+- Huvi langes: üle 92 500, siis 50 261 ja siis üle 17 400 registreerunu.
+- Pakkumine nõrgenes. 2015. aastal olid 10 profiili jaoks eraldi hinnad, 2018. aastal ainult 8% soodustus MásMóvili tavatariifidelt.
+- Tasu lepingu kohta oli algusest vaieldav. Pepephone ja mitu virtuaaloperaatorit jätsid selle tõttu pakkumata.
+- 2023. aasta jaanuaris peatas OCU ka elektri ühishanked. Põhjuseks tõi OCU energiaturu ebakindluse. Samal ajal uuris Hispaania tarbijakaitseministeerium, kas tasud, mida OCU ettevõtetelt saab, sobivad kokku ühenduse sõltumatusega. Artikli järgi maksis tasu ka MásMóvil ([elDiario.es, 18.01.2023](https://www.eldiario.es/economia/ocu-congela-compras-colectivas-luz-cobrar-repsol-comision-15-euros-cliente-captado_1_9875120.html)).
+
+**Hinnang:** tõenäoliselt mõjusid koos kahanev huvi, sama võitja igal aastal ja vaidlused tasude üle. See on meie järeldus, mitte OCU seisukoht. Kindla vastuse annaks OCU pressiteenistus.
+
 ## Teised riigid
 
 | Kes | Mis | Tulemus |
