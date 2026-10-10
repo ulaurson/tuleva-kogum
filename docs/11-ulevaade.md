@@ -21,7 +21,7 @@
 3. **Pole ühtki operaatori signaali.** Enne pühapäeva saata kiri või helistada vähemalt ühele operaatorile või küsida äriarenduse mentorilt.
 4. **Elisa hinnad on kontrollimata**, aga nende pealt tuleb umbes 40 % näidisandmete ülemaksest. Kontrollida üle või võtta numbritest välja.
 5. **Koguja väärtus on teadmata.** Küsida Tulevalt, palju maksab uue koguja saamine ja palju toob koguja aastas.
-6. **Liikmete arv „umbes 10 000” on allikata.** Ekraanil on see märgitud tiimi hinnanguks.
+6. **Liikmete arv „umbes 10 000” on allikata.** Ekraanil on see märgitud tiimi hinnanguks. Uuendus 10.10: allikas on olemas, 31.03.2026 seisuga 9 560 liiget (vt [häkaton](01-hakaton.md)).
 
 ## Mis kujunduses parandati
 

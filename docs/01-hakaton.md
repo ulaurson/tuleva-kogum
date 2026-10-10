@@ -25,6 +25,7 @@ Lisaks peab idee toetuma tehnoloogiale ega tohi kahjustada inimeste elujärge.
 | Tuleva on tulundusühistu. Fonde valitseb tütarettevõte Tuleva Fondid AS. Ühistu liitumistasu 125 € | [tuleva.ee: ühistu](https://tuleva.ee/en/mutual-company/) |
 | 85 745 kogujat (30.06.2026), 1. poolaastas liitus 3 425 uut | [Tuleva poolaasta aruanne 2026](https://tuleva.ee/liikmetele/tuleva-poolaasta-aruanne-2026/) |
 | NB: 85 745 on **kogujad**, mitte ühistu liikmed. Ühistu liikmete arvu aruanne eraldi ei too | sama |
+| Tulundusühistul Tuleva oli 31.03.2026 seisuga 9 560 liiget | [Tuleva üldkoosoleku protokoll 06.05.2026](https://tuleva.ee/wp-content/uploads/2026/05/TU-Tuleva-uldkoosoleku-protokoll.-06.05.2026.pdf) |
 | Eesmärk: 100 000 sihikindlat kogujat | sama |
 
 **Sõnastus esitluses:** „Tuleva on ühistu”. Ära ütle, et teenust pakub Tuleva Fondid AS (vt [õigus](04-oigus.md)).

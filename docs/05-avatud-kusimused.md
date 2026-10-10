@@ -1,12 +1,12 @@
 # Avatud küsimused ja riskid
 
-*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees.*
+*Järjestatud selle järgi, kui palju vastus ideed muudab. Raskemad ees. Kõik lahtised küsimused koos sellega, kellelt vastust küsida, on failis [15](15-lahtised-kusimused.md).*
 
 ## 1. Kas operaatorid üldse pakuvad?
 
 Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, mis lööb ka tema praeguseid kliente. Välismaal võitis ühisostu väljakutsuja, mitte turuliider (vt [faktid](03-faktid.md#järeldused-meie-jaoks)).
 
-- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata)
+- Kes oleks Eestis väljakutsuja? Kas väiksemad pakkujad või suurte alambrändid tohiksid hankes osaleda? (kontrollimata) Tele2 on väikseim operaator, turuosa 24% (TTJA 2025, vt [14](14-uuring-partnerid.md#turuosad)).
 - Mitu inimest peab registreeruma, et operaator hakkaks huvi tundma?
 - Varuplaan, kui keegi ei paku: Tuleva oma virtuaaloperaator (Tuleva briif: ~350 000 €, tasuvus ~12 000 kliendi juures, mobiilis pole hulgijuurdepääs kohustuslik).
 - **Häkatonil:** küsida äriarenduse mentorilt või saata kiri 1–2 operaatorile ja näidata laval päris vastust.
@@ -15,7 +15,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 
 **Otsus 10.10: hange ei piirdu Tuleva liikmetega** (vt [otsused](06-otsused.md)). Teenus on Tuleva liikmete oma, teised teevad ühise ostujõu tugevamaks. See asendab töölehe 9.10 piirangu „mitte liikmed jäävad välja”. Hanketingimus „sama hind kõigile osalejatele” kehtib ka siin (vt [idee](02-idee.md#lahendus)).
 
-- 85 745 on kogujad, mitte ühistu liikmed. Esitluses tuleb öelda õige arv.
+- 85 745 on kogujad, mitte ühistu liikmed. Ühistul oli 31.03.2026 seisuga 9 560 liiget (vt [häkaton](01-hakaton.md)). Esitluses tuleb öelda õige arv.
 - Otsus 10.10: sihtrühma kuuluvad ka juriidilise isiku telefoninumbrid, ükskõik kelle ettevõttest. Lepingu allkirjastab esindusõigusega isik. Hindu võrdleme samade tavapakettidega mis eraisikutel (vt [otsused](06-otsused.md)).
 
 ## 3. Mida täpselt hangitakse?
@@ -83,6 +83,6 @@ Milliseid andmeid tohib koguda ja millise nõusolekuga. Ootab andmekaitse mentor
 
 Tuleb läbi mõelda (tiim 10.10).
 
-- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult sarnastele toodetele ja pensioni- või ühistusuhe ei pruugi mobiilipaketi jaoks sobida (ESS § 103¹, kontrollimata, vt [õigus](04-oigus.md#mida-ai-uuringud-õiguse-kohta-väidavad)).
+- AI-uuringute järgi on e-kirjaga pakkumise saatmiseks vaja eraldi nõusolekut. Olemasoleva kliendi erand kehtib ainult „oma samasuguste toodete või teenuste” kohta ja pensioni- või ühistusuhe tõenäoliselt ei sobi mobiilipaketi jaoks (ESS § 103¹, kontrollitud 10.10, vt [õigus](04-oigus.md#mida-seadus-ütleb)).
 - Uuringute soovitus: esimene kutse käib Tuleva iseteeninduse kaudu, kus liige avab pakkumise ise ja annab nõusoleku. E-kirja saadetakse ainult neile, kelle olemasolev nõusolek seda lubab.
 - Küsida andmekaitse mentorilt, hiljem Tuleva juristilt.

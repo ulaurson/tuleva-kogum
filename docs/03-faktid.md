@@ -40,6 +40,7 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 | Tele2 piiras ajutiselt uusi Mobiil-ID liitumisi: liituda saab ainult siis, kui uuem SIM-kaart on juba olemas | ✅ | [tele2.ee](https://tele2.ee/paketid/mobiilipaketid), kontrollitud 10.10.2026 |
 | Leibkonnaliikme aastane kulu sidele oli 279,2 € (2020) ja 276,1 € (2019). Kategooria (COICOP 08) sisaldab ka postiteenuseid ja telefone, mitte ainult mobiilsidet | ✅ | [Statistikaamet: leibkonnad](https://www.stat.ee/en/avasta-statistikat/valdkonnad/heaolu/households), tabel LE201, vaadatud 10.10.2026 |
 | Eestis on 651 300 leibkonda (2025) | ✅ | sama leht, tabel LEM01 |
+| Mobiilside turuosad lõppkasutajate arvu järgi 2025. aasta lõpus: Telia 44%, Elisa 32%, Tele2 24%. Lepingulisi kasutajaid umbes 1 797 000 | ✅ | [TTJA side aastaraamat 2025](https://ttja.ee/sites/default/files/documents/2026-04/Side%20aastaraamat%202025.pdf), graafikud 10–11 |
 
 ## Välismaa eeskujud
 
