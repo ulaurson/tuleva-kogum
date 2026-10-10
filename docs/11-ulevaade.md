@@ -47,3 +47,30 @@
 - Valitud pakett peab liikuma edasi lepingu ja säästu ekraanile. Kujunduses on ekraanid eraldi ega jaga olekut.
 - Telefonivaade peab kannatama teksti suurendamist (`min-height` fikseeritud kõrguse asemel).
 - Laval näidata telefoniekraani suurendatult. Väike hall tekst projektorilt ei paista.
+
+## Teine ülevaade (10.10, pärast lepingu ja hinna muudatusi)
+
+*Kujundus (16 ekraani) vaadati uuesti üle samade nelja skilliga ja tehnilise kontrolliga (vorm, lingid, kontrast, vanad numbrid, isikuandmete kuju). Tehniline kontroll vigu ei leidnud. Võrreldi ka failidega 06, 07, 09, 10 ja 13.*
+
+**Žürii simulatsioon:** läbib paranduste järel. Mõju 3, pöördelisus 2, teostatavus 2, elujõulisus 2, väärtused 2 (mudeli hinnang).
+
+### Parandatud kujunduses
+
+- T3/T4: lehter klapib (575 allkirjastas, 15 taganes, 560 jõustus; varem 600).
+- M6: „ühe klikiga” → leping on eeltäidetud, allkirjastad ise (liige otsustab ise, otsus 06).
+- M4: „loobuda” → „taganeda”, nupp „Minu sääst” → „Minu pakett”. T3: „õnnestus” → „õnnestub”.
+- M3/M3c: e-post sama mis registreerumisel (mari@naidis.ee), lihtsam sissejuhatus, `autocomplete`, abitekst väljaga seotud.
+- Ligipääsetavus: M3c olekumuutus teatatakse ekraanilugejale, lepingu pealkirjad h2/h3, T2 tulemus `role="status"`, T3 vormi Enter ei lae lehte uuesti.
+
+### Lahtine (raskemad ees)
+
+1. **6,50 € hinnal pole allikat ja numbrid ei klapi.** Prototüüp 6,50 €, Marju mudel ([13](13-tasuvus.md)) 5–6 € Telialt, hanke latt (otsus 06) kuni 13,50 €. Turu lähim hind on Tele2 Piiramatu Klubi 12,99 € ([03](03-faktid.md)). Viia ühele numbrile või öelda laval „sihthind”.
+2. **Sääst on ainult tavahinna vastu** (≈ 382 €, hinnang). Tele2 kampaania 15,50 € vastu on vahe 108 € aastas ja väikese paketi kasutajale pole säästu (05 p 13). Ülari otsustas võrrelda ainult tavahindu. Laval peab olema valmis vastus.
+3. **Liikmete ring on vastuolus:** otsus 06 „hange ei piirdu liikmetega”, mudel 13 „ainult ühistu liikmetele”. Prototüüp järgib otsust 06.
+4. **„Kui vahetad” plokk on pakkumiselt ära võetud** (Ülari, 10.10), aga arutelu p 1 ja briif nõuavad enne nuppu lühikest selgitust (number jääb samaks, tasuta, vana leping lõpetatakse, 14 päeva taganemist). Praegu on see info lepingu tekstis (4c) ja ekraanil 5. Otsustada, kas piisab.
+5. **Elisa kontrollimata hind on graafikul.** Kas kontrollida üle või võtta välja.
+6. **Ümberarvutust liikmetele/kogujatele aasta vaates pole** (07 p 2). Marju baas: liikmete sääst ≈ 311 000 € 1. aastal (hinnang).
+7. **K1b 2027 bänner** viib 2026 pakkumise ekraanile. Demos ära näita või tee eraldi vaade.
+8. **Telepakett „[soodustus]”** on laval täitmata koht.
+9. **Ligipääsetavus HTML-is:** valikunupud päris `input type="radio"` peale, tegevused (`Koosta leping`, `Saada Operaator A-le`) `button`-iks, tagasilingid 44 px.
+10. Operaatori signaali ja koguja väärtuse küsimus on endiselt lahti (vt eespool).

@@ -9,7 +9,7 @@
 **Klient**
 - Nimi: {{nimi}} — näidis: Mari Näidis
 - Isikukood: {{isikukood}} — näidis: 4XXXXXXXXXX
-- E-post (registreerumisest): {{epost}} — näidis: nimi@naidis.ee
+- E-post (registreerumisest): {{epost}} — näidis: mari@naidis.ee
 
 **Operaator:** Operaator A (näidis), registrikood XXXXXXXX
 
