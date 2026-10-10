@@ -26,6 +26,7 @@ Eestis on kolm suurt operaatorit. Ühelgi pole ilmset huvi alustada hinnasõda, 
 - Tingimused: sidumine, EL-i rändlus, minutid ja SMS-id, pere mitu numbrit. Hinnakindlus on otsustatud (vt [otsused](06-otsused.md)).
 - Üks võitja kõigile või profiilipõhine võitja?
 - Kuidas võitja valitakse: kaalutud hind üle profiilide (OCU meetod) või muu?
+- Otsus 10.10: kokkuleppega on seotud koduinterneti 50% soodustus, mille liige saab soovi korral juurde võtta (vt [otsused](06-otsused.md)). Täpsed tingimused on arutamata. Uuringu B järgi sõltub koduinterneti saadavus ja kiirus aadressist (vt [uuringud](12-uuringud.md)).
 
 ## 4. Kas pakkumine on parem kui turu parim?
 
