@@ -30,7 +30,7 @@
 | Kus liige lepingu allkirjastab | Operaatori keskkonnas, sest lepingueelse teabe ja lepingu kokkuvõtte annab operaator (A, C) | Leping on valmis Tuleva süsteemis ja Tuleva edastab selle (otsus 10.10). Konsulteerimine on todo ([05](05-avatud-kusimused.md)) |
 | Sihtrühm | Käitumise ja kasutuse järgi (A, C, D) | Vanus 35–45 ([tööleht](08-tooleht-2026-10-09.md)) |
 | Mitme numbriga pere | D: hea esimene sihtklient. A: Tele2 Piiramatu Klubis maksab iga järgmine piiramatu pakett 12,99 €, seega pere pole automaatselt hea sihtrühm | Pole arutatud |
-| Tele2 24 kuu hinnad | A ja B: kampaaniahinnad 8,50 € ja 15,50 €. C: 10,50 € ja 17,50 € | `hinnad.csv` seisuga 26.09: 10,50 € ja 17,50 €. Kampaania kontrollitud 10.10 ([faktid](03-faktid.md)) |
+| Tele2 24 kuu hinnad | A ja B: kampaaniahinnad 8,50 € ja 15,50 €. C: 10,50 € ja 17,50 € | `hinnad.csv` uuendatud 10.10: 8,50 € ja 15,50 € (kampaania, vt [faktid](03-faktid.md)) |
 | Liikmete arv | C toob ühistu liikmete arvu ja viitab poolaasta aruandele | Poolaasta aruanne liikmete arvu ei too. Üldkoosoleku protokolli järgi oli 31.03.2026 seisuga 9 560 liiget ([häkaton](01-hakaton.md)). Kasuta seda numbrit |
 
 ## Vahetuse takistused

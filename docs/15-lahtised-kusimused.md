@@ -53,4 +53,4 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivs
 - [ ] Elisa hinnad on kontrollimata, aga nende pealt tuleb umbes 40% näidisandmete ülemaksest (vt [ülevaade](11-ulevaade.md)).
 - [ ] Kas näidisandmete sääst on realistlik? 121 € osaleja kohta aastas on umbes kolmandik inimese kogu sidekulust (**hinnang**, vt [uuringud](12-uuringud.md#ühistu-säästumudel-e)).
 - [ ] Ülari ülevaate summad (2 944 € ja 4 400 €) tuleb 10.10 hindadega üle arvutada.
-- [ ] Tele2 kampaania lõpeb 15.11.2026. Siis muutub parim avalik pakkumine ja koos sellega hanke latt.
+

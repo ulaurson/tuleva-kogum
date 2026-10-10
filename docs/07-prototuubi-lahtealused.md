@@ -35,16 +35,16 @@ Sisend: `hind_praegu` (€/kuu), `kasutus_gb` (viimase 3 kuu keskmine), `puhver 
 ### Kaks stsenaariumi, näita eraldi
 
 - **Täna:** avalikud hinnad ilma sidumiseta (`hind_kuupohine_eur`).
-- **Hange (hinnang):** eeldame, et hange saavutab 24-kuulise kampaaniahinna ilma sidumiseta (`hind_24k_eur`, kui olemas, muidu kuupõhine).
+- **Hange (hinnang):** eeldame, et hange täidab hanketingimuse: vähemalt 2 € kuus alla parima avaliku sarnase pakkumise, ilma sidumiseta (vt [idee](02-idee.md#lahendus)). Arvutuses on hanke hind täpselt 2 € alla. Parim avalik sarnane pakkumine on odavaim kontrollitud hind paketile, mille maht ≥ vajalik maht. Hinnaks võetakse `hind_24k_eur`, kui see on olemas, muidu `hind_kuupohine_eur`.
 
 ### Testjuhtumid
 
-Kui kood annab teise tulemuse, on arvutuses viga.
+Kui kood annab teise tulemuse, on arvutuses viga. Uuendatud 10.10 koos `hinnad.csv`-ga.
 
 | Juhtum | Praegu | Kasutus | Täna, avalikud hinnad | Hange (hinnang) |
 |---|---|---|---|---|
-| A | Tele2 17 GB, 15,99 € | 6 GB | Tele2 9 GB 10,99 € → **60,00 € aastas** | Tele2 9 GB 7,50 € → **101,88 € aastas** |
-| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa 25 GB 16,99 € (kontrollimata hind) → 216,00 €; kontrollitud hindadest Tele2 55 GB 21,99 € → **156,00 € aastas** | Tele2 55 GB 13,50 € → **257,88 € aastas** |
+| A | Tele2 17 GB, 15,99 € | 6 GB | Tele2 9 GB 10,99 € → **60,00 € aastas** | parim avalik Tele2 17 GB 8,50 € (24 kuud) − 2 € = 6,50 € → **113,88 € aastas** |
+| B | Tele2 Piiramatu, 34,99 € | 20 GB | Elisa 25 GB 16,99 € (kontrollimata hind) → 216,00 €; kontrollitud hindadest Tele2 55 GB 21,99 € → **156,00 € aastas** | parim avalik Tele2 Piiramatu 15,50 € (24 kuud) − 2 € = 13,50 € → **257,88 € aastas** |
 
 ## Küsimustik osalejatele (side)
 

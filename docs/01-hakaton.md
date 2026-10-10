@@ -13,7 +13,7 @@
 | Mõju | Mitu inimest ja kui palju eurosid aastas |
 | Pöördelisus | Kordades parem kui praegu turul olev, mitte natuke parem |
 | Teostatavus | Mida saab teha juba järgmisel aastal, ka käsitsi |
-| Elujõulisus | Tasub end ise ära, ilma operaatori vahendustasuta |
+| Elujõulisus | Tasub end ise ära. Tuleva tulu on fikseeritud tasu iga lepingu kuumaksest, mis ei sõltu paketist (vt [otsused](06-otsused.md)) |
 | Sobivus Tuleva väärtustega | **null infomüra, usaldus, järjekindlus** |
 
 Lisaks peab idee toetuma tehnoloogiale ega tohi kahjustada inimeste elujärge.
