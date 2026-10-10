@@ -43,6 +43,7 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 1 € kuus iga aktiivse n
 
 - [ ] Prognoos eeldab ainult ühistu liikmeid (~10 000). Liikmeid oli 31.03.2026 seisuga 9 560 ja hange on nüüd avatud ka teistele. Kui palju see mahtu suurendab?
 - [ ] Tegelik registreerumise ja vahetamise osakaal. Selle mõõdab esimene hange. OCU energiahankes vahetas umbes 10% registreerunutest, prognoos eeldab 30–56% (vt [OCU juhtum](18-ocu-juhtum.md#mida-see-meile-õpetab-hinnang)).
+- [ ] Miks arvestatakse mobiilile alates 2. aastast ainult 50% töötaja kulust? Pitchi slaididel arvestame kogu kulu (≈ 69 000 € aastas) mobiilile: siis on vaja ≈ 5 750 lepingut, mitte ≈ 2 900, ja baasis katab tulu 5. aastal 96% kuludest (**hinnang**). Prognoosis pole ka IT-, õigus- ega turunduskulusid.
 
 ## Tiim
 
