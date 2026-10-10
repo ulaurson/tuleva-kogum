@@ -25,7 +25,7 @@
 | | |
 |---|---|
 | Pakett | Piiramatu (Tuleva ühishange 2026) |
-| Kuutasu | 13,50 € (km-ga) |
+| Kuutasu | 6,50 € (km-ga, näidis) |
 | Hinnakindlus | hind ei tõuse 24 kuu jooksul |
 | Sidumine | ei ole |
 | Kaart | SIM-kaart postiga |
