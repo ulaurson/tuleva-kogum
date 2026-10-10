@@ -50,7 +50,7 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivs
 - [ ] Mitu kasutusprofiili hankes on ja kuidas võitja valitakse (vt [05](05-avatud-kusimused.md#3-mida-täpselt-hangitakse))?
 - [ ] Kuidas vahetamist mõõdame (vt [05](05-avatud-kusimused.md) punkt 6)?
 - [ ] Mis maksab tähtajalise lepingu ennetähtaegne lõpetamine Telias ja Elisas? Tele2 tingimused on teada (vt [faktid](03-faktid.md)).
-- [ ] Elisa hinnad on kontrollimata, aga nende pealt tuleb umbes 40% näidisandmete ülemaksest (vt [ülevaade](11-ulevaade.md)).
+- [x] (10.10 kontrollitud, vt [faktid](03-faktid.md)) Elisa hinnad olid kontrollimata, aga nende pealt tuleb umbes 40% näidisandmete ülemaksest (vt [ülevaade](11-ulevaade.md)).
 - [ ] Kas näidisandmete sääst on realistlik? 121 € osaleja kohta aastas on umbes kolmandik inimese kogu sidekulust (**hinnang**, vt [uuringud](12-uuringud.md#ühistu-säästumudel-e)).
 - [ ] Ülari ülevaate summad (2 944 € ja 4 400 €) tuleb 10.10 hindadega üle arvutada.
 

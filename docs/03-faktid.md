@@ -25,7 +25,7 @@ Mida suurem pakett, seda suurem on sidumata kliendi lisatasu.
 
 **Telia** ✅ ([telia.ee](https://www.telia.ee/era/mobiil/paketid), kontrollitud 27.09.2026, tähtajatu leping): 3 GB 13,20 €, 8 GB 19,30 €, 16 GB 26,42 €, 50 GB 33,53 €, piiramatu 41,65 €.
 
-**Elisa** ⚠️ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil) ja [mobiilipaketid.ee](https://mobiilipaketid.ee/), vaadatud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu 43,99 €. Elisa lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 18 GB 13,99 €) ja sidumise tingimusi lehelt ei selgu. Enne kasutamist kontrolli.
+**Elisa** ✅ ([elisa.ee/mobiil](https://www.elisa.ee/mobiil), kontrollitud 10.10.2026): Optimaalne 5G 25 GB 16,99 €, Aktiivne 5G 35 GB 23,99 €, Rohke 5G+ 150 GB 33,99 €, Võimas 5G+ piiramatu Eestis ja Soomes 43,99 €, Ultra 5G+ piiramatu Eestis ja Põhjamaades 53,99 €. Sidumise tingimusi leht ei näita. Lehel on ka teine pakettide loetelu teiste nimede ja hindadega (nt Piisav 13,99 €), mida võrdluses ei kasuta.
 
 ## Turg ja käitumine
 

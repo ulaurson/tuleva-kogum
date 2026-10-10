@@ -16,7 +16,7 @@ Eesti kolme suure operaatori eraisiku mobiilipaketid. Hinnad on €/kuu koos kä
 
 **Teadaolevad puudused**
 
-- Elisa: 10.10 lehel samad hinnad, aga lehel on ka teine pakettide loetelu teiste hindadega ja sidumise tingimusi ei selgu. Kontrolli enne kasutamist.
+- Elisa: hinnad kontrollitud 10.10 (elisa.ee/mobiil, „Suured paketid” ja „Väikesed paketid”; Ülari ekraanipilt samast lehest). Võimas 5G+ ja Ultra 5G+ on piiramatu Eestis. Sidumise tingimusi leht ei näita, seega on veerus `hind_kuupohine_eur` lehel olev kuuhind. Lehel on ka teine, vanem pakettide loetelu (nt Piisav 13,99 €, Lõpmatu 5G 51,99 €), mida me ei kasuta.
 - Telia 24-kuulisi hindu tabelis pole.
 - Minutid, SMS-id ja EL-i rändluse maht puuduvad.
 - Väiksemaid pakkujaid ja alambrände tabelis pole.
