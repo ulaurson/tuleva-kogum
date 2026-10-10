@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light">
+  <title>Operaatori kontroll · Tuleva Kogum</title>
+  <style>
+    :root { --blue:#006CE6; --navy:#002F63; --text:#293036; --muted:#59636c; --bg:#F5F7F9; --pale:#EDF7FD; --line:#D6DEE6; --green:#006b00; --red:#b41c00; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    [hidden] { display:none !important; }
+    a { color:var(--blue); text-underline-offset:3px; }
+    button,input,select { font:inherit; }
+    button { min-height:46px; padding:11px 19px; border:1px solid transparent; border-radius:2px; background:var(--blue); color:#fff; font-weight:500; cursor:pointer; line-height:1.35; }
+    button:hover:not(:disabled) { background:#0055b8; }
+    button.secondary { background:#fff; color:var(--navy); border-color:var(--line); }
+    button.secondary:hover:not(:disabled) { background:var(--pale); }
+    button:disabled { cursor:not-allowed; background:#e0e5eb; border-color:#d0d7df; color:#58636e; }
+    :focus-visible { outline:3px solid var(--navy); outline-offset:3px; }
+    input[type="tel"],input[type="text"],select { display:block; width:100%; min-height:48px; padding:11px 12px; border:1px solid #9daebd; border-radius:2px; color:var(--text); background:#fff; }
+    input[aria-invalid="true"] { border-color:var(--red); }
+    input[type="checkbox"] { width:20px; height:20px; margin:3px 0 0; flex-shrink:0; accent-color:var(--blue); }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    .header-inner { max-width:1080px; margin:auto; padding:23px 28px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .wordmark { color:var(--navy); font:bold 26px Georgia,serif; letter-spacing:-.5px; }
+    .wordmark span { font:400 16px system-ui,sans-serif; letter-spacing:0; margin-left:8px; }
+    .tag { color:var(--muted); font-size:13px; border:1px solid var(--line); padding:4px 10px; white-space:nowrap; }
+    main { max-width:1080px; margin:0 auto; padding:42px 28px 56px; }
+    h1,h2,h3 { color:var(--navy); font-family:Georgia,serif; font-weight:400; line-height:1.22; }
+    h1 { font-size:clamp(30px,4.5vw,44px); letter-spacing:-.7px; margin:6px 0 15px; }
+    h2 { margin:0 0 16px; font-size:25px; }
+    h3 { font-size:20px; margin:0 0 10px; }
+    p { margin:0 0 14px; }
+    .eyebrow { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:1.2px; font-weight:600; }
+    .intro { max-width:760px; margin-bottom:26px; }
+    .intro p { font-size:18px; }
+    .notice { background:var(--pale); border-left:3px solid var(--blue); padding:17px 20px; margin-bottom:24px; }
+    .notice p:last-child { margin-bottom:0; }
+    .notice.warning { background:#fff7e8; border-color:#9a6200; }
+    .notice strong { color:var(--navy); }
+    .card { background:#fff; border:1px solid var(--line); padding:27px 28px; }
+    .state-card { margin-bottom:24px; }
+    .state-top { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px; }
+    .state-top h2 { margin:0; }
+    .pill { display:inline-flex; align-items:center; gap:8px; border:1px solid var(--line); padding:5px 11px; font-size:13px; color:var(--navy); background:var(--bg); }
+    .pill::before { content:""; width:8px; height:8px; border-radius:50%; background:#778590; }
+    .pill.active { background:#f1f9f1; color:var(--green); border-color:#bddebd; }
+    .pill.active::before { background:var(--green); }
+    .stats { display:grid; grid-template-columns:1fr 1fr 1.4fr; gap:24px; margin:0 0 21px; }
+    .stats dt { font-size:13px; color:var(--muted); margin-bottom:5px; }
+    .stats dd { margin:0; color:var(--navy); font-size:25px; font-variant-numeric:tabular-nums; line-height:1.35; }
+    .stats dd.date { font-size:18px; }
+    .small { font-size:14px; color:var(--muted); }
+    .state-actions { border-top:1px solid var(--line); padding-top:20px; }
+    .state-actions p { max-width:760px; }
+    .action-row { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+    .columns { display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:start; }
+    .step { color:var(--blue); font:500 13px system-ui,sans-serif; display:block; margin-bottom:8px; text-transform:uppercase; letter-spacing:1px; }
+    .field { margin-bottom:20px; }
+    .field label { display:block; color:var(--navy); font-weight:600; margin-bottom:7px; }
+    .hint { display:block; margin-top:7px; font-size:13px; color:var(--muted); line-height:1.55; }
+    .check { display:flex; gap:11px; align-items:flex-start; padding:14px; background:var(--bg); border:1px solid var(--line); margin:21px 0; font-size:14px; cursor:pointer; }
+    .check span { display:block; }
+    .error { color:var(--red); font-size:14px; margin:8px 0 0; }
+    .feedback { margin-top:17px; font-size:14px; }
+    .lookup-result { margin-top:24px; border-top:1px solid var(--line); padding-top:22px; }
+    .carrier { color:var(--navy); font:400 29px/1.25 Georgia,serif; overflow-wrap:anywhere; margin-bottom:10px; }
+    .metadata { margin:0 0 17px; font-size:13px; color:var(--muted); }
+    .metadata div { display:flex; gap:7px; flex-wrap:wrap; }
+    .metadata dt::after { content:":"; }
+    .metadata dd { margin:0; overflow-wrap:anywhere; }
+    .manual-result { margin-top:22px; padding:16px; background:#f1f9f1; border-left:3px solid var(--green); overflow-wrap:anywhere; }
+    .manual-result p { margin:0; }
+    footer { margin-top:28px; padding-top:19px; border-top:1px solid var(--line); }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media(max-width:760px) { .columns { grid-template-columns:1fr; } .stats { grid-template-columns:1fr 1fr; gap:20px; } .stats .deadline-stat { grid-column:1/-1; } main { padding-top:28px; } }
+    @media(max-width:440px) { .header-inner { padding:18px; flex-wrap:wrap; } main { padding:25px 16px 36px; } .card { padding:22px 20px; } .state-top { align-items:flex-start; flex-direction:column; gap:10px; } .action-row button { width:100%; } .wordmark { font-size:24px; } }
+    @media(prefers-reduced-motion:no-preference) { button { transition:background-color .15s; } }
+  </style>
+</head>
+<body>
+  <header><div class="header-inner"><div class="wordmark">Tuleva <span>Kogum</span></div><span class="tag">Häkatoni katsetööriist</span></div></header>
+  <main>
+    <div class="intro"><div class="eyebrow">Twilio pärisühendus · 3 päeva</div><h1>Kontrolli numbri operaatorit</h1><p>Vaata, millise sideettevõtja tagastab numbripäring. Kinnita tulemus ise ja lisa eraldi teenusebränd.</p></div>
+    <div class="notice"><p><strong>See on ühenduse katse.</strong> Eesti teisaldatud numbri praeguse operaatori täpsus vajab veel katsetamist. Ühenduse töötamine üksi ei tõenda vastuse õigsust.</p></div>
+
+    <section class="card state-card" aria-labelledby="trial-heading">
+      <div class="state-top"><h2 id="trial-heading">Katse seis</h2><span id="state-pill" class="pill">Kontrollin ühendust</span></div>
+      <dl class="stats">
+        <div><dt>Kasutatud päringuid</dt><dd id="requests-used">— / 100</dd></div>
+        <div><dt>Arvestuslik API kulu</dt><dd id="cost-used">— USD</dd></div>
+        <div class="deadline-stat"><dt>Katse lõpeb</dt><dd id="expires-at" class="date">Pole veel alanud</dd><span id="time-left" class="hint"></span></div>
+      </dl>
+      <div class="state-actions">
+        <p id="state-message" role="status" aria-live="polite">Laadin kohaliku serveri olekut.</p>
+        <p id="cost-explanation" class="small">Katse kestab aktiveerimisest 72 tundi. Kuni 100 päringut × 0,008 USD = kuni 0,80 USD API kulu. Võimalikud maksud lisanduvad eraldi. Sellel lehel SMS-e ega kõnesid ei saadeta.</p>
+        <div class="action-row"><button id="activate" type="button" disabled>Alusta 3-päevast katset</button><button id="refresh-status" type="button" class="secondary">Värskenda seisu</button></div>
+        <p id="activation-feedback" class="feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <div class="columns">
+      <section class="card" aria-labelledby="lookup-heading">
+        <span class="step">1. Operaatori päring</span><h2 id="lookup-heading">Sisesta oma number</h2>
+        <form id="lookup-form" novalidate>
+          <div class="field"><label for="phone">Eesti mobiilinumber</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="off" maxlength="40" placeholder="Sinu Eesti mobiilinumber" aria-describedby="phone-help phone-error"><span id="phone-help" class="hint">Sobib +372, 00372 või riigikoodita sisend. Piloot toetab 5-ga algavaid 7- või 8-kohalisi Eesti mobiilinumbreid. Tühikud, sulud ja sidekriipsud on lubatud.</span><p id="phone-error" class="error" hidden></p></div>
+          <p class="small">Telefoninumber saadetakse sinu nupuvajutusel kohaliku serveri kaudu Twiliole operaatori kontrolliks.</p>
+          <label class="check" for="consent"><input id="consent" type="checkbox" name="consent"><span>Kontrollin enda numbrit või mul on numbri kasutaja luba.</span></label>
+          <button id="lookup" type="submit" disabled>Kontrolli operaatorit · 0,008 USD</button>
+          <span id="lookup-help" class="hint">Päringu tegemiseks peab katse olema aktiivne.</span>
+        </form>
+        <p id="lookup-feedback" class="feedback" role="status" aria-live="polite"></p>
+        <div id="lookup-result" class="lookup-result" hidden aria-labelledby="result-heading" aria-live="polite">
+          <h3 id="result-heading">Twilio vastus</h3><p id="carrier-result" class="carrier"></p>
+          <dl class="metadata"><div><dt>Allikas</dt><dd>Twilio Lookup</dd></div><div><dt>Kontrollitud</dt><dd id="checked-at"></dd></div><div><dt>Numbri tüüp</dt><dd id="line-type"></dd></div></dl>
+          <p class="small">Võrgu nimi ei kinnita teenusebrändi, paketti ega numbri omanikku. Kui tulemus ei klapi, paranda sideettevõtja kõrval käsitsi.</p>
+          <button id="use-result" type="button" class="secondary">Kasuta seda sideettevõtjat</button>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="manual-heading">
+        <span class="step">2. Sinu kinnitus</span><h2 id="manual-heading">Kinnita või paranda valik</h2>
+        <p class="small">Saad valida käsitsi ka siis, kui API ei tööta või internet puudub. Teenusebrändi automaatselt ei täideta.</p>
+        <form id="manual-form" novalidate>
+          <div class="field"><label for="confirmed-carrier">Praegune sideettevõtja</label><input id="confirmed-carrier" type="text" list="carrier-options" autocomplete="off" maxlength="160" placeholder="Vali või kirjuta sideettevõtja" aria-describedby="carrier-help"><datalist id="carrier-options"><option value="Telia Eesti AS"></option><option value="Elisa Eesti AS"></option><option value="Tele2 Eesti AS"></option></datalist><span id="carrier-help" class="hint">Päringu järel vajuta „Kasuta seda sideettevõtjat” või kirjuta õige nimi ise.</span></div>
+          <div class="field"><label for="brand">Teenusebränd</label><select id="brand" name="brand"><option value="">Vali oma teenusebränd</option value="Telia">Telia</option><option value="Diil">Diil</option><option value="Super">Super</option><option value="Elisa">Elisa</option><option value="Tele2">Tele2</option><option value="Muu">Muu</option></select></div>
+          <div id="other-brand-field" class="field" hidden><label for="other-brand">Muu teenusebrändi nimi</label><input id="other-brand" type="text" autocomplete="off" maxlength="80" placeholder="Kirjuta brändi nimi"></div>
+          <button id="confirm-choice" type="submit" class="secondary" disabled>Kinnita valik sellel lehel</button>
+        </form>
+        <div id="manual-result" class="manual-result" hidden role="status" aria-live="polite"><p><strong>Valik kinnitatud</strong></p><p id="manual-result-text"></p><p id="manual-result-source" class="small"></p></div>
+        <p class="hint">Valik püsib ainult avatud lehe mälus. Lehe sulgemine või numbri muutmine eemaldab tulemuse ja kinnituse.</p>
+      </section>
+    </div>
+    <footer class="small"><p>Leht ei kasuta brauseri püsimälu ega analüütikat. Twilio võtmed asuvad ainult kohalikus serveris. 72 tunni ja 100 päringu piir kehtib selle katsetööriista kaudu tehtud päringutele.</p><p>Võrdlemiseks saad avada <a href="https://nba.ttja.ee/numbriparing.aspx" target="_blank" rel="noopener noreferrer">TTJA avaliku numbripäringu <span class="sr-only">uues aknas</span></a>. Numbripäring ei asenda lepingu sõlmimise isiku- ega esindusõiguse kontrolli.</p></footer>
+    <noscript><div class="notice warning">Selle katsetööriista kasutamiseks on vaja JavaScripti. Operaatorit saad kontrollida eespool viidatud TTJA avaliku päringuga.</div></noscript>
+  </main>
+  <script>
+  'use strict';
+  (() => {
+    const $ = id => document.getElementById(id);
+    const ui = Object.fromEntries(['state-pill','requests-used','cost-used','expires-at','time-left','state-message','cost-explanation','activate','refresh-status','activation-feedback','lookup-form','phone','phone-error','consent','lookup','lookup-help','lookup-feedback','lookup-result','carrier-result','checked-at','line-type','use-result','manual-form','confirmed-carrier','brand','other-brand-field','other-brand','confirm-choice','manual-result','manual-result-text','manual-result-source'].map(id => [id,$(id)]));
+    const localFile = location.protocol === 'file:';
+    let trial = null;
+    let connectionError = '';
+    let statusBusy = false;
+    let activationBusy = false;
+    let lookupBusy = false;
+    let lookupVersion = 0;
+    let lookupController = null;
+    let statusVersion = 0;
+    let lastLookup = null;
+    let copiedResult = false;
+    const money = n => Number(n).toLocaleString('et-EE',{minimumFractionDigits:2,maximumFractionDigits:4});
+    const validDate = value => { const d = value ? new Date(value) : null; return d && Number.isFinite(d.getTime()) ? d : null; };
+    const dateText = value => { const d = validDate(value); return d ? new Intl.DateTimeFormat('et-EE',{dateStyle:'medium',timeStyle:'short',timeZone:'Europe/Tallinn'}).format(d) + ' (Eesti aeg)' : 'Aeg pole saadaval'; };
+    const numeric = (value,fallback) => Number.isFinite(Number(value)) && value !== null ? Number(value) : fallback;
+    const effectiveState = () => {
+      if (localFile) return 'file';
+      if (connectionError) return 'offline';
+      if (!trial) return 'loading';
+      if (!trial.configured) return 'unconfigured';
+      const expiry = validDate(trial.expires_at);
+      if (trial.state === 'active' && expiry && expiry.getTime() <= Date.now()) return 'expired';
+      return trial.state;
+    };
+    const remainingText = () => {
+      const end = validDate(trial && trial.expires_at);
+      if (!end) return '';
+      const minutes = Math.max(0,Math.ceil((end.getTime() - Date.now()) / 60000));
+      if (!minutes) return 'Katseaeg on lõppenud.';
+      const days = Math.floor(minutes / 1440);
+      const hours = Math.floor((minutes % 1440) / 60);
+      return 'Aega jäänud: ' + (days ? days + ' p ' : '') + (hours ? hours + ' t ' : '') + (minutes % 60) + ' min.';
+    };
+    function phoneValue() {
+      const value = ui.phone.value.trim();
+      if (!/^[+\d\s()\-]+$/.test(value)) return null;
+      let digits = value.replace(/[\s()\-]/g,'');
+      if (digits.startsWith('00372')) digits = digits.slice(5);
+      else if (digits.startsWith('+372')) digits = digits.slice(4);
+      return /^5\d{6,7}$/.test(digits) ? '+372' + digits : null;
+    }
+    function updateManual() {
+      const other = ui.brand.value === 'Muu';
+      ui['other-brand-field'].hidden = !other;
+      ui['confirm-choice'].disabled = !ui['confirmed-carrier'].value.trim() || !ui.brand.value || (other && !ui['other-brand'].value.trim());
+    }
+    function render() {
+      const state = effectiveState();
+      const names = {file:'Kohalik fail',offline:'Ühendus puudub',loading:'Kontrollin ühendust',unconfigured:'Võtmed puuduvad',ready:'Valmis alustama',active:'Katse aktiivne',expired:'Katse lõppenud',limit_reached:'Piir täis'};
+      const messages = {
+        file:'Käivita kohalik server. Topeltklõpsuga avatud HTML-fail ei saa pärisühendust kasutada. Käsitsi valik töötab allpool.',
+        offline:connectionError || 'Kohaliku serveriga ei saa ühendust. Käsitsi valik töötab edasi.',
+        loading:'Laadin kohaliku serveri olekut.',
+        unconfigured:'Twilio pärisühenduse võtmed pole serveris seadistatud. Operaatoripäringut ei saa veel teha. Seadista võtmed kohaliku serveri käivitusjuhendi järgi; käsitsi valik töötab.',
+        ready:'API võti on serverisse sisestatud. Nupu vajutamine kinnitab alloleva API kulu ja alustab ühekordset 72-tunnist katset.',
+        active:'Katse on aktiivne. Iga „Kontrolli operaatorit” vajutus võib teha ühe tasulise päringu. Tulemust kontrollid ja kinnitad ise.',
+        expired:'Katse 72-tunnine aeg on lõppenud. Uusi pärispäringuid ei tehta. Käsitsi valik töötab edasi.',
+        limit_reached:'Katse 100 päringu piir on täis. Uusi pärispäringuid ei tehta. Käsitsi valik töötab edasi.'
+      };
+      ui['state-pill'].textContent = names[state] || 'Seis pole saadaval';
+      ui['state-pill'].classList.toggle('active',state === 'active');
+      const message = messages[state] || 'Serveri seis pole tuvastatav. Värskenda seisu või vali operaator käsitsi.';
+      if (ui['state-message'].textContent !== message) ui['state-message'].textContent = message;
+      const count = trial ? numeric(trial.requests_used,0) : null;
+      const limit = trial ? numeric(trial.requests_limit,100) : 100;
+      const price = trial ? numeric(trial.request_price_usd,0.008) : 0.008;
+      const cap = trial ? numeric(trial.max_cost_usd,0.8) : 0.8;
+      ui['requests-used'].textContent = (count === null ? '—' : count) + ' / ' + limit;
+      ui['cost-used'].textContent = count === null ? '— USD' : money(count * price) + ' USD';
+      ui['expires-at'].textContent = trial && trial.expires_at ? dateText(trial.expires_at) : (trial && trial.started_at ? 'Lõppaeg pole saadaval' : 'Pole veel alanud');
+      ui['time-left'].textContent = remainingText();
+      ui['cost-explanation'].textContent = 'Katse kestab aktiveerimisest 72 tundi. Kuni ' + limit + ' päringut × ' + money(price) + ' USD = kuni ' + money(cap) + ' USD API kulu. Võimalikud maksud lisanduvad eraldi. Sellel lehel SMS-e ega kõnesid ei saadeta.';
+      const csrfReady = trial && typeof trial.csrf_token === 'string' && trial.csrf_token.length > 0;
+      ui.activate.hidden = ['active','expired','limit_reached'].includes(state);
+      ui.activate.disabled = state !== 'ready' || !csrfReady || activationBusy || statusBusy;
+      ui.activate.textContent = activationBusy ? 'Alustan katset…' : 'Alusta 3-päevast katset';
+      ui['refresh-status'].disabled = localFile || statusBusy || activationBusy;
+      ui['refresh-status'].textContent = statusBusy ? 'Värskendan…' : 'Värskenda seisu';
+      ui.lookup.disabled = state !== 'active' || !csrfReady || lookupBusy || !phoneValue() || !ui.consent.checked;
+      ui.lookup.textContent = lookupBusy ? 'Kontrollin operaatorit…' : 'Kontrolli operaatorit · ' + money(price) + ' USD';
+      ui['lookup-form'].setAttribute('aria-busy',String(lookupBusy));
+      if (lookupBusy) ui['lookup-help'].textContent = 'Päring on teel. Numbri muutmisel jäetakse vana vastus kõrvale.';
+      else if (state !== 'active') ui['lookup-help'].textContent = 'Päringu tegemiseks peab katse olema aktiivne. Käsitsi valik töötab alati.';
+      else if (!phoneValue()) ui['lookup-help'].textContent = 'Sisesta piloodis toetatud Eesti mobiilinumber.';
+      else if (!ui.consent.checked) ui['lookup-help'].textContent = 'Enne päringut kinnita, et kontrollid enda numbrit või sul on kasutaja luba.';
+      else ui['lookup-help'].textContent = 'Päring käivitub ainult nupuvajutusest. Iga päring võib limiiti kuuluda ka teenuse vea korral.';
+      updateManual();
+    }
+    function clearConfirmation() {
+      ui['manual-result'].hidden = true;
+      ui['manual-result-text'].textContent = '';
+      ui['manual-result-source'].textContent = '';
+    }
+    function clearLookup({clearManual = false} = {}) {
+      lookupVersion += 1;
+      if (lookupController) lookupController.abort();
+      lookupController = null;
+      lookupBusy = false;
+      lastLookup = null;
+      copiedResult = false;
+      ui['lookup-result'].hidden = true;
+      ui['carrier-result'].textContent = '';
+      ui['checked-at'].textContent = '';
+      ui['line-type'].textContent = '';
+      ui['lookup-feedback'].textContent = '';
+      if (clearManual) {
+        ui['confirmed-carrier'].value = '';
+        ui.brand.value = '';
+        ui['other-brand'].value = '';
+        clearConfirmation();
+      }
+    }
+    class ApiError extends Error {
+      constructor(code,httpStatus) { super('API request failed'); this.code = code; this.httpStatus = httpStatus; }
+    }
+    async function request(path,{body,controller = new AbortController(),timeout = 15000} = {}) {
+      const timer = setTimeout(() => controller.abort(),timeout);
+      try {
+        const headers = {Accept:'application/json'};
+        if (body !== undefined) {
+          headers['Content-Type'] = 'application/json';
+          headers['X-CSRF-Token'] = trial && trial.csrf_token ? trial.csrf_token : '';
+        }
+        const response = await fetch(path,{method:body === undefined ? 'GET' : 'POST',headers,body:body === undefined ? undefined : JSON.stringify(body),signal:controller.signal,credentials:'same-origin',cache:'no-store'});
+        let data;
+        try { data = await response.json(); } catch { throw new ApiError('invalid_response',response.status); }
+        if (!response.ok) throw new ApiError(data && (data.error || data.code) || 'request_failed',response.status);
+        if (!data || typeof data !== 'object' || Array.isArray(data)) throw new ApiError('invalid_response',response.status);
+        return data;
+      } finally { clearTimeout(timer); }
+    }
+    async function refreshStatus() {
+      if (localFile) { render(); return; }
+      const version = ++statusVersion;
+      statusBusy = true;
+      render();
+      try {
+        const data = await request('/api/status',{timeout:8000});
+        if (version !== statusVersion) return;
+        if (!['unconfigured','ready','active','expired','limit_reached'].includes(data.state) || typeof data.configured !== 'boolean') throw new ApiError('invalid_response',200);
+        trial = data;
+        connectionError = '';
+      } catch (error) {
+        if (version !== statusVersion) return;
+        connectionError = error && error.code === 'state_unavailable' ? 'Katse olekut ei saa turvaliselt lugeda. Pärispäringud on peatatud. Käsitsi valik töötab.' : 'Kohaliku serveriga ei saa ühendust või server ei tagasta katse olekut. Käivita server ja värskenda seisu. Käsitsi valik töötab.';
+      } finally {
+        if (version === statusVersion) { statusBusy = false; render(); }
+      }
+    }
+    function errorMessage(error) {
+      const messages = {
+        unconfigured:'Twilio võtmed pole serveris seadistatud. Vali operaator käsitsi või seadista pärisühendus.',
+        not_active:'Katse pole aktiivne. Alusta katset enne päringut.',
+        inactive:'Katse pole aktiivne. Alusta katset enne päringut.',
+        expired:'Katseaeg on lõppenud. Vali operaator käsitsi.',
+        limit_reached:'Päringute piir on täis. Vali operaator käsitsi.',
+        invalid_phone:'See number ei sobi pilooti. Toetatud on 5-ga algavad 7- või 8-kohalised Eesti mobiilinumbrid.',
+        consent_required:'Enne päringut kinnita, et kontrollid enda numbrit või sul on kasutaja luba.',
+        consent:'Enne päringut kinnita, et kontrollid enda numbrit või sul on kasutaja luba.',
+        csrf_invalid:'Lehe turvatunnus ei kehti. Värskenda seisu ja proovi uuesti.',
+        csrf:'Lehe turvatunnus ei kehti. Värskenda seisu ja proovi uuesti.',
+        state_unavailable:'Katse olekut ei saa turvaliselt lugeda. Pärispäringud on peatatud. Vali operaator käsitsi.'
+      };
+      return messages[error && error.code] || (error && error.name === 'AbortError' ? 'Päringu ooteaeg sai täis. Tulemust ei kinnitatud. Päring võib siiski limiiti kuuluda; automaatset korduspäringut ei tehta.' : 'Operaatoripäring ei õnnestunud. Päring võib limiiti kuuluda. Vali operaator käsitsi või käivita uus päring nupust.');
+    }
+    ui['refresh-status'].addEventListener('click',refreshStatus);
+    ui.activate.addEventListener('click',async () => {
+      if (activationBusy || effectiveState() !== 'ready') return;
+      activationBusy = true;
+      let accepted = false;
+      ui['activation-feedback'].textContent = '';
+      render();
+      try {
+        await request('/api/activate',{body:{acknowledge_cost:true}});
+        accepted = true;
+        ui['activation-feedback'].textContent = 'Katse aktiveerimise vastus saabus. Kontrollin katse lõppaega.';
+      } catch (error) { ui['activation-feedback'].textContent = errorMessage(error); }
+      finally {
+        await refreshStatus();
+        activationBusy = false;
+        if (accepted) ui['activation-feedback'].textContent = effectiveState() === 'active' ? 'Katse on aktiivne. Serveri antud lõppaeg on näidatud ülal.' : 'Aktiveerimise vastus saabus. Kontrolli katse seisu ülal enne päringut.';
+        render();
+      }
+    });
+    ui.phone.addEventListener('input',() => {
+      clearLookup({clearManual:true});
+      ui['phone-error'].hidden = true;
+      ui.phone.removeAttribute('aria-invalid');
+      render();
+    });
+    ui.phone.addEventListener('blur',() => {
+      const invalid = ui.phone.value.trim() && !phoneValue();
+      ui['phone-error'].hidden = !invalid;
+      ui['phone-error'].textContent = invalid ? 'Kontrolli numbri kuju. Selles piloodis sobib Eesti 5-ga algav 7- või 8-kohaline mobiilinumber.' : '';
+      if (invalid) ui.phone.setAttribute('aria-invalid','true');
+    });
+    ui.consent.addEventListener('change',() => {
+      if (!ui.consent.checked && lookupBusy) {
+        clearLookup();
+        ui['lookup-feedback'].textContent = 'Luba eemaldati. Poolelioleva päringu tulemust ei kuvata; juba käivitatud päring võib limiiti kuuluda.';
+      }
+      render();
+    });
+    ui['lookup-form'].addEventListener('submit',async event => {
+      event.preventDefault();
+      const phone = phoneValue();
+      if (!phone || !ui.consent.checked || lookupBusy || effectiveState() !== 'active') return;
+      clearLookup();
+      const version = lookupVersion;
+      const controller = new AbortController();
+      lookupController = controller;
+      lookupBusy = true;
+      ui['lookup-feedback'].textContent = 'Ootan Twilio vastust…';
+      render();
+      try {
+        const data = await request('/api/lookup',{body:{phone,consent:true},controller,timeout:20000});
+        if (version !== lookupVersion || phone !== phoneValue() || !ui.consent.checked) return;
+        if (data.status === 'ok' && data.source === 'twilio' && typeof data.carrier === 'string' && data.carrier.trim()) {
+          lastLookup = {carrier:data.carrier.trim(),checked_at:data.checked_at,line_type:data.line_type};
+          ui['carrier-result'].textContent = lastLookup.carrier;
+          ui['checked-at'].textContent = dateText(lastLookup.checked_at);
+          const typeNames = {mobile:'Mobiil',landline:'Lauatelefon',fixedVoip:'Fikseeritud VoIP',nonFixedVoip:'VoIP',tollFree:'Tasuta teenusnumber',unknown:'Teadmata'};
+          ui['line-type'].textContent = typeNames[lastLookup.line_type] || 'Tüüp pole saadaval';
+          ui['lookup-result'].hidden = false;
+          ui['lookup-feedback'].textContent = 'Vastus saabus. Võrdle seda oma lepinguga ja kinnita sideettevõtja kõrval.';
+        } else if (data.status === 'not_found') {
+          ui['lookup-feedback'].textContent = 'Selle numbri sideettevõtjat ei leitud. Tulemus jäi kinnitamata; sisesta operaator käsitsi.';
+        } else {
+          ui['lookup-feedback'].textContent = 'Twilio ei tagastanud kasutatavat operaatori vastust. Päring võib limiiti kuuluda. Käsitsi valik töötab edasi.';
+        }
+      } catch (error) {
+        if (version === lookupVersion) ui['lookup-feedback'].textContent = errorMessage(error);
+      } finally {
+        if (version === lookupVersion) {
+          lookupBusy = false;
+          lookupController = null;
+          render();
+        }
+        await refreshStatus();
+      }
+    });
+    ui['use-result'].addEventListener('click',() => {
+      if (!lastLookup) return;
+      ui['confirmed-carrier'].value = lastLookup.carrier;
+      copiedResult = true;
+      clearConfirmation();
+      updateManual();
+      ui.brand.focus();
+    });
+    ui['confirmed-carrier'].addEventListener('input',() => { clearConfirmation(); updateManual(); });
+    ui.brand.addEventListener('change',() => { clearConfirmation(); updateManual(); });
+    ui['other-brand'].addEventListener('input',() => { clearConfirmation(); updateManual(); });
+    ui['manual-form'].addEventListener('submit',event => {
+      event.preventDefault();
+      updateManual();
+      if (ui['confirm-choice'].disabled) return;
+      const carrier = ui['confirmed-carrier'].value.trim();
+      const brand = ui.brand.value === 'Muu' ? ui['other-brand'].value.trim() : ui.brand.value;
+      const source = lastLookup && carrier === lastLookup.carrier && copiedResult ? 'Kinnitasid Twilio vastuse.' : lastLookup ? 'Sideettevõtja on sinu käsitsi kinnitatud või parandatud valik.' : 'Allikas: sinu käsitsi valik. Pärispäringuga kinnitamata.';
+      ui['manual-result-text'].textContent = carrier + ' · ' + brand;
+      ui['manual-result-source'].textContent = source + ' Brändi valisid ise.';
+      ui['manual-result'].hidden = false;
+    });
+    window.addEventListener('online',refreshStatus);
+    window.addEventListener('offline',() => { connectionError = 'Internetiühendus puudub. Pärisoperaatori päring ei pruugi töötada; käsitsi valik töötab edasi.'; render(); });
+    document.addEventListener('visibilitychange',() => { if (!document.hidden) refreshStatus(); });
+    setInterval(render,30000);
+    refreshStatus();
+  })();
+  </script>
+</body>
+</html>

@@ -126,3 +126,12 @@ Lepingu andmed sisestab inimene alles siis, kui võtab pakkumise (otsus 10.10, n
 - Katse enne pühapäeva: küsida mentorilt või ühelt operaatorilt madalaimat hinda 1 000 liinile. Kuni vastust pole, öelda laval „sihthind”.
 - Ülari otsus 10.10: prototüübis jääb 6,50 € (sihthind), 7 € signaal ei muuda seda.
 
+## 16. Operaatori automaatkontroll numbri järgi
+
+**Arendusnõue 10.10:** tooteankeeti sisestatud numbri järgi tehakse sideettevõtja päring (vt [18](18-operaatori-paring.md)). [Twilio kohalik katse](../prototuup/twilio-katse/README.md) on teostatud. Avalik [TTJA numbripäring](https://nba.ttja.ee/numbriparing.aspx) on olemas; Tuleva ligipääs TTJA masinliidesele on endiselt kinnitamata. [TTJA kirjeldus](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+
+- Kontrollida Twilio teisaldatud numbrite info täpsust ja ajakohasust teadaoleva tulemusega.
+- Enne ühise veebirakenduse käivitamist määrata API konto, eelarve, autentimine, serveri saladused ja püsiv päringupiir.
+- Täpsustada numbri edastamise ja tulemuse säilitamise andmekaitsetingimused (vt punkt 9).
+- Küsida TTJA-lt eraldi masinliidese ligipääsu ja tingimusi, kui seda soovitakse Twilio asemel kasutada.
+- Käsitsi valik jääb alati toimima. Sideettevõtja vastus ei kinnita teenusebrändi, paketti ega lepingu tingimusi.

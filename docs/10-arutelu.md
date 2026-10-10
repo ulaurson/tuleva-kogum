@@ -82,3 +82,17 @@ Tähtajatu lepingu hinda võib operaator muuta, kui teatab vähemalt kuu ette. L
 ### Mida see prototüübis tähendab
 
 Hankepäringu tingimused (briifi ekraan 6) on failis [02](02-idee.md#lahendus) uuendatud. Pakkumise ekraanil (briifi ekraan 2) on sõnum hinnakindluse kohta (vt [lähtealused](07-prototuubi-lahtealused.md)).
+
+## 4. Operaatori kontroll telefoninumbri sisestamisel (10.10)
+
+**Staatus:** kohalikus katses teostatud; põhirakendusse ühendamine on veel tegemata.
+
+Soov: inimene sisestab oma numbri ja rakendus saab päringuga sideettevõtja. TTJA avalik numbripäring annab infot numbri ja sideettevõtja seose kohta. Numbri kasutaja nime ega kontaktandmeid andmebaas ei sisalda. [TTJA numeratsioon](https://www.ttja.ee/eraklient/side-ja-meediateenused/sideteenused-numeratsioon/numeratsioon), kontrollitud 10.10.2026.
+
+10.10 on lisatud [Twilio Lookupi kohalik katse](../prototuup/twilio-katse/README.md), mille ühendus on lubatud numbri päringuga kontrollitud. Katse kestab aktiveerimisest 72 tundi ja lubab kuni 100 väljakutset. [Rakendusse ühendamise juhis](../prototuup/twilio-katse/INTEGRATSIOON.md) kirjeldab API-t. Võtmed ja päris päringu üksikasjad reposse ei lähe.
+
+Lahtine: teisaldatud numbrite info täpsus, ühise rakenduse API konto, eelarve ja andmekaitsetingimused. TTJA avalik veebivorm ei kinnita API ligipääsu. Teenusebrändi ja paketi andmed kinnitab inimene eraldi.
+
+### Mida see prototüübis tähendab
+
+Tooteankeedi voog ja vastuvõtukriteeriumid on failis [18](18-operaatori-paring.md). Käsitsi operaatorivalik jääb alati toimima. Võrguta demo kasutab käsitsi valikut või märgistatud näidisvastust. Anonüümne häkatoniküsitlus jääb telefoninumbrita.

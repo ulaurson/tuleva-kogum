@@ -35,6 +35,7 @@
 - [ ] Kas ühistu või Tuleva Fondid AS kogutud kontaktandmeid tohib kasutada kutse saatmiseks?
 - [ ] Kui kaua andmeid hoitakse ja mida ütleb privaatsusteade?
 - [ ] Mis kehtib juriidilise isiku kontaktisiku andmetele?
+- [ ] Milline alus ja teavitus sobivad numbri saatmiseks Twiliole ning millised säilitamisreeglid kehtivad operaatoripäringu tulemusele (vt [18](18-operaatori-paring.md))?
 
 ## Marju
 
@@ -46,6 +47,7 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivs
 ## Tiim
 
 - [ ] Vahetuse eelne kontroll: kas lisame need neli küsimust? Mobiil-ID, tähtajaline leping või järelmaks, kimbuleping, kas leping on sinu nimel (juriidilisel isikul: kas sul on esindusõigus).
+- [ ] Kontrollida Twilio teisaldatud numbrite info täpsust ning määrata ühise rakenduse API konto, eelarve, autentimine ja püsiv päringupiir (vt [ühendamisjuhis](../prototuup/twilio-katse/INTEGRATSIOON.md)).
 - [ ] Milline on sõnum liikmele, kui hange annab hinnakindlust ainult 12 kuud (vt [arutelu](10-arutelu.md) punkt 3)?
 - [ ] Mitu kasutusprofiili hankes on ja kuidas võitja valitakse (vt [05](05-avatud-kusimused.md#3-mida-täpselt-hangitakse))?
 - [ ] Kuidas vahetamist mõõdame (vt [05](05-avatud-kusimused.md) punkt 6)?
@@ -53,4 +55,3 @@ Prognoos on failis [13](13-tasuvus.md): Tuleva tasu on 0,50 € kuus iga aktiivs
 - [x] (10.10 kontrollitud, vt [faktid](03-faktid.md)) Elisa hinnad olid kontrollimata, aga nende pealt tuleb umbes 40% näidisandmete ülemaksest (vt [ülevaade](11-ulevaade.md)).
 - [ ] Kas näidisandmete sääst on realistlik? 121 € osaleja kohta aastas on umbes kolmandik inimese kogu sidekulust (**hinnang**, vt [uuringud](12-uuringud.md#ühistu-säästumudel-e)).
 - [ ] Ülari ülevaate summad (2 944 € ja 4 400 €) tuleb 10.10 hindadega üle arvutada.
-
